@@ -1,0 +1,715 @@
+{
+  "Google Chrome":{
+     "app_image_path":"img\\browser_icon\\icon_Google Chrome.png",
+     "app_name":"Google Chrome",
+     "app_developer":"Google LLC",
+     "app_size":"120",
+     "app_url_website":"https://www.google.com/chrome/",
+     "app_favorites":1
+  },
+  "Mozilla Firefox":{
+     "app_image_path":"img\\browser_icon\\icon_Mozilla Firefox.png",
+     "app_name":"Mozilla Firefox",
+     "app_developer":"Mozilla Foundation",
+     "app_size":"100",
+     "app_url_website":"https://www.mozilla.org/firefox/",
+     "app_favorites":1
+  },
+  "Apple Safari":{
+     "app_image_path":"img\\browser_icon\\icon_Apple Safari.png",
+     "app_name":"Apple Safari",
+     "app_developer":"Apple Inc.",
+     "app_size":"80",
+     "app_url_website":"https://www.apple.com/safari/",
+     "app_favorites":0
+  },
+  "Microsoft Edge":{
+     "app_image_path":"img\\browser_icon\\icon_Microsoft Edge.png",
+     "app_name":"Microsoft Edge",
+     "app_developer":"Microsoft Corporation",
+     "app_size":"100",
+     "app_url_website":"https://www.microsoft.com/edge/",
+     "app_favorites":1
+  },
+  "Opera":{
+     "app_image_path":"img\\browser_icon\\icon_Opera.png",
+     "app_name":"Opera",
+     "app_developer":"Opera Software",
+     "app_size":"70",
+     "app_url_website":"https://www.opera.com/",
+     "app_favorites":1
+  },
+  "Brave":{
+     "app_image_path":"img\\browser_icon\\icon_Brave.png",
+     "app_name":"Brave",
+     "app_developer":"Brave Software Inc.",
+     "app_size":"90",
+     "app_url_website":"https://brave.com/",
+     "app_favorites":1
+  },
+  "Vivaldi":{
+     "app_image_path":"img\\browser_icon\\icon_Vivaldi.png",
+     "app_name":"Vivaldi",
+     "app_developer":"Vivaldi Technologies",
+     "app_size":"100",
+     "app_url_website":"https://vivaldi.com/",
+     "app_favorites":1
+  },
+  "Tor Browser":{
+     "app_image_path":"img\\browser_icon\\icon_Tor Browser.png",
+     "app_name":"Tor Browser",
+     "app_developer":"The Tor Project",
+     "app_size":"60",
+     "app_url_website":"https://www.torproject.org/download/",
+     "app_favorites":0
+  },
+  "Maxthon":{
+     "app_image_path":"img\\browser_icon\\icon_Maxthon.png",
+     "app_name":"Maxthon",
+     "app_developer":"Maxthon International Limited",
+     "app_size":"80",
+     "app_url_website":"https://www.maxthon.com/",
+     "app_favorites":0
+  },
+  "SeaMonkey":{
+     "app_image_path":"img\\browser_icon\\icon_SeaMonkey.png",
+     "app_name":"SeaMonkey",
+     "app_developer":"The SeaMonkey Council",
+     "app_size":"50",
+     "app_url_website":"https://www.seamonkey-project.org/",
+     "app_favorites":0
+  },
+  "Pale Moon":{
+     "app_image_path":"img\\browser_icon\\icon_Pale Moon.png",
+     "app_name":"Pale Moon",
+     "app_developer":"M.C. Straver",
+     "app_size":"80",
+     "app_url_website":"https://www.palemoon.org/",
+     "app_favorites":1
+  },
+  "Midori":{
+     "app_image_path":"img\\browser_icon\\icon_Midori.png",
+     "app_name":"Midori",
+     "app_developer":"Christian Dywan",
+     "app_size":"30",
+     "app_url_website":"https://www.midori-browser.org/",
+     "app_favorites":0
+  },
+  "Konqueror":{
+     "app_image_path":"img\\browser_icon\\icon_Konqueror.png",
+     "app_name":"Konqueror",
+     "app_developer":"KDE",
+     "app_size":"50",
+     "app_url_website":"https://apps.kde.org/konqueror/",
+     "app_favorites":0
+  },
+  "Epiphany":{
+     "app_image_path":"img\\browser_icon\\icon_Epiphany.png",
+     "app_name":"Epiphany",
+     "app_developer":"GNOME Project",
+     "app_size":"40",
+     "app_url_website":"https://wiki.gnome.org/Apps/Web",
+     "app_favorites":0
+  },
+  "Falkon/QupZilla":{
+     "app_image_path":"img\\browser_icon\\icon_Falkon-QupZilla.png",
+     "app_name":"Falkon/QupZilla",
+     "app_developer":"David Rosca",
+     "app_size":"50",
+     "app_url_website":"https://www.falkon.org/",
+     "app_favorites":0
+  },
+  "Slimjet":{
+     "app_image_path":"img/browser_icon/icon_Slimjet.png",
+     "app_name":"Slimjet",
+     "app_developer":"FlashPeak Inc.",
+     "app_size":"89.5",
+     "app_url_website":"https://www.slimjet.com/",
+     "app_favorites":1
+  },
+  "Waterfox":{
+     "app_image_path":"img/browser_icon/icon_Waterfox.png",
+     "app_name":"Waterfox",
+     "app_developer":"Waterfox Limited",
+     "app_size":"80.7",
+     "app_url_website":"https://www.waterfox.net/",
+     "app_favorites":0
+  },
+  "Basilisk":{
+     "app_image_path":"img/browser_icon/icon_Basilisk.png",
+     "app_name":"Basilisk",
+     "app_developer":"The Basilisk Community",
+     "app_size":"53.6",
+     "app_url_website":"https://www.basilisk-browser.org/",
+     "app_favorites":0
+  },
+  "Comodo Dragon":{
+     "app_image_path":"img/browser_icon/icon_Comodo_Dragon.png",
+     "app_name":"Comodo Dragon",
+     "app_developer":"Comodo Group, Inc.",
+     "app_size":"88.1",
+     "app_url_website":"https://www.comodo.com/home/browsers-toolbars/browser.php",
+     "app_favorites":0
+  },
+  "Avant Browser":{
+     "app_image_path":"img/browser_icon/icon_Avant_Browser.png",
+     "app_name":"Avant Browser",
+     "app_developer":"Avant Force",
+     "app_size":"4.4",
+     "app_url_website":"https://www.avantbrowser.com/",
+     "app_favorites":0
+  },
+  "Qutebrowser":{
+     "app_image_path":"img/browser_icon/icon_Qutebrowser.png",
+     "app_name":"Qutebrowser",
+     "app_developer":"The Qutebrowser Team",
+     "app_size":"Varies by platform",
+     "app_url_website":"https://www.qutebrowser.org/",
+     "app_favorites":0
+  },
+  "GNU IceCat":{
+     "app_image_path":"img/browser_icon/icon_GNU_IceCat.png",
+     "app_name":"GNU IceCat",
+     "app_developer":"GNU Project",
+     "app_size":"Varies by platform",
+     "app_url_website":"https://www.gnu.org/software/gnuzilla/",
+     "app_favorites":0
+  },
+  "Links":{
+     "app_image_path":"img/browser_icon/icon_Links.png",
+     "app_name":"Links",
+     "app_developer":"Twibright Labs",
+     "app_size":"1.6",
+     "app_url_website":"http://links.twibright.com/",
+     "app_favorites":0
+  },
+  "Lynx":{
+     "app_image_path":"img/browser_icon/icon_Lynx.png",
+     "app_name":"Lynx",
+     "app_developer":"Thomas Dickey",
+     "app_size":"2.8",
+     "app_url_website":"https://lynx.invisible-island.net/",
+     "app_favorites":0
+  },
+  "Dillo":{
+     "app_image_path":"img/browser_icon/icon_Dillo.png",
+     "app_name":"Dillo",
+     "app_developer":"The Dillo Team",
+     "app_size":"0.8",
+     "app_url_website":"https://www.dillo.org/",
+     "app_favorites":0
+  },
+  "NetSurf":{
+     "app_image_path":"img/browser_icon/icon_NetSurf.png",
+     "app_name":"NetSurf",
+     "app_developer":"NetSurf Developers",
+     "app_size":"13",
+     "app_url_website":"https://www.netsurf-browser.org/",
+     "app_favorites":0
+  },
+  "Surf":{
+     "app_image_path":"img/browser_icon/icon_Surf.png",
+     "app_name":"Surf",
+     "app_developer":"Surf Developers",
+     "app_size":"0.1",
+     "app_url_website":"https://surf.suckless.org/",
+     "app_favorites":0
+  },
+  "Beaker Browser":{
+     "app_image_path":"img/browser_icon/icon_Beaker Browser.png",
+     "app_name":"Beaker Browser",
+     "app_developer":"Beaker Development Team",
+     "app_size":"54.8",
+     "app_url_website":"https://beakerbrowser.com/",
+     "app_favorites":0
+  },
+  "Otter Browser":{
+     "app_image_path":"img/browser_icon/icon_Otter Browser.png",
+     "app_name":"Otter Browser",
+     "app_developer":"Emdek",
+     "app_size":"36.7",
+     "app_url_website":"https://otter-browser.org/",
+     "app_favorites":0
+  },
+  "Dooble":{
+     "app_image_path":"img/browser_icon/icon_Dooble.png",
+     "app_name":"Dooble",
+     "app_developer":"Dooble Team",
+     "app_size":"75",
+     "app_url_website":"https://dooble.sourceforge.io/",
+     "app_favorites":0
+  },
+  "K-Meleon":{
+     "app_image_path":"img/browser_icon/icon_K-Meleon.png",
+     "app_name":"K-Meleon",
+     "app_developer":"K-Meleon community",
+     "app_size":"23.7 ",
+     "app_url_website":"http://kmeleonbrowser.org/",
+     "app_favorites":0
+  },
+  "Slirowser":{
+     "app_image_path":"img/browser_icon/icon_Slirowser.png",
+     "app_name":"Slirowser",
+     "app_developer":"FlashPeak Inc.",
+     "app_size":"3.3 ",
+     "app_url_website":"http://www.slirowser.net/",
+     "app_favorites":0
+  },
+  "Cyberfox":{
+     "app_image_path":"img/browser_icon/icon_Cyberfox.png",
+     "app_name":"Cyberfox",
+     "app_developer":"8pecxstudios",
+     "app_size":"107.4 ",
+     "app_url_website":"https://cyberfox.8pecxstudios.com/",
+     "app_favorites":0
+  },
+  "GreenBrowser":{
+     "app_image_path":"img/browser_icon/icon_GreenBrowser.png",
+     "app_name":"GreenBrowser",
+     "app_developer":"MoreQuick",
+     "app_size":"1.1 ",
+     "app_url_website":"http://www.morequick.com/",
+     "app_favorites":0
+  },
+  "QtWeb":{
+     "app_image_path":"img/browser_icon/icon_QtWeb.png",
+     "app_name":"QtWeb",
+     "app_developer":"QtWeb.Net",
+     "app_size":"6.6 ",
+     "app_url_website":"http://www.qtweb.net/",
+     "app_favorites":0
+  },
+  "SRWare Iron":{
+     "app_image_path":"img/browser_icon/icon_SRWare Iron.png",
+     "app_name":"SRWare Iron",
+     "app_developer":"SRWare",
+     "app_size":"67.3 ",
+     "app_url_website":"https://www.srware.net/en/software_srware_iron.php",
+     "app_favorites":0
+  },
+  "Blisk":{
+     "app_image_path":"img/browser_icon/icon_Blisk.png",
+     "app_name":"Blisk",
+     "app_developer":"Blisk Inc.",
+     "app_size":"508 ",
+     "app_url_website":"https://blisk.io/",
+     "app_favorites":0
+  },
+  "CyberDragon":{
+     "app_image_path":"img/browser_icon/icon_CyberDragon.png",
+     "app_name":"CyberDragon",
+     "app_developer":"COMODO",
+     "app_size":"91.6 ",
+     "app_url_website":"https://cyberdragon.cyberfoxsoftware.com/",
+     "app_favorites":0
+  },
+  "Cliqz":{
+     "app_image_path":"img/browser_icon/icon_Cliqz.png",
+     "app_name":"Cliqz",
+     "app_developer":"Cliqz GH",
+     "app_size":"85.3 ",
+     "app_url_website":"https://cliqz.com/",
+     "app_favorites":0
+  },
+  "Colibri":{
+     "app_image_path":"img/browser_icon/icon_Colibri.png",
+     "app_name":"Colibri",
+     "app_developer":"Colibri Browser",
+     "app_size":"25.5 ",
+     "app_url_website":"https://colibri-opera.netlify.app/",
+     "app_favorites":0
+  },
+  "Dissenter Browser":{
+     "app_image_path":"img/browser_icon/icon_DissenterBrowser.png",
+     "app_name":"Dissenter Browser",
+     "app_developer":"Gab AI Inc.",
+     "app_size":"Unknown",
+     "app_url_website":"https://dissenter.com/",
+     "app_favorites":0
+  },
+  "Eolie":{
+     "app_image_path":"img/browser_icon/icon_Eolie.png",
+     "app_name":"Eolie",
+     "app_developer":"Alexandre Franke",
+     "app_size":"2.7 ",
+     "app_url_website":"https://gnome.pages.gitlab.gnome.org/eolie/",
+     "app_favorites":0
+  },
+  "Flock":{
+     "app_image_path":"img/browser_icon/icon_Flock.png",
+     "app_name":"Flock",
+     "app_developer":"Flock Inc.",
+     "app_size":"20.7 ",
+     "app_url_website":"https://flock.com/",
+     "app_favorites":0
+  },
+  "GNOME Web":{
+     "app_image_path":"img/browser_icon/icon_GNOMEWeb.png",
+     "app_name":"GNOME Web",
+     "app_developer":"The GNOME Project",
+     "app_size":"Unknown",
+     "app_url_website":"https://wiki.gnome.org/Apps/Web/",
+     "app_favorites":0
+  },
+  "Maxthon Nitro":{
+     "app_image_path":"img/browser_icon/icon_Maxthon Nitro.png",
+     "app_name":"Maxthon Nitro",
+     "app_developer":"Maxthon International Limited",
+     "app_size":"Unknown",
+     "app_url_website":"http://www.maxthon.com/nitro/",
+     "app_favorites":0
+  },
+  "Microsoft Edge Dev":{
+     "app_image_path":"img/browser_icon/icon_Microsoft Edge Dev.png",
+     "app_name":"Microsoft Edge Dev",
+     "app_developer":"Microsoft Corporation",
+     "app_size":"Unknown",
+     "app_url_website":"https://www.microsoft.com/en-us/edge/business/download",
+     "app_favorites":1
+  },
+  "Iridium":{
+     "app_image_path":"img/browser_icon/icon_Iridium.png",
+     "app_name":"Iridium",
+     "app_developer":"Iridium Browser Contributors",
+     "app_size":"Unknown",
+     "app_url_website":"https://iridiurowser.de/",
+     "app_favorites":0
+  },
+  "Ungoogled Chromium":{
+     "app_image_path":"img/browser_icon/icon_Ungoogled Chromium.png",
+     "app_name":"Ungoogled Chromium",
+     "app_developer":"Ungoogled-Dev Team",
+     "app_size":"Unknown",
+     "app_url_website":"https://ungoogled-software.github.io/ungoogled-chromium-binaries/",
+     "app_favorites":1
+  },
+  "Bromite":{
+     "app_image_path":"img/browser_icon/icon_Bromite.png",
+     "app_name":"Bromite",
+     "app_developer":"Bromite Team",
+     "app_size":"Unknown",
+     "app_url_website":"https://www.bromite.org/",
+     "app_favorites":0
+  },
+  "Torch":{
+     "app_image_path":"img/browser_icon/icon_Torch.png",
+     "app_name":"Torch",
+     "app_developer":"Torch Media Inc.",
+     "app_size":"Unknown",
+     "app_url_website":"https://torchbrowser.com/",
+     "app_favorites":0
+  },
+  "Puffin":{
+     "app_image_path":"img/browser_icon/icon_Puffin.png",
+     "app_name":"Puffin",
+     "app_developer":"CloudMosa Inc.",
+     "app_size":"Unknown",
+     "app_url_website":"https://www.puffin.com/",
+     "app_favorites":0
+  },
+  "Yandex":{
+     "app_image_path":"img/browser_icon/icon_Yandex.png",
+     "app_name":"Yandex",
+     "app_developer":"Yandex LLC",
+     "app_size":"Unknown",
+     "app_url_website":"https://browser.yandex.com/",
+     "app_favorites":0
+  },
+  "Comodo_Dragon":{
+     "app_image_path":"img/browser_icon/icon_Comodo Dragon.png",
+     "app_name":"Comodo Dragon",
+     "app_developer":"Comodo Group, Inc.",
+     "app_size":"83.5 ",
+     "app_url_website":"https://www.comodo.com/home/browsers-toolbars/browser.php",
+     "app_favorites":0
+  },
+  "Avant":{
+     "app_image_path":"img/browser_icon/icon_Avant.png",
+     "app_name":"Avant",
+     "app_developer":"Avant Force",
+     "app_size":"Unknown",
+     "app_url_website":"https://www.avantbrowser.com/",
+     "app_favorites":0
+  },
+  "Epic Privacy":{
+     "app_image_path":"img/browser_icon/icon_Epic Privacy.png",
+     "app_name":"Epic Privacy",
+     "app_developer":"Hidden Reflex",
+     "app_size":"1.8 ",
+     "app_url_website":"https://www.epicbrowser.com/",
+     "app_favorites":0
+  },
+  "Polarity":{
+     "app_image_path":"img/browser_icon/icon_Polarity.png",
+     "app_name":"Polarity",
+     "app_developer":"Stanford University, West Point Military Academy, Caltech, NASA",
+     "app_size":"67.2 ",
+     "app_url_website":"https://www.polarityweb.weebly.com/",
+     "app_favorites":0
+  },
+  "Superbird":{
+     "app_image_path":"img/browser_icon/icon_Superbird.png",
+     "app_name":"Superbird",
+     "app_developer":"The Superbird Authors",
+     "app_size":"Unknown",
+     "app_url_website":"https://superbird-browser.com/",
+     "app_favorites":0
+  },
+    "Sleipnir": {
+        "app_image_path": "img/browser_icon/icon_Sleipnir.png",
+        "app_name": "Sleipnir",
+        "app_developer": "Fenrir Inc.",
+        "app_size": "70.1 ",
+        "app_url_website": "https://www.fenrir-inc.com/us/sleipnir/",
+        "app_favorites": 0
+    },
+    "Coc Coc": {
+        "app_image_path": "img/browser_icon/icon_Coc_Coc.png",
+        "app_name": "Coc Coc",
+        "app_developer": "Coc Coc Company Limited",
+        "app_size": "83.6 ",
+        "app_url_website": "https://www.coccoc.com/en/",
+        "app_favorites": 0
+    },
+    "Qupzilla": {
+        "app_image_path": "img/browser_icon/icon_Qupzilla.png",
+        "app_name": "Qupzilla",
+        "app_developer": "David Rosca",
+        "app_size": "50.3 ",
+        "app_url_website": "https://github.com/QupZilla/qupzilla",
+        "app_favorites": 0
+    },
+    "Arora": {
+        "app_image_path": "img/browser_icon/icon_Arora.png",
+        "app_name": "Arora",
+        "app_developer": "Benjamin C. Meyer",
+        "app_size": "1.9 ",
+        "app_url_website": "https://github.com/Arora/arora",
+        "app_favorites": 0
+    },
+    "Palemoon Portable": {
+        "app_image_path": "img/browser_icon/icon_Palemoon_Portable.png",
+        "app_name": "Palemoon Portable",
+        "app_developer": "Moonchild Productions",
+        "app_size": "83.6 ",
+        "app_url_website": "https://www.palemoon.org/palemoon-portable.shtml",
+        "app_favorites": 0
+    },
+    "Goanna": {
+        "app_image_path": "img/browser_icon/icon_Goanna.png",
+        "app_name": "Goanna",
+        "app_developer": "Mypal Developers",
+        "app_size": "66.5 ",
+        "app_url_website": "https://mypal-browser.org/",
+        "app_favorites": 0
+    },
+    
+    "ABrowse": {
+        "app_image_path": "img/browser_icon/icon_ABrowse.png",
+        "app_name": "ABrowse",
+        "app_developer": "Stippi",
+        "app_size": "Unknown",
+        "app_url_website": "http://abrowse.sourceforge.net/",
+        "app_favorites": 0
+    },
+    "Phoenix Browser": {
+        "app_image_path": "img/browser_icon/icon_Phoenix_Browser.png",
+        "app_name": "Phoenix Browser",
+        "app_developer": "Verizon Communications",
+        "app_size": "Varies with device",
+        "app_url_website": "https://www.phoenixbrowser.com/",
+        "app_favorites": 0
+    },
+    "Ace Explorer": {
+        "app_image_path": "img/browser_icon/icon_Ace_Explorer.png",
+        "app_name": "Ace Explorer",
+        "app_developer": "Ace Group",
+        "app_size": "1.5 ",
+        "app_url_website": "http://www.visicommedia.com/en/products/ace-explorer/",
+        "app_favorites": 0
+    },
+    "Charon": {
+        "app_image_path": "img/browser_icon/icon_Charon.png",
+        "app_name": "Charon",
+        "app_developer": "Matthew Allen",
+        "app_size": "Unknown",
+        "app_url_website": "http://www.saunalahti.fi/~michi1/charon/",
+        "app_favorites": 0
+    },
+    "Comodo IceDragon": {
+        "app_image_path": "img/browser_icon/icon_Comodo_IceDragon.png",
+        "app_name": "Comodo IceDragon",
+        "app_developer": "Comodo Group",
+        "app_size": "71.5 ",
+        "app_url_website": "https://www.comodo.com/home/browsers-toolbars/icedragon-browser.php",
+        "app_favorites": 1
+    },
+    "Fast Browser": {
+        "app_image_path": "img/browser_icon/icon_Fast_Browser.png",
+        "app_name": "Fast Browser",
+        "app_developer": "FastBrowser.net",
+        "app_size": "1.8 ",
+        "app_url_website": "http://fastbrowser.net/",
+        "app_favorites": 0
+    },
+    "Galeon": {
+        "app_image_path": "img/browser_icon/icon_Galeon.png",
+        "app_name": "Galeon",
+        "app_developer": "The Galeon Team",
+        "app_size": "Unknown",
+        "app_url_website": "https://galeon.sourceforge.io/",
+        "app_favorites": 0
+    },
+    "IETester": {
+        "app_image_path": "img/browser_icon/icon_IETester.png",
+        "app_name": "IETester",
+        "app_developer": "Core Services",
+        "app_size": "55.2 ",
+        "app_url_website": "https://www.coreftp.com/products/ietester.html",
+        "app_favorites": 0
+    },
+    "Line Browser": {
+      "app_image_path": "img/browser_icon/icon_Line Browser.png",
+      "app_name": "Line Browser",
+      "app_developer": "NAVER Corporation",
+      "app_size": "Unknown",
+      "app_url_website": "https://line-browser.line.me/",
+      "app_favorites": 0
+    },
+    "Madfox": {
+      "app_image_path": "img/browser_icon/icon_Madfox.png",
+      "app_name": "Madfox",
+      "app_developer": "EagleGet",
+      "app_size": "Unknown",
+      "app_url_website": "https://www.eagleget.com/madfox/",
+      "app_favorites": 0
+    },
+    "MultiBrowser": {
+      "app_image_path": "img/browser_icon/icon_MultiBrowser.png",
+      "app_name": "MultiBrowser",
+      "app_developer": "MultiBrowser",
+      "app_size": "Unknown",
+      "app_url_website": "http://multibrowser.sourceforge.net/",
+      "app_favorites": 0
+    },
+    "OmniWeb": {
+      "app_image_path": "img/browser_icon/icon_OmniWeb.png",
+      "app_name": "OmniWeb",
+      "app_developer": "The Omni Group",
+      "app_size": "Unknown",
+      "app_url_website": "https://www.omnigroup.com/more/",
+      "app_favorites": 0
+    },
+    "Orca Browser": {
+      "app_image_path": "img/browser_icon/icon_Orca Browser.png",
+      "app_name": "Orca Browser",
+      "app_developer": "Anderson Che",
+      "app_size": "Unknown",
+      "app_url_website": "https://sourceforge.net/projects/orcabrowser/",
+      "app_favorites": 0
+    },
+    "PmWiki": {
+      "app_image_path": "img/browser_icon/icon_PmWiki.png",
+      "app_name": "PmWiki",
+      "app_developer": "Patrick R. Michaud",
+      "app_size": "Unknown",
+      "app_url_website": "https://www.pmwiki.org/",
+      "app_favorites": 0
+    },
+    "Prism": {
+      "app_image_path": "img/browser_icon/icon_Prism.png",
+      "app_name": "Prism",
+      "app_developer": "Mozilla Labs",
+      "app_size": "Unknown",
+      "app_url_website": "https://wiki.mozilla.org/Labs/Prism",
+      "app_favorites": 0
+    },
+    "QtBrowser": {
+      "app_image_path": "img/browser_icon/icon_QtBrowser.png",
+      "app_name": "QtBrowser",
+      "app_developer": "Qt Project",
+      "app_size": "Unknown",
+      "app_url_website": "https://doc.qt.io/qt-5/qtwebengine-overview.html",
+      "app_favorites": 0
+    },
+    "QuincyKit": {
+      "app_image_path": "img/browser_icon/icon_QuincyKit.png",
+      "app_name": "QuincyKit",
+      "app_developer": "Futuresplash",
+      "app_size": "Unknown",
+      "app_url_website": "https://sourceforge.net/projects/quincykit/",
+      "app_favorites": 0
+    },
+    "RockMelt": {
+    "app_image_path": "img/browser_icon/icon_RockMelt.png",
+    "app_name": "RockMelt",
+    "app_developer": "RockMelt Inc.",
+    "app_size": "Unknown",
+    "app_url_website": "http://www.rockmelt.com/",
+    "app_favorites": 0
+    },
+    "Slioat": {
+    "app_image_path": "img/browser_icon/icon_Slioat.png",
+    "app_name": "Slioat",
+    "app_developer": "FlashPeak Inc.",
+    "app_size": "Unknown",
+    "app_url_website": "http://www.slioat.com/",
+    "app_favorites": 0
+    },
+    "Slirowser Portable": {
+    "app_image_path": "img/browser_icon/icon_Slirowser Portable.png",
+    "app_name": "Slirowser Portable",
+    "app_developer": "FlashPeak Inc.",
+    "app_size": "Unknown",
+    "app_url_website": "http://www.slirowser.net/en/",
+    "app_favorites": 0
+    },
+    "Uzbl": {
+    "app_image_path": "img/browser_icon/icon_Uzbl.png",
+    "app_name": "Uzbl",
+    "app_developer": "Dieter Plaetinck",
+    "app_size": "Unknown",
+    "app_url_website": "https://www.uzbl.org/",
+    "app_favorites": 0
+    },
+    "WAP Browser": {
+    "app_image_path": "img/browser_icon/icon_WAP Browser.png",
+    "app_name": "WAP Browser",
+    "app_developer": "Alexander Ermakov",
+    "app_size": "Unknown",
+    "app_url_website": "https://sourceforge.net/projects/wapbrowser/",
+    "app_favorites": 0
+    },
+    "Wyzo Portable": {
+    "app_image_path": "img/browser_icon/icon_Wyzo Portable.png",
+    "app_name": "Wyzo Portable",
+    "app_developer": "Radical Software Ltd.",
+    "app_size": "Unknown",
+    "app_url_website": "http://www.wyzo.com/",
+    "app_favorites": 0
+    },
+    "X-Smiles": {
+    "app_image_path": "img/browser_icon/icon_X-Smiles.png",
+    "app_name": "X-Smiles",
+    "app_developer": "University of Helsinki",
+    "app_size": "Unknown",
+    "app_url_website": "http://www.xsmiles.org/",
+    "app_favorites": 0
+    },
+    "ZAC Browser": {
+    "app_image_path": "img/browser_icon/icon_ZAC Browser.png",
+    "app_name": "ZAC Browser",
+    "app_developer": "People CD Inc.",
+    "app_size": "Unknown",
+    "app_url_website": "http://zacbrowser.com/",
+    "app_favorites": 0
+    },
+    "Zetakey Web Browser": {
+    "app_image_path": "img/browser_icon/icon_Zetakey Web Browser.png",
+    "app_name": "Zetakey Web Browser",
+    "app_developer": "Zetakey Solutions Limited",
+    "app_size": "Unknown",
+    "app_url_website": "http://www.zetakey.com/",
+    "app_favorites": 0
+    }
+}
