@@ -84,6 +84,7 @@ def create_browser_window():
                                                            command=lambda u=app_url_website: open_website(u)) # функция, которая будет вызвана при нажатии на кнопку
         button_link_site_product.grid(row=app_id, column=5, padx=15, pady=15)  # установка позиции элемента на сетке
 
+
         
         
 

@@ -1,0 +1,598 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "TimeoutException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "ThreadPoolExecutor",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "app_title",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "app_title",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "width",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "app_title",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "webbrowser",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "webbrowser",
+        "description": "webbrowser",
+        "detail": "webbrowser",
+        "documentation": {}
+    },
+    {
+        "label": "customtkinter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "customtkinter",
+        "description": "customtkinter",
+        "detail": "customtkinter",
+        "documentation": {}
+    },
+    {
+        "label": "tkinter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "on_click_list_of_categories_marks_callback",
+        "importPath": "data_def",
+        "description": "data_def",
+        "isExtraImport": true,
+        "detail": "data_def",
+        "documentation": {}
+    },
+    {
+        "label": "create_browser_window",
+        "importPath": "window.browser_window",
+        "description": "window.browser_window",
+        "isExtraImport": true,
+        "detail": "window.browser_window",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "isExtraImport": true,
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "json_data.insert_data",
+        "description": "json_data.insert_data",
+        "peekOfCode": "conn = sqlite3.connect('data_app.db')\nc = conn.cursor()\nfor browser in data:\n    app_image_path = data[browser]['app_image_path']\n    app_name = data[browser]['app_name']\n    app_developer = data[browser]['app_developer']\n    app_size = data[browser]['app_size']\n    app_url_website = data[browser]['app_url_website']\n    app_favorites = data[browser]['app_favorites']\n    c.execute(\"INSERT INTO browser_app (app_image_path, app_name, app_developer, app_size, app_url_website, app_favorites) VALUES (?, ?, ?, ?, ?, ?)\", (app_image_path, app_name, app_developer, app_size, app_url_website, app_favorites))",
+        "detail": "json_data.insert_data",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "json_data.insert_data",
+        "description": "json_data.insert_data",
+        "peekOfCode": "c = conn.cursor()\nfor browser in data:\n    app_image_path = data[browser]['app_image_path']\n    app_name = data[browser]['app_name']\n    app_developer = data[browser]['app_developer']\n    app_size = data[browser]['app_size']\n    app_url_website = data[browser]['app_url_website']\n    app_favorites = data[browser]['app_favorites']\n    c.execute(\"INSERT INTO browser_app (app_image_path, app_name, app_developer, app_size, app_url_website, app_favorites) VALUES (?, ?, ?, ?, ?, ?)\", (app_image_path, app_name, app_developer, app_size, app_url_website, app_favorites))\nconn.commit()",
+        "detail": "json_data.insert_data",
+        "documentation": {}
+    },
+    {
+        "label": "clear_console",
+        "kind": 2,
+        "importPath": "parsers.parser",
+        "description": "parsers.parser",
+        "peekOfCode": "def clear_console():\n    os.system('cls' if os.name == 'nt' else 'clear')\ndef process_query(query):\n    # замена пробела на нижнее подчёркивание\n    query = query.replace(\" \", \"_\")\n    # опции для Firefox\n    options = webdriver.FirefoxOptions()\n    options.set_preference(\"browser.privatebrowsing.autostart\", True)\n    options.set_preference(\"network.cookie.cookieBehavior\", 1)\n    options.set_preference(\"browser.cookies.lifetimePolicy\", 2)",
+        "detail": "parsers.parser",
+        "documentation": {}
+    },
+    {
+        "label": "process_query",
+        "kind": 2,
+        "importPath": "parsers.parser",
+        "description": "parsers.parser",
+        "peekOfCode": "def process_query(query):\n    # замена пробела на нижнее подчёркивание\n    query = query.replace(\" \", \"_\")\n    # опции для Firefox\n    options = webdriver.FirefoxOptions()\n    options.set_preference(\"browser.privatebrowsing.autostart\", True)\n    options.set_preference(\"network.cookie.cookieBehavior\", 1)\n    options.set_preference(\"browser.cookies.lifetimePolicy\", 2)\n    options.set_preference(\"browser.cache.disk.enable\", False)\n    options.add_argument(\"--disable-gpu\")",
+        "detail": "parsers.parser",
+        "documentation": {}
+    },
+    {
+        "label": "create_browser_window",
+        "kind": 2,
+        "importPath": "window.browser_window",
+        "description": "window.browser_window",
+        "peekOfCode": "def create_browser_window():  \n    def open_website(url):\n        webbrowser.open(url)\n    browsers_window = customtkinter.CTkToplevel()  # Создание верхнего уровня окна\n    browsers_window.geometry(f\"{900}x{700}\")  # Задание размеров окна\n    browsers_window.title(f\"{app_title} -- Browsers\")  # Задание заголовка окна\n    browsers_window.grid_rowconfigure(0, weight=1)\n    browsers_window.grid_columnconfigure((0, 1), weight=1)\n    # Создание прокручиваемого фрейма для браузеров\n    browser_scrollable_frame = customtkinter.CTkScrollableFrame(master=browsers_window, width=900, height=1000, label_text=\"Browser_apps\", orientation=\"vertical\")",
+        "detail": "window.browser_window",
+        "documentation": {}
+    },
+    {
+        "label": "on_clear_all_frame_for_home",
+        "kind": 2,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "def on_clear_all_frame_for_home():\n    frame_for_home.grid(row=0, column=1)  # показываем фрейм для домашней страницы\n    frame_for_applications.grid_forget()  # скрываем фрейм для приложений\n    frame_for_settings.grid_forget()  # скрываем фрейм для настроек\ndef on_clear_all_frame_for_applications():\n    frame_for_applications.grid(row=0, column=2)  # показываем фрейм для приложений\n    frame_for_home.grid_forget()  # скрываем фрейм для домашней страницы\n    frame_for_settings.grid_forget()  # скрываем фрейм для настроек\ndef on_clear_all_frame_for_settings():\n    frame_for_settings.grid(row=0, column=3)  # показываем фрейм для настроек",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "on_clear_all_frame_for_applications",
+        "kind": 2,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "def on_clear_all_frame_for_applications():\n    frame_for_applications.grid(row=0, column=2)  # показываем фрейм для приложений\n    frame_for_home.grid_forget()  # скрываем фрейм для домашней страницы\n    frame_for_settings.grid_forget()  # скрываем фрейм для настроек\ndef on_clear_all_frame_for_settings():\n    frame_for_settings.grid(row=0, column=3)  # показываем фрейм для настроек\n    frame_for_home.grid_forget()  # скрываем фрейм для домашней страницы\n    frame_for_applications.grid_forget()  # скрываем фрейм для приложений\n# создаем функцию для создания изображения кнопки\ndef image_menu(path):",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "on_clear_all_frame_for_settings",
+        "kind": 2,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "def on_clear_all_frame_for_settings():\n    frame_for_settings.grid(row=0, column=3)  # показываем фрейм для настроек\n    frame_for_home.grid_forget()  # скрываем фрейм для домашней страницы\n    frame_for_applications.grid_forget()  # скрываем фрейм для приложений\n# создаем функцию для создания изображения кнопки\ndef image_menu(path):\n    button_image = customtkinter.CTkImage(light_image=Image.open(path),\n                                  dark_image=Image.open(path),\n                                  size=(30, 30))\n    return button_image",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "image_menu",
+        "kind": 2,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "def image_menu(path):\n    button_image = customtkinter.CTkImage(light_image=Image.open(path),\n                                  dark_image=Image.open(path),\n                                  size=(30, 30))\n    return button_image\n# Создание фрейма для меню\nframe_menu = customtkinter.CTkFrame(\n    master=app, width=500, height=100, border_width=2, border_color=\"green\")\nframe_menu.grid(row=0, column=0, rowspan=10, sticky=\"nw\")\n# создание кнопок для меню",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "app = customtkinter.CTk()  # создаем объект приложения с помощью класса CTk из модуля customtkinter\n# узнаем размеры экрана\nscreen_width = app.winfo_screenwidth()\nscreen_height = app.winfo_screenheight()\n# вычисляем координаты центра экрана\ncenter_x = int(screen_width / 2 - width / 2)\ncenter_y = int(screen_height / 2 - height / 2)\n# устанавливаем окно по центру экрана\napp.geometry(f\"{width}x{height}+{center_x}+{center_y}\")\napp.title(f\"{app_title}\")  # устанавливаем заголовок окна",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "screen_width",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "screen_width = app.winfo_screenwidth()\nscreen_height = app.winfo_screenheight()\n# вычисляем координаты центра экрана\ncenter_x = int(screen_width / 2 - width / 2)\ncenter_y = int(screen_height / 2 - height / 2)\n# устанавливаем окно по центру экрана\napp.geometry(f\"{width}x{height}+{center_x}+{center_y}\")\napp.title(f\"{app_title}\")  # устанавливаем заголовок окна\n# определяем функции для скрытия/отображения различных фреймов\ndef on_clear_all_frame_for_home():",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "screen_height",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "screen_height = app.winfo_screenheight()\n# вычисляем координаты центра экрана\ncenter_x = int(screen_width / 2 - width / 2)\ncenter_y = int(screen_height / 2 - height / 2)\n# устанавливаем окно по центру экрана\napp.geometry(f\"{width}x{height}+{center_x}+{center_y}\")\napp.title(f\"{app_title}\")  # устанавливаем заголовок окна\n# определяем функции для скрытия/отображения различных фреймов\ndef on_clear_all_frame_for_home():\n    frame_for_home.grid(row=0, column=1)  # показываем фрейм для домашней страницы",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "center_x",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "center_x = int(screen_width / 2 - width / 2)\ncenter_y = int(screen_height / 2 - height / 2)\n# устанавливаем окно по центру экрана\napp.geometry(f\"{width}x{height}+{center_x}+{center_y}\")\napp.title(f\"{app_title}\")  # устанавливаем заголовок окна\n# определяем функции для скрытия/отображения различных фреймов\ndef on_clear_all_frame_for_home():\n    frame_for_home.grid(row=0, column=1)  # показываем фрейм для домашней страницы\n    frame_for_applications.grid_forget()  # скрываем фрейм для приложений\n    frame_for_settings.grid_forget()  # скрываем фрейм для настроек",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "center_y",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "center_y = int(screen_height / 2 - height / 2)\n# устанавливаем окно по центру экрана\napp.geometry(f\"{width}x{height}+{center_x}+{center_y}\")\napp.title(f\"{app_title}\")  # устанавливаем заголовок окна\n# определяем функции для скрытия/отображения различных фреймов\ndef on_clear_all_frame_for_home():\n    frame_for_home.grid(row=0, column=1)  # показываем фрейм для домашней страницы\n    frame_for_applications.grid_forget()  # скрываем фрейм для приложений\n    frame_for_settings.grid_forget()  # скрываем фрейм для настроек\ndef on_clear_all_frame_for_applications():",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "frame_menu",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "frame_menu = customtkinter.CTkFrame(\n    master=app, width=500, height=100, border_width=2, border_color=\"green\")\nframe_menu.grid(row=0, column=0, rowspan=10, sticky=\"nw\")\n# создание кнопок для меню\nbutton_home = customtkinter.CTkButton(master=frame_menu,\n                               text=\"Home\",\n                               width=200,\n                               height=60,\n                               corner_radius=15,\n                               font=('sistem', 20, 'bold'),",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "button_home",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "button_home = customtkinter.CTkButton(master=frame_menu,\n                               text=\"Home\",\n                               width=200,\n                               height=60,\n                               corner_radius=15,\n                               font=('sistem', 20, 'bold'),\n                               image=image_menu(path=r\"img\\main_menu_icon\\home.png\"),\n                               command=on_clear_all_frame_for_home)\nbutton_home.grid(row=1, column=1, pady=20, padx=15)\nbutton_applications = customtkinter.CTkButton(master=frame_menu, ",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "button_applications",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "button_applications = customtkinter.CTkButton(master=frame_menu, \n                                       text=\"Applications\", \n                                       width=200, \n                                       height=60,\n                                       corner_radius=15,\n                                       image=image_menu(path=r\"img\\main_menu_icon\\applications.png\"),\n                                       font=('sistem', 20, 'bold'),\n                                       command=on_clear_all_frame_for_applications)\nbutton_applications.grid(row=2, column=1, pady=20, padx=15)\nbutton_settings = customtkinter.CTkButton(master=frame_menu, ",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "button_settings",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "button_settings = customtkinter.CTkButton(master=frame_menu, \n                                   text=\"Settings\", \n                                   width=200, \n                                   height=60,\n                                   corner_radius=15, \n                                   image=image_menu(path=r\"img\\main_menu_icon\\settings.png\"),\n                                   font=('sistem', 20, 'bold'),\n                                   command=on_clear_all_frame_for_settings)\nbutton_settings.grid(row=3, column=1, pady=20, padx=15)\nbutton_0 = customtkinter.CTkButton(master=frame_menu, ",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "button_0",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "button_0 = customtkinter.CTkButton(master=frame_menu, \n                                   width=200, \n                                   height=60, \n                                   corner_radius=15,\n                                   image=image_menu(path=r\"img\\main_menu_icon\\zero.png\"),\n                                   font=('sistem', 20, 'bold'),\n                                   )\nbutton_0.grid(row=4, column=1, pady=20, padx=15)                                   \nbutton_1 = customtkinter.CTkButton(master=frame_menu, \n                                   width=200, ",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "button_1",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "button_1 = customtkinter.CTkButton(master=frame_menu, \n                                   width=200, \n                                   height=60, \n                                   corner_radius=15,\n                                   image=image_menu(path=r\"img\\main_menu_icon\\zero.png\"),\n                                   font=('sistem', 20, 'bold'),\n                                   )\nbutton_1.grid(row=5, column=1, pady=20, padx=15)\nbutton_2 = customtkinter.CTkButton(master=frame_menu, \n                                   width=200, ",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "button_2",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "button_2 = customtkinter.CTkButton(master=frame_menu, \n                                   width=200, \n                                   height=60, \n                                   corner_radius=15,\n                                   image=image_menu(path=r\"img\\main_menu_icon\\zero.png\"),\n                                   font=('sistem', 20, 'bold'),\n                                   )\nbutton_2.grid(row=6, column=1, pady=20, padx=15)\nbutton_3 = customtkinter.CTkButton(master=frame_menu, \n                                   width=200, ",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "button_3",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "button_3 = customtkinter.CTkButton(master=frame_menu, \n                                   width=200, \n                                   height=60, \n                                   corner_radius=15,\n                                   image=image_menu(path=r\"img\\main_menu_icon\\zero.png\"),\n                                   font=('sistem', 20, 'bold'),\n                                   )\nbutton_3.grid(row=7, column=1, pady=20, padx=15)                                   \n# Создание фрейма для кнопки home\nframe_for_home = customtkinter.CTkFrame(",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "frame_for_home",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "frame_for_home = customtkinter.CTkFrame(\n    master=app,                   # родительский виджет\n    width=500,                    # ширина фрейма\n    height=height,                # высота фрейма\n    border_width=2,               # ширина границы фрейма\n    border_color=\"green\"          # цвет границы фрейма\n)\n# Содержимое фрейма для home\nlabel1 = customtkinter.CTkLabel(\n    master=frame_for_home,        # родительский виджет",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "label1",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "label1 = customtkinter.CTkLabel(\n    master=frame_for_home,        # родительский виджет\n    text=\"frame_home\"             # текст метки\n)\nlabel1.grid(row=1, column=1, pady=20, padx=15)  # размещение метки в фрейме\n# Создание фрейма для кнопки applications\nframe_for_applications = customtkinter.CTkFrame(\n    master=app,                   # родительский виджет\n    width=500,                    # ширина фрейма\n    height=height,                # высота фрейма",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "frame_for_applications",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "frame_for_applications = customtkinter.CTkFrame(\n    master=app,                   # родительский виджет\n    width=500,                    # ширина фрейма\n    height=height,                # высота фрейма\n    border_width=2,               # ширина границы фрейма\n    border_color=\"green\"          # цвет границы фрейма\n)\n# Содержимое фрейма для кнопки applications\nlabel_help_text = customtkinter.CTkLabel(master=frame_for_applications,\n                                         text=\"Select an application rosel that interests you\",",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "label_help_text",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "label_help_text = customtkinter.CTkLabel(master=frame_for_applications,\n                                         text=\"Select an application rosel that interests you\",\n                                         )\nlabel_help_text.grid(row=0, column=1, pady=20, padx=15)\nlist_of_categories_marks = customtkinter.CTkSegmentedButton(\n    master=frame_for_applications,            # родительский виджет\n    values=[\"Browsers\", \"Messages\", \"Games\", \"Music\", \"Programming\", \"Tweaks\", \"Antivirus\", \"Installation\", \"Favorites\"],  # значения кнопок\n    command=on_click_list_of_categories_marks_callback,  # функция, которая вызывается при нажатии на кнопку\n    font=(\"Arial\", 15)\n)",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "list_of_categories_marks",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "list_of_categories_marks = customtkinter.CTkSegmentedButton(\n    master=frame_for_applications,            # родительский виджет\n    values=[\"Browsers\", \"Messages\", \"Games\", \"Music\", \"Programming\", \"Tweaks\", \"Antivirus\", \"Installation\", \"Favorites\"],  # значения кнопок\n    command=on_click_list_of_categories_marks_callback,  # функция, которая вызывается при нажатии на кнопку\n    font=(\"Arial\", 15)\n)\nlist_of_categories_marks.grid(row=1, column=0, columnspan=3, pady=20, padx=15)  # размещение виджета в фрейме\n# Создание фрейма для кнопки settings\nframe_for_settings = customtkinter.CTkFrame(\n    master=app,                   # родительский виджет",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "frame_for_settings",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "frame_for_settings = customtkinter.CTkFrame(\n    master=app,                   # родительский виджет\n    width=500,                    # ширина фрейма\n    height=height,                # высота фрейма\n    border_width=2,               # ширина границы фрейма\n    border_color=\"green\",         # цвет границы фрейма\n)\n# Содержимое фрейма для settings\nlabel2 = customtkinter.CTkLabel(\n    master=frame_for_settings,     # родительский виджет",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "label2",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "label2 = customtkinter.CTkLabel(\n    master=frame_for_settings,     # родительский виджет\n    text=\"frame_settings\",         # текст метки\n)\nlabel2.grid(row=1, column=1, pady=20, padx=15)  # размещение метки в фрейме",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "width",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "width = 1000 # ширина \nheight = 700 # высота\n#Заголовок окна\napp_title = \"Win_HP\"\n# розмеры приложения\ncustomtkinter.deactivate_automatic_dpi_awareness()",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "height = 700 # высота\n#Заголовок окна\napp_title = \"Win_HP\"\n# розмеры приложения\ncustomtkinter.deactivate_automatic_dpi_awareness()",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "app_title",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "app_title = \"Win_HP\"\n# розмеры приложения\ncustomtkinter.deactivate_automatic_dpi_awareness()",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "create_ctkframe",
+        "kind": 2,
+        "importPath": "data_def",
+        "description": "data_def",
+        "peekOfCode": "def create_ctkframe(master, row, column, sticky=None, rowspan=None, width=100, height=100, border_width=2, border_color=\"green\"):\n    # Создание экземпляра CTkFrame и размещение его на master, используя сеточную компоновку\n    customtkinter.CTkFrame(master=master, width=width, height=height, border_width=border_width, border_color=border_color\n    ).grid(row=row, column=column, rowspan=rowspan, sticky=sticky)\n# Создание обратного вызова функции on_click_list_of_categories_marks_callback\ndef on_click_list_of_categories_marks_callback(value):\n    # Вывод сообщения о нажатии на кнопку\n    print(\"segmented button clicked:\", value)\n    # Если нажата кнопка Browsers, вызов функции create_browser_window\n    if value == \"Browsers\":",
+        "detail": "data_def",
+        "documentation": {}
+    },
+    {
+        "label": "on_click_list_of_categories_marks_callback",
+        "kind": 2,
+        "importPath": "data_def",
+        "description": "data_def",
+        "peekOfCode": "def on_click_list_of_categories_marks_callback(value):\n    # Вывод сообщения о нажатии на кнопку\n    print(\"segmented button clicked:\", value)\n    # Если нажата кнопка Browsers, вызов функции create_browser_window\n    if value == \"Browsers\":\n        create_browser_window()\n    # Если нажата кнопка Messages, создание нового окна\n    elif value == \"Messages\":\n        messages_window = customtkinter.CTkToplevel()\n    # Если нажата кнопка Games, создание нового окна",
+        "detail": "data_def",
+        "documentation": {}
+    }
+]

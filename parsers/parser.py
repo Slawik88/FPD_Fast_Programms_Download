@@ -72,9 +72,12 @@ if __name__ == '__main__':
     print(f"Запросы: {requests_input_list}")
     print(f"Потоки: {requests_input_max_workers}")
     print(f"{Fore.YELLOW}  Начинаем загрузку иконок...  {Style.RESET_ALL}")
+    total_queries = len(requests_input_list)
     with ThreadPoolExecutor(max_workers=requests_input_max_workers) as executor:
         futures = [executor.submit(process_query, query.replace(" ", "_")) for query in requests_input_list]
-        for future, query in tqdm(zip(futures, requests_input_list), total=len(requests_input_list)):
+        progress_bar = tqdm(total=total_queries)
+        for future, query in zip(futures, requests_input_list):
             future.result()
+            progress_bar.update(1)
             tqdm.write(f"{Fore.GREEN }😉 Загрузка завершена для {query}!  {Style.RESET_ALL}")
     print(f"\n{Fore.GREEN} ✔ Загрузка завершена! {Style.RESET_ALL}")
