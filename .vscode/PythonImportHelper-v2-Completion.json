@@ -27,15 +27,6 @@
         "documentation": {}
     },
     {
-        "label": "cv2",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "cv2",
-        "description": "cv2",
-        "detail": "cv2",
-        "documentation": {}
-    },
-    {
         "label": "requests",
         "kind": 6,
         "isExtraImport": true,
@@ -321,16 +312,16 @@
         "kind": 2,
         "importPath": "parsers.parser",
         "description": "parsers.parser",
-        "peekOfCode": "def clear_console():\n    os.system('cls' if os.name == 'nt' else 'clear')\ndef scrape_icon(query):\n    # создание объекта опций браузера и запуск браузера\n    options = Options()\n    options.headless = True\n    driver = webdriver.Firefox(options=options)\n    driver.get(f'https://www.google.com/search?q={query}&tbm=isch')\n    # скроллинг страницы для загрузки большего количества изображений\n    last_height = driver.execute_script('return document.body.scrollHeight')",
+        "peekOfCode": "def clear_console():\n    os.system('cls' if os.name == 'nt' else 'clear')\ndef process_query(query):\n    # замена пробела на нижнее подчёркивание\n    query = query.replace(\" \", \"_\")\n    # опции для Firefox\n    options = webdriver.FirefoxOptions()\n    options.set_preference(\"browser.privatebrowsing.autostart\", True)\n    options.set_preference(\"network.cookie.cookieBehavior\", 1)\n    options.set_preference(\"browser.cookies.lifetimePolicy\", 2)",
         "detail": "parsers.parser",
         "documentation": {}
     },
     {
-        "label": "scrape_icon",
+        "label": "process_query",
         "kind": 2,
         "importPath": "parsers.parser",
         "description": "parsers.parser",
-        "peekOfCode": "def scrape_icon(query):\n    # создание объекта опций браузера и запуск браузера\n    options = Options()\n    options.headless = True\n    driver = webdriver.Firefox(options=options)\n    driver.get(f'https://www.google.com/search?q={query}&tbm=isch')\n    # скроллинг страницы для загрузки большего количества изображений\n    last_height = driver.execute_script('return document.body.scrollHeight')\n    while True:\n        driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')",
+        "peekOfCode": "def process_query(query):\n    # замена пробела на нижнее подчёркивание\n    query = query.replace(\" \", \"_\")\n    # опции для Firefox\n    options = webdriver.FirefoxOptions()\n    options.set_preference(\"browser.privatebrowsing.autostart\", True)\n    options.set_preference(\"network.cookie.cookieBehavior\", 1)\n    options.set_preference(\"browser.cookies.lifetimePolicy\", 2)\n    options.set_preference(\"browser.cache.disk.enable\", False)\n    options.add_argument(\"--disable-gpu\")",
         "detail": "parsers.parser",
         "documentation": {}
     },
