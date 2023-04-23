@@ -330,7 +330,7 @@
         "kind": 2,
         "importPath": "window.browser_window",
         "description": "window.browser_window",
-        "peekOfCode": "def create_browser_window():  \n    def open_website(url):\n        webbrowser.open(url)\n    check_var = tkinter.StringVar(value=\"off\")\n    def checkbox_event():\n        print(\"checkbox toggled, current value:\", check_var.get())\n    browsers_window = customtkinter.CTkToplevel()  # Создание верхнего уровня окна\n    browsers_window.geometry(f\"{1200}x{700}\")  # Задание размеров окна\n    browsers_window.title(f\"{app_title} -- Browsers\")  # Задание заголовка окна\n    browsers_window.grid_rowconfigure(0, weight=1)",
+        "peekOfCode": "def create_browser_window():  \n    def open_website(url):\n        webbrowser.open(url)\n    check_var = tkinter.StringVar(value=\"off\")\n    def checkbox_event(app_id, app_image_path, app_name, app_developer, app_size, app_url_website):\n        # print(f\"\\n id: {app_id}\\n iamge_path: {app_image_path}\\n app_name: {app_name}\\n app_developer: {app_developer}\\n app_size: {app_size}\\n app_url: {app_url_website}\")\n        # создаем соединение с базой данных\n        conn = sqlite3.connect('data_app.db')\n        # создаем курсор\n        cursor = conn.cursor()",
         "detail": "window.browser_window",
         "documentation": {}
     },
@@ -596,11 +596,11 @@
         "documentation": {}
     },
     {
-        "label": "checkbox_event",
+        "label": "switch_event",
         "kind": 2,
         "importPath": "test",
         "description": "test",
-        "peekOfCode": "def checkbox_event():\n    print(\"checkbox toggled, current value:\", check_var.get())\ncheckbox = customtkinter.CTkCheckBox(master=app, text=\"CTkCheckBox\", command=checkbox_event,\n                                     variable=check_var, onvalue=\"on\", offvalue=\"off\")\ncheckbox.pack(padx=20, pady=10)\napp.mainloop()",
+        "peekOfCode": "def switch_event():\n    print(\"switch toggled, current value:\", switch_var.get())\nfor i in range(10):\n    switch_var = customtkinter.StringVar(value=\"on\")\n    switch = customtkinter.CTkSwitch(app, text=\"CTkSwitch\", command=switch_event,\n                                 variable=switch_var, onvalue=\"on\", offvalue=\"off\")\n    switch.pack()\napp.mainloop()",
         "detail": "test",
         "documentation": {}
     },
@@ -609,25 +609,7 @@
         "kind": 5,
         "importPath": "test",
         "description": "test",
-        "peekOfCode": "app = customtkinter.CTk()  # create CTk window like you do with the Tk window\napp.geometry(\"400x240\")\ncheck_var = tkinter.StringVar(value=\"on\")\ndef checkbox_event():\n    print(\"checkbox toggled, current value:\", check_var.get())\ncheckbox = customtkinter.CTkCheckBox(master=app, text=\"CTkCheckBox\", command=checkbox_event,\n                                     variable=check_var, onvalue=\"on\", offvalue=\"off\")\ncheckbox.pack(padx=20, pady=10)\napp.mainloop()",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "check_var",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "check_var = tkinter.StringVar(value=\"on\")\ndef checkbox_event():\n    print(\"checkbox toggled, current value:\", check_var.get())\ncheckbox = customtkinter.CTkCheckBox(master=app, text=\"CTkCheckBox\", command=checkbox_event,\n                                     variable=check_var, onvalue=\"on\", offvalue=\"off\")\ncheckbox.pack(padx=20, pady=10)\napp.mainloop()",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "checkbox",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "checkbox = customtkinter.CTkCheckBox(master=app, text=\"CTkCheckBox\", command=checkbox_event,\n                                     variable=check_var, onvalue=\"on\", offvalue=\"off\")\ncheckbox.pack(padx=20, pady=10)\napp.mainloop()",
+        "peekOfCode": "app = customtkinter.CTk()\ndef switch_event():\n    print(\"switch toggled, current value:\", switch_var.get())\nfor i in range(10):\n    switch_var = customtkinter.StringVar(value=\"on\")\n    switch = customtkinter.CTkSwitch(app, text=\"CTkSwitch\", command=switch_event,\n                                 variable=switch_var, onvalue=\"on\", offvalue=\"off\")\n    switch.pack()\napp.mainloop()",
         "detail": "test",
         "documentation": {}
     }
