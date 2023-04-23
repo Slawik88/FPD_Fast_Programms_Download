@@ -27,6 +27,15 @@
         "documentation": {}
     },
     {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
         "label": "requests",
         "kind": 6,
         "isExtraImport": true,
@@ -131,6 +140,23 @@
         "description": "colorama",
         "isExtraImport": true,
         "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "tkinter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
         "documentation": {}
     },
     {
@@ -249,23 +275,6 @@
         "documentation": {}
     },
     {
-        "label": "tkinter",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "tkinter",
-        "description": "tkinter",
-        "detail": "tkinter",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "tkinter",
-        "description": "tkinter",
-        "isExtraImport": true,
-        "detail": "tkinter",
-        "documentation": {}
-    },
-    {
         "label": "on_click_list_of_categories_marks_callback",
         "importPath": "data_def",
         "description": "data_def",
@@ -312,16 +321,16 @@
         "kind": 2,
         "importPath": "parsers.parser",
         "description": "parsers.parser",
-        "peekOfCode": "def clear_console():\n    os.system('cls' if os.name == 'nt' else 'clear')\ndef process_query(query):\n    # замена пробела на нижнее подчёркивание\n    query = query.replace(\" \", \"_\")\n    # опции для Firefox\n    options = webdriver.FirefoxOptions()\n    options.set_preference(\"browser.privatebrowsing.autostart\", True)\n    options.set_preference(\"network.cookie.cookieBehavior\", 1)\n    options.set_preference(\"browser.cookies.lifetimePolicy\", 2)",
+        "peekOfCode": "def clear_console():\n    os.system('cls' if os.name == 'nt' else 'clear')\ndef scrape_icon(query):\n    # создание объекта опций браузера и запуск браузера\n    options = Options()\n    options.headless = True\n    driver = webdriver.Firefox(options=options)\n    driver.get(f'https://www.google.com/search?q={query}&tbm=isch')\n    # скроллинг страницы для загрузки большего количества изображений\n    last_height = driver.execute_script('return document.body.scrollHeight')",
         "detail": "parsers.parser",
         "documentation": {}
     },
     {
-        "label": "process_query",
+        "label": "scrape_icon",
         "kind": 2,
         "importPath": "parsers.parser",
         "description": "parsers.parser",
-        "peekOfCode": "def process_query(query):\n    # замена пробела на нижнее подчёркивание\n    query = query.replace(\" \", \"_\")\n    # опции для Firefox\n    options = webdriver.FirefoxOptions()\n    options.set_preference(\"browser.privatebrowsing.autostart\", True)\n    options.set_preference(\"network.cookie.cookieBehavior\", 1)\n    options.set_preference(\"browser.cookies.lifetimePolicy\", 2)\n    options.set_preference(\"browser.cache.disk.enable\", False)\n    options.add_argument(\"--disable-gpu\")",
+        "peekOfCode": "def scrape_icon(query):\n    # создание объекта опций браузера и запуск браузера\n    options = Options()\n    options.headless = True\n    driver = webdriver.Firefox(options=options)\n    driver.get(f'https://www.google.com/search?q={query}&tbm=isch')\n    # скроллинг страницы для загрузки большего количества изображений\n    last_height = driver.execute_script('return document.body.scrollHeight')\n    while True:\n        driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')",
         "detail": "parsers.parser",
         "documentation": {}
     },
@@ -330,7 +339,7 @@
         "kind": 2,
         "importPath": "window.browser_window",
         "description": "window.browser_window",
-        "peekOfCode": "def create_browser_window():  \n    def open_website(url):\n        webbrowser.open(url)\n    browsers_window = customtkinter.CTkToplevel()  # Создание верхнего уровня окна\n    browsers_window.geometry(f\"{900}x{700}\")  # Задание размеров окна\n    browsers_window.title(f\"{app_title} -- Browsers\")  # Задание заголовка окна\n    browsers_window.grid_rowconfigure(0, weight=1)\n    browsers_window.grid_columnconfigure((0, 1), weight=1)\n    # Создание прокручиваемого фрейма для браузеров\n    browser_scrollable_frame = customtkinter.CTkScrollableFrame(master=browsers_window, width=900, height=1000, label_text=\"Browser_apps\", orientation=\"vertical\")",
+        "peekOfCode": "def create_browser_window():  \n    def open_website(url):\n        webbrowser.open(url)\n    check_var = tkinter.StringVar(value=\"off\")\n    def checkbox_event():\n        print(\"checkbox toggled, current value:\", check_var.get())\n    browsers_window = customtkinter.CTkToplevel()  # Создание верхнего уровня окна\n    browsers_window.geometry(f\"{1200}x{700}\")  # Задание размеров окна\n    browsers_window.title(f\"{app_title} -- Browsers\")  # Задание заголовка окна\n    browsers_window.grid_rowconfigure(0, weight=1)",
         "detail": "window.browser_window",
         "documentation": {}
     },
@@ -593,6 +602,42 @@
         "description": "data_def",
         "peekOfCode": "def on_click_list_of_categories_marks_callback(value):\n    # Вывод сообщения о нажатии на кнопку\n    print(\"segmented button clicked:\", value)\n    # Если нажата кнопка Browsers, вызов функции create_browser_window\n    if value == \"Browsers\":\n        create_browser_window()\n    # Если нажата кнопка Messages, создание нового окна\n    elif value == \"Messages\":\n        messages_window = customtkinter.CTkToplevel()\n    # Если нажата кнопка Games, создание нового окна",
         "detail": "data_def",
+        "documentation": {}
+    },
+    {
+        "label": "checkbox_event",
+        "kind": 2,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "def checkbox_event():\n    print(\"checkbox toggled, current value:\", check_var.get())\ncheckbox = customtkinter.CTkCheckBox(master=app, text=\"CTkCheckBox\", command=checkbox_event,\n                                     variable=check_var, onvalue=\"on\", offvalue=\"off\")\ncheckbox.pack(padx=20, pady=10)\napp.mainloop()",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "app = customtkinter.CTk()  # create CTk window like you do with the Tk window\napp.geometry(\"400x240\")\ncheck_var = tkinter.StringVar(value=\"on\")\ndef checkbox_event():\n    print(\"checkbox toggled, current value:\", check_var.get())\ncheckbox = customtkinter.CTkCheckBox(master=app, text=\"CTkCheckBox\", command=checkbox_event,\n                                     variable=check_var, onvalue=\"on\", offvalue=\"off\")\ncheckbox.pack(padx=20, pady=10)\napp.mainloop()",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "check_var",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "check_var = tkinter.StringVar(value=\"on\")\ndef checkbox_event():\n    print(\"checkbox toggled, current value:\", check_var.get())\ncheckbox = customtkinter.CTkCheckBox(master=app, text=\"CTkCheckBox\", command=checkbox_event,\n                                     variable=check_var, onvalue=\"on\", offvalue=\"off\")\ncheckbox.pack(padx=20, pady=10)\napp.mainloop()",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "checkbox",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "checkbox = customtkinter.CTkCheckBox(master=app, text=\"CTkCheckBox\", command=checkbox_event,\n                                     variable=check_var, onvalue=\"on\", offvalue=\"off\")\ncheckbox.pack(padx=20, pady=10)\napp.mainloop()",
+        "detail": "test",
         "documentation": {}
     }
 ]
