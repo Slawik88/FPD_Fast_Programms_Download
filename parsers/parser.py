@@ -45,7 +45,7 @@ def process_query(query):
 
     # поиск поля ввода и ввод запроса
     search_box = driver.find_element(By.NAME, 'q')
-    search_box.send_keys(f"{query} messager logo, transparent background")
+    search_box.send_keys(f"{query} messager logo, transparent background  60x60")
     search_box.submit()
 
     # ожидание загрузки изображений
