@@ -10,17 +10,18 @@ import customtkinter  # Импортирование модуля customtkinter 
 
 
 
+
 # Создание окна браузеров
-def create_message_window():  
+def create_installations_window():  
+    conn = sqlite3.connect('data_app.db')
+    # создаем курсор
+    cursor = conn.cursor()
     def open_website(url):
         webbrowser.open(url)
     check_var = tkinter.StringVar(value="off")
     def checkbox_event(app_id, app_image_path, app_name, app_developer, app_size, app_url_website):
         # print(f"\n id: {app_id}\n iamge_path: {app_image_path}\n app_name: {app_name}\n app_developer: {app_developer}\n app_size: {app_size}\n app_url: {app_url_website}")
         # создаем соединение с базой данных
-        conn = sqlite3.connect('data_app.db')
-        # создаем курсор
-        cursor = conn.cursor()
         # выполняем SQL-запрос на добавление записи в таблицу
         cursor.execute('''INSERT INTO favorite_app (app_image_path, app_name, app_developer, app_size, app_url_website)
                           VALUES (?, ?, ?, ?, ?)''', (app_image_path, app_name, app_developer, app_size, app_url_website))
@@ -28,18 +29,17 @@ def create_message_window():
         conn.commit()
         print("Запись добавлена!")
         
-    message_window = customtkinter.CTkToplevel()  # Создание верхнего уровня окна
-    message_window.geometry(f"{1200}x{700}")  # Задание размеров окна
-    message_window.title(f"{app_title} -- Messages")  # Задание заголовка окна
+    installations_window = customtkinter.CTkToplevel()  # Создание верхнего уровня окна
+    installations_window.geometry(f"{1200}x{700}")  # Задание размеров окна
+    installations_window.title(f"{app_title} -- Installations")  # Задание заголовка окна
 
 
-
-    message_window.grid_rowconfigure(0, weight=1)
-    message_window.grid_columnconfigure((0, 1), weight=1)
+    installations_window.grid_rowconfigure(0, weight=1)
+    installations_window.grid_columnconfigure((0, 1), weight=1)
 
     # Создание прокручиваемого фрейма для браузеров
-    message_scrollable_frame = customtkinter.CTkScrollableFrame(master=message_window, width=1200, height=1000, label_text="Messages_apps", orientation="vertical")
-    message_scrollable_frame.grid(row=0, column=0, padx=20, pady=20)  # Размещение фрейма в окне
+    installations_scrollable_frame = customtkinter.CTkScrollableFrame(master=installations_window, width=1200, height=1000, label_text="Browser_apps", orientation="vertical")
+    installations_scrollable_frame.grid(row=0, column=0, padx=20, pady=20)  # Размещение фрейма в окне
 
 
 
@@ -47,7 +47,7 @@ def create_message_window():
     # Подключение к базе данных и выбор всех записей из таблицы browser_app
     conn = sqlite3.connect('data_app.db')
     cursor = conn.cursor()
-    cursor.execute('SELECT * FROM message_app')
+    cursor.execute('SELECT * FROM installationss_app')
 
     # Создание элементов интерфейса для каждой записи в таблице
     for row in cursor.fetchall():
@@ -64,7 +64,7 @@ def create_message_window():
         app_favorites = row[6]
 
         # Создание элемента для отображения ID браузера
-        label_id_product = customtkinter.CTkLabel(master=message_scrollable_frame,
+        label_id_product = customtkinter.CTkLabel(master=installations_scrollable_frame,
                                                   text=app_id,  # текст для отображения - ID продукта из базы данных
                                                   font=("Monaco", 15, "roman"),  # выбор шрифта и размера текста
                                                   )
@@ -72,19 +72,19 @@ def create_message_window():
 
 
         image_init_icon_product = customtkinter.CTkImage(dark_image=Image.open(app_image_path), size=(35, 35))
-        label_image_icon_product = customtkinter.CTkLabel(master=message_scrollable_frame, text=None, image=image_init_icon_product)
+        label_image_icon_product = customtkinter.CTkLabel(master=installations_scrollable_frame, text=None, image=image_init_icon_product)
         label_image_icon_product.grid(row=app_id, column=1, padx=15, pady=15)
 
 
         # Создание элемента для отображения названия браузера
-        label_name_product = customtkinter.CTkLabel(master=message_scrollable_frame, 
+        label_name_product = customtkinter.CTkLabel(master=installations_scrollable_frame, 
                                                     text=app_name,  # текст для отображения - название продукта из базы данных
                                                     font=('Nunito', 15, 'bold'),  # выбор шрифта, размера и жирности текста
                                                     )
         label_name_product.grid(row=app_id, column=2, padx=15, pady=15)  # установка позиции элемента на сетке
 
         # Создание элемента для отображения названия компании-разработчика браузера
-        label_name_company = customtkinter.CTkLabel(master=message_scrollable_frame, 
+        label_name_company = customtkinter.CTkLabel(master=installations_scrollable_frame, 
                                                     text=app_developer,  # текст для отображения - название компании из базы данных
                                                     font=('Lobster', 14),  # выбор шрифта и размера текста
                                                     )
@@ -92,7 +92,7 @@ def create_message_window():
         label_name_company.configure(wraplength=200)
         
         # Создание элемента для отображения розмера браузера
-        label_size_product = customtkinter.CTkLabel(master=message_scrollable_frame, 
+        label_size_product = customtkinter.CTkLabel(master=installations_scrollable_frame, 
                                                     text=f"{app_size}  mb",  # текст для отображения - размер продукта из базы данных
                                                     font=('Viner Hand', 14, "roman"),  # выбор шрифта и размера текста
                                                     width=10,
@@ -100,7 +100,7 @@ def create_message_window():
         label_size_product.grid(row=app_id, column=4, padx=15, pady=15)  # установка позиции элемента на сетке
 
         # Создание элемента для отображения ссылки на оффициальный сайт браузера
-        button_link_site_product = customtkinter.CTkButton(master=message_scrollable_frame, 
+        button_link_site_product = customtkinter.CTkButton(master=installations_scrollable_frame, 
                                                            text="Download",  # текст на кнопке
                                                            font=('Roboto', 14),  # выбор шрифта и размера текста на кнопке
                                                            command=lambda u=app_url_website: open_website(u)) # функция, которая будет вызвана при нажатии на кнопку
@@ -109,7 +109,7 @@ def create_message_window():
 
 
         # Создание элемента для добовления продукта в "Избранное"
-        button_add_favorites = customtkinter.CTkButton(master=message_scrollable_frame,
+        button_add_favorites = customtkinter.CTkButton(master=installations_scrollable_frame,
                                               text="Add Favorite",
                                               font=("Monaco", 12, "bold"),
                                               width=50,

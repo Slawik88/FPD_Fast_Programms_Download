@@ -10,29 +10,28 @@ import customtkinter  # Импортирование модуля customtkinter 
 
 
 
+
 # Создание окна браузеров
 def create_browser_window():  
+    conn = sqlite3.connect('data_app.db')
+    # создаем курсор
+    cursor = conn.cursor()
     def open_website(url):
         webbrowser.open(url)
     check_var = tkinter.StringVar(value="off")
     def checkbox_event(app_id, app_image_path, app_name, app_developer, app_size, app_url_website):
         # print(f"\n id: {app_id}\n iamge_path: {app_image_path}\n app_name: {app_name}\n app_developer: {app_developer}\n app_size: {app_size}\n app_url: {app_url_website}")
         # создаем соединение с базой данных
-        conn = sqlite3.connect('data_app.db')
-        # создаем курсор
-        cursor = conn.cursor()
         # выполняем SQL-запрос на добавление записи в таблицу
         cursor.execute('''INSERT INTO favorite_app (app_image_path, app_name, app_developer, app_size, app_url_website)
                           VALUES (?, ?, ?, ?, ?)''', (app_image_path, app_name, app_developer, app_size, app_url_website))
         # сохраняем изменения в базе данных
         conn.commit()
         print("Запись добавлена!")
-        cursor.execute(f'''UPDATE browser_app SET app_favorites=? WHERE id=?''', (1 ,app_id))
         
     browsers_window = customtkinter.CTkToplevel()  # Создание верхнего уровня окна
     browsers_window.geometry(f"{1200}x{700}")  # Задание размеров окна
     browsers_window.title(f"{app_title} -- Browsers")  # Задание заголовка окна
-
 
 
     browsers_window.grid_rowconfigure(0, weight=1)
