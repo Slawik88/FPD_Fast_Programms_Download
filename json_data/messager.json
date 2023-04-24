@@ -1,0 +1,770 @@
+{
+    "WhatsApp": {
+        "app_image_path": "img\\messager_icon\\icon_WhatsApp.png",
+        "app_name": "WhatsApp",
+        "app_developer": "WhatsApp Inc.",
+        "app_size": 27,
+        "app_url_website": "https://www.whatsapp.com/",
+        "app_favorites": "0"
+    },
+    "Facebook Messenger": {
+        "app_image_path": "img\\messager_icon\\icon_Facebook_Messenger.png",
+        "app_name": "Facebook Messenger",
+        "app_developer": "Facebook, Inc.",
+        "app_size": 55,
+        "app_url_website": "https://www.messenger.com/",
+        "app_favorites": "0"
+    },
+    "WeChat": {
+        "app_image_path": "img\\messager_icon\\icon_WeChat.png",
+        "app_name": "WeChat",
+        "app_developer": "Tencent Technology (Shenzhen) Company Limited",
+        "app_size": 109,
+        "app_url_website": "https://wechat.com/",
+        "app_favorites": "0"
+    },
+    "Instagram Direct": {
+        "app_image_path": "img\\messager_icon\\icon_Instagram_Direct.png",
+        "app_name": "Instagram Direct",
+        "app_developer": "Facebook, Inc.",
+        "app_size": 42,
+        "app_url_website": "https://www.instagram.com/",
+        "app_favorites": "0"
+    },
+    "Telegram": {
+        "app_image_path": "img\\messager_icon\\icon_Telegram.png",
+        "app_name": "Telegram",
+        "app_developer": "Telegram Messenger LLP",
+        "app_size": 28,
+        "app_url_website": "https://telegram.org/",
+        "app_favorites": "0"
+    },
+    "Viber": {
+        "app_image_path": "img\\messager_icon\\icon_Viber.png",
+        "app_name": "Viber",
+        "app_developer": "Viber Media S.à r.l.",
+        "app_size": 46,
+        "app_url_website": "https://www.viber.com/",
+        "app_favorites": "0"
+    },
+    "Line": {
+        "app_image_path": "img\\messager_icon\\icon_Line.png",
+        "app_name": "Line",
+        "app_developer": "Line Corporation",
+        "app_size": 78,
+        "app_url_website": "https://line.me/",
+        "app_favorites": "0"
+    },
+    "Skype": {
+        "app_image_path": "img\\messager_icon\\icon_Skype.png",
+        "app_name": "Skype",
+        "app_developer": "Microsoft Corporation",
+        "app_size": 66,
+        "app_url_website": "https://www.skype.com/",
+        "app_favorites": "0"
+    },
+    "Snapchat": {
+        "app_image_path": "img\\messager_icon\\icon_Snapchat.png",
+        "app_name": "Snapchat",
+        "app_developer": "Snap Inc.",
+        "app_size": 83,
+        "app_url_website": "https://www.snapchat.com/",
+        "app_favorites": "0"
+    },
+    "iMessage": {
+        "app_image_path": "img\\messager_icon\\icon_iMessage.png",
+        "app_name": "iMessage",
+        "app_developer": "Apple Inc.",
+        "app_size": 0.2,
+        "app_url_website": "https://www.apple.com/ios/messages/",
+        "app_favorites": "0"
+    },
+    "Kik": {
+        "app_image_path": "img\\messager_icon\\icon_Kik.png",
+        "app_name": "Kik",
+        "app_developer": "Kik Interactive Inc.",
+        "app_size": 57,
+        "app_url_website": "https://www.kik.com/",
+        "app_favorites": "0"
+    },
+    "Hangouts": {
+        "app_image_path": "img\\messager_icon\\icon_Hangouts.png",
+        "app_name": "Hangouts",
+        "app_developer": "Google LLC",
+        "app_size": 44,
+        "app_url_website": "https://hangouts.google.com/",
+        "app_favorites": "0"
+    },
+    "Discord": {
+        "app_image_path": "img\\messager_icon\\icon_Discord.png",
+        "app_name": "Discord",
+        "app_developer": "Discord Inc.",
+        "app_size": 80,
+        "app_url_website": "https://discord.com/",
+        "app_favorites": "0"
+    },
+    "Signal": {
+        "app_image_path": "img\\messager_icon\\icon_Signal.png",
+        "app_name": "Signal",
+        "app_developer": "Signal Foundation",
+        "app_size": 91,
+        "app_url_website": "https://signal.org/",
+        "app_favorites": "0"
+    },
+    "Threema": {
+        "app_image_path": "img\\messager_icon\\icon_Threema.png",
+        "app_name": "Threema",
+        "app_developer": "Threema GmbH",
+        "app_size": 55,
+        "app_url_website": "https://threema.ch/",
+        "app_favorites": "0"
+    },
+    "BBM": {
+        "app_image_path": "img\\messager_icon\\icon_BBM.png",
+        "app_name": "BBM",
+        "app_developer": "BBM Canada",
+        "app_size": 38,
+        "app_url_website": "https://www.bbm.com/",
+        "app_favorites": "0"
+    },
+    "Tango": {
+        "app_image_path": "img\\messager_icon\\icon_Tango.png",
+        "app_name": "Tango",
+        "app_developer": "TangoMe, Inc.",
+        "app_size": 63,
+        "app_url_website": "https://www.tango.me/",
+        "app_favorites": "0"
+    },
+    "Zalo": {
+        "app_image_path": "img\\messager_icon\\icon_Zalo.png",
+        "app_name": "Zalo",
+        "app_developer": "VNG Corporation",
+        "app_size": 70,
+        "app_url_website": "https://zalo.me/",
+        "app_favorites": "0"
+    },
+    "GroupMe": {
+        "app_image_path": "img\\messager_icon\\icon_GroupMe.png",
+        "app_name": "GroupMe",
+        "app_developer": "GroupMe",
+        "app_size": "48",
+        "app_url_website": "",
+        "app_favorites": "0"
+    },
+    "ICQ": {
+        "app_image_path": "img\\messager_icon\\icon_ICQ.png",
+        "app_name": "ICQ",
+        "app_developer": "ICQ",
+        "app_size": "45",
+        "app_url_website": "",
+        "app_favorites": "0"
+    },
+    "KakaoTalk": {
+        "app_image_path": "img\\messager_icon\\icon_KakaoTalk.png",
+        "app_name": "KakaoTalk",
+        "app_developer": "Kakao Corporation",
+        "app_size": "45",
+        "app_url_website": "",
+        "app_favorites": "0"
+    },
+    "Zoom": {
+        "app_image_path": "img\\messager_icon\\icon_Zoom.png",
+        "app_name": "Zoom",
+        "app_developer": "Zoom Video Communications",
+        "app_size": "71",
+        "app_url_website": "",
+        "app_favorites": "0"
+    },
+    "Wire": {
+        "app_image_path": "img\\messager_icon\\icon_Wire.png",
+        "app_name": "Wire",
+        "app_developer": "Wire Swiss GmbH",
+        "app_size": "56",
+        "app_url_website": "",
+        "app_favorites": "0"
+    },
+    "Marco Polo": {
+        "app_image_path": "img\\messager_icon\\icon_Marco_Polo.png",
+        "app_name": "Marco Polo",
+        "app_developer": "Joya Communications, Inc.",
+        "app_size": "57",
+        "app_url_website": "",
+        "app_favorites": "0"
+    },
+    "Facebook Messenger Kids": {
+        "app_image_path": "img\\messager_icon\\icon_Facebook_Messenger_Kids.png",
+        "app_name": "Facebook Messenger Kids",
+        "app_developer": "Facebook",
+        "app_size": "60",
+        "app_url_website": "",
+        "app_favorites": "0"
+    },
+    "JioChat": {
+        "app_image_path": "img\\messager_icon\\icon_JioChat.png",
+        "app_name": "JioChat",
+        "app_developer": "Reliance Jio Messaging Services Pvt Ltd",
+        "app_size": "54",
+        "app_url_website": "",
+        "app_favorites": "0"
+    },
+    "Hike": {
+        "app_image_path": "img\\messager_icon\\icon_Hike.png",
+        "app_name": "Hike",
+        "app_developer": "Hike Private Limited",
+        "app_size": "65",
+        "app_url_website": "",
+        "app_favorites": "0"
+    },
+    "Pinngle": {
+        "app_image_path": "img\\messager_icon\\icon_Pinngle.png",
+        "app_name": "Pinngle",
+        "app_developer": "Pinngle CJSC",
+        "app_size": "48",
+        "app_url_website": "",
+        "app_favorites": "0"
+    },
+    "Dust": {
+        "app_image_path": "img\\messager_icon\\icon_Dust.png",
+        "app_name": "Dust",
+        "app_developer": "Dust Messaging LLC",
+        "app_size": "70",
+        "app_url_website": "https://www.dust.com/",
+        "app_favorites": "0"
+    },
+    "Mastodon": {
+        "app_image_path": "img\\messager_icon\\icon_Mastodon.png",
+        "app_name": "Mastodon",
+        "app_developer": "Eugen Rochko",
+        "app_size": "90",
+        "app_url_website": "https://joinmastodon.org/",
+        "app_favorites": "0"
+    },
+    "Session": {
+        "app_image_path": "img\\messager_icon\\icon_Session.png",
+        "app_name": "Session",
+        "app_developer": "Loki Foundation",
+        "app_size": "80",
+        "app_url_website": "https://getsession.org/",
+        "app_favorites": "0"
+    },
+    "Beeper": {
+        "app_image_path": "img\\messager_icon\\icon_Beeper.png",
+        "app_name": "Beeper",
+        "app_developer": "Beeper Inc.",
+        "app_size": "75",
+        "app_url_website": "https://www.beeperhq.com/",
+        "app_favorites": "0"
+    },
+    "Slack": {
+        "app_image_path": "img\\messager_icon\\icon_Slack.png",
+        "app_name": "Slack",
+        "app_developer": "Slack Technologies Inc.",
+        "app_size": "100",
+        "app_url_website": "https://slack.com/",
+        "app_favorites": "0"
+    },
+    "KakaoStory": {
+        "app_image_path": "img\\messager_icon\\icon_KakaoStory.png",
+        "app_name": "KakaoStory",
+        "app_developer": "Kakao Corporation",
+        "app_size": "70",
+        "app_url_website": "https://www.kakaocorp.com/",
+        "app_favorites": "0"
+    },
+    "Trillian": {
+        "app_image_path": "img\\messager_icon\\icon_Trillian.png",
+        "app_name": "Trillian",
+        "app_developer": "Cerulean Studios LLC",
+        "app_size": "85",
+        "app_url_website": "https://www.trillian.im/",
+        "app_favorites": "0"
+    },
+    "ooVoo": {
+        "app_image_path": "img\\messager_icon\\icon_ooVoo.png",
+        "app_name": "ooVoo",
+        "app_developer": "Krush Technologies LLC",
+        "app_size": "60",
+        "app_url_website": "https://www.oovoo.com/",
+        "app_favorites": "0"
+    },
+    "Tox": {
+        "app_image_path": "img\\messager_icon\\icon_Tox.png",
+        "app_name": "Tox",
+        "app_developer": "The Tox Project",
+        "app_size": "65",
+        "app_url_website": "https://tox.chat/",
+        "app_favorites": "0"
+    },
+    "BlackBerry Messenger": {
+        "app_image_path": "img\\messager_icon\\icon_BlackBerry_Messenger.png",
+        "app_name": "BlackBerry Messenger",
+        "app_developer": "BlackBerry Limited",
+        "app_size": "30 MB",
+        "app_url_website": "https://www.blackberry.com/us/en/support/apps/blackberry-messenger",
+        "app_favorites": "0"
+    },
+    "Talkatone": {
+        "app_image_path": "img\\messager_icon\\icon_Talkatone.png",
+        "app_name": "Talkatone",
+        "app_developer": "Talkatone, Inc.",
+        "app_size": "40 MB",
+        "app_url_website": "https://www.talkatone.com/",
+        "app_favorites": "0"
+    },
+    "Voxer": {
+        "app_image_path": "img\\messager_icon\\icon_Voxer.png",
+        "app_name": "Voxer",
+        "app_developer": "VoxerPro LLC",
+        "app_size": "50 MB",
+        "app_url_website": "https://www.voxer.com/",
+        "app_favorites": "0"
+    },
+    "Glide": {
+        "app_image_path": "img\\messager_icon\\icon_Glide.png",
+        "app_name": "Glide",
+        "app_developer": "Glide",
+        "app_size": "35 MB",
+        "app_url_website": "https://www.glide.me/",
+        "app_favorites": "0"
+    },
+    "Jabber": {
+        "app_image_path": "img\\messager_icon\\icon_Jabber.png",
+        "app_name": "Jabber",
+        "app_developer": "Cisco",
+        "app_size": "60 MB",
+        "app_url_website": "https://www.cisco.com/c/en/us/solutions/collaboration/jabber.html",
+        "app_favorites": "0"
+    },
+    "Pidgin": {
+        "app_image_path": "img\\messager_icon\\icon_Pidgin.png",
+        "app_name": "Pidgin",
+        "app_developer": "Pidgin Team",
+        "app_size": "25 MB",
+        "app_url_website": "https://pidgin.im/",
+        "app_favorites": "0"
+    },
+    "Franz": {
+        "app_image_path": "img\\messager_icon\\icon_Franz.png",
+        "app_name": "Franz",
+        "app_developer": "Stefan Malzner, Jonathan Burke",
+        "app_size": "55 MB",
+        "app_url_website": "https://meetfranz.com/",
+        "app_favorites": "0"
+    },
+    "TangoME": {
+        "app_image_path": "img\\messager_icon\\icon_TangoME.png",
+        "app_name": "TangoME",
+        "app_developer": "TangoME, Inc.",
+        "app_size": "45 MB",
+        "app_url_website": "https://www.tango.me/",
+        "app_favorites": "0"
+    },
+    "Threema Work": {
+        "app_image_path": "img\\messager_icon\\icon_Threema_Work.png",
+        "app_name": "Threema Work",
+        "app_developer": "Threema GmbH",
+        "app_size": "45",
+        "app_url_website": "https://work.threema.ch/en",
+        "app_favorites": "0"
+    },
+    "Tango Messenger": {
+        "app_image_path": "img\\messager_icon\\icon_Tango_Messenger.png",
+        "app_name": "Tango Messenger",
+        "app_developer": "TangoMe, Inc.",
+        "app_size": "25",
+        "app_url_website": "https://www.tango.me/",
+        "app_favorites": "0"
+    },
+    "Voxox": {
+        "app_image_path": "img\\messager_icon\\icon_Voxox.png",
+        "app_name": "Voxox",
+        "app_developer": "Voxox, Inc.",
+        "app_size": "21",
+        "app_url_website": "https://www.voxox.com/",
+        "app_favorites": "0"
+    },
+    "Spike": {
+        "app_image_path": "img\\messager_icon\\icon_Spike.png",
+        "app_name": "Spike",
+        "app_developer": "Spike Email Inc.",
+        "app_size": "37",
+        "app_url_website": "https://www.spikenow.com/",
+        "app_favorites": "0"
+    },
+    "ChatSecure": {
+        "app_image_path": "img\\messager_icon\\icon_ChatSecure.png",
+        "app_name": "ChatSecure",
+        "app_developer": "The Guardian Project",
+        "app_size": "19",
+        "app_url_website": "https://guardianproject.info/apps/chatsecure/",
+        "app_favorites": "0"
+    },
+    "Adium": {
+        "app_image_path": "img\\messager_icon\\icon_Adium.png",
+        "app_name": "Adium",
+        "app_developer": "The Adium team",
+        "app_size": "23",
+        "app_url_website": "https://adium.im/",
+        "app_favorites": "0"
+    },
+    "Jitsi": {
+        "app_image_path": "img\\messager_icon\\icon_Jitsi.png",
+        "app_name": "Jitsi",
+        "app_developer": "8x8, Inc.",
+        "app_size": "34",
+        "app_url_website": "https://jitsi.org/",
+        "app_favorites": "0"
+    },
+    "HipChat": {
+        "app_image_path": "img\\messager_icon\\icon_HipChat.png",
+        "app_name": "HipChat",
+        "app_developer": "Atlassian",
+        "app_size": "28",
+        "app_url_website": "https://www.atlassian.com/software/hipchat",
+        "app_favorites": "0"
+    },
+    "Apple Business Chat": {
+        "app_image_path": "img\\messager_icon\\icon_Apple_Business_Chat.png",
+        "app_name": "Apple Business Chat",
+        "app_developer": "Apple Inc.",
+        "app_size": "12",
+        "app_url_website": "https://www.apple.com/business/imessage/",
+        "app_favorites": "0"
+    },
+    "Meebo": {
+        "app_image_path": "img\\messager_icon\\icon_Meebo.png",
+        "app_name": "Meebo",
+        "app_developer": "Meebo, Inc.",
+        "app_size": "30",
+        "app_url_website": "https://meebo.com/",
+        "app_favorites": "0"
+    },
+    "Slackbot": {
+        "app_image_path": "img\\messager_icon\\icon_Slackbot.png",
+        "app_name": "Slackbot",
+        "app_developer": "Slack Technologies, Inc.",
+        "app_size": "50",
+        "app_url_website": "https://slack.com/",
+        "app_favorites": "0"
+    },
+    "ChatOn": {
+        "app_image_path": "img\\messager_icon\\icon_ChatOn.png",
+        "app_name": "ChatOn",
+        "app_developer": "Samsung Electronics Co., Ltd.",
+        "app_size": "35",
+        "app_url_website": "https://www.samsung.com/us/support/owners/app/chaton",
+        "app_favorites": "0"
+    },
+    "Smooch": {
+        "app_image_path": "img\\messager_icon\\icon_Smooch.png",
+        "app_name": "Smooch",
+        "app_developer": "Smooch Technologies Inc.",
+        "app_size": "40",
+        "app_url_website": "https://smooch.io/",
+        "app_favorites": "0"
+    },
+    "VSee": {
+        "app_image_path": "img\\messager_icon\\icon_VSee.png",
+        "app_name": "VSee",
+        "app_developer": "VSee Lab, Inc.",
+        "app_size": "30",
+        "app_url_website": "https://vsee.com/",
+        "app_favorites": "0"
+    },
+    "BlueJeans": {
+        "app_image_path": "img\\messager_icon\\icon_BlueJeans.png",
+        "app_name": "BlueJeans",
+        "app_developer": "BlueJeans Network",
+        "app_size": "45",
+        "app_url_website": "https://www.bluejeans.com/",
+        "app_favorites": "0"
+    },
+    "Eaze": {
+        "app_image_path": "img\\messager_icon\\icon_Eaze.png",
+        "app_name": "Eaze",
+        "app_developer": "Eaze Solutions, Inc.",
+        "app_size": "20",
+        "app_url_website": "https://www.eaze.com/",
+        "app_favorites": "0"
+    },
+    "Imo": {
+        "app_image_path": "img\\messager_icon\\icon_Imo.png",
+        "app_name": "Imo",
+        "app_developer": "imo.im",
+        "app_size": "30",
+        "app_url_website": "https://imo.im/",
+        "app_favorites": "0"
+    },
+    "Sudo": {
+        "app_image_path": "img\\messager_icon\\icon_Sudo.png",
+        "app_name": "Sudo",
+        "app_developer": "Anonyome Labs, Inc.",
+        "app_size": "25",
+        "app_url_website": "https://www.anonyome.com/products/sudo-app/",
+        "app_favorites": "0"
+    },
+    "Toky": {
+        "app_image_path": "img\\messager_icon\\icon_Toky.png",
+        "app_name": "Toky",
+        "app_developer": "Toky",
+        "app_size": "44",
+        "app_url_website": "https://toky.co/",
+        "app_favorites": "0"
+    },
+    "Voximplant": {
+        "app_image_path": "img\\messager_icon\\icon_Voximplant.png",
+        "app_name": "Voximplant",
+        "app_developer": "Voximplant",
+        "app_size": "73",
+        "app_url_website": "https://voximplant.com/",
+        "app_favorites": "0"
+    },
+    "AOL Instant Messenger": {
+        "app_image_path": "img\\messager_icon\\icon_AOL_Instant_Messenger.png",
+        "app_name": "AOL Instant Messenger",
+        "app_developer": "AOL",
+        "app_size": "8",
+        "app_url_website": "https://www.aim.com/",
+        "app_favorites": "0"
+    },
+    "Google Allo": {
+        "app_image_path": "img\\messager_icon\\icon_Google_Allo.png",
+        "app_name": "Google Allo",
+        "app_developer": "Google",
+        "app_size": "21",
+        "app_url_website": "https://allo.google.com/",
+        "app_favorites": "0"
+    },
+    "DingTalk": {
+        "app_image_path": "img\\messager_icon\\icon_DingTalk.png",
+        "app_name": "DingTalk",
+        "app_developer": "Alibaba Group",
+        "app_size": "95",
+        "app_url_website": "https://www.dingtalk.com/en",
+        "app_favorites": "0"
+    },
+    "Mattermost": {
+        "app_image_path": "img\\messager_icon\\icon_Mattermost.png",
+        "app_name": "Mattermost",
+        "app_developer": "Mattermost, Inc.",
+        "app_size": "56",
+        "app_url_website": "https://mattermost.com/",
+        "app_favorites": "0"
+    },
+    "Chanty": {
+        "app_image_path": "img\\messager_icon\\icon_Chanty.png",
+        "app_name": "Chanty",
+        "app_developer": "Chanty, Inc.",
+        "app_size": "74",
+        "app_url_website": "https://www.chanty.com/",
+        "app_favorites": "0"
+    },
+    "Ring": {
+        "app_image_path": "img\\messager_icon\\icon_Ring.png",
+        "app_name": "Ring",
+        "app_developer": "Savoir-faire Linux Inc.",
+        "app_size": "55",
+        "app_url_website": "https://ring.cx/",
+        "app_favorites": "0"
+    },
+    "Missive": {
+        "app_image_path": "img\\messager_icon\\icon_Missive.png",
+        "app_name": "Missive",
+        "app_developer": "Missive",
+        "app_size": "87",
+        "app_url_website": "https://missiveapp.com/",
+        "app_favorites": "0"
+    },
+    "Jami": {
+        "app_image_path": "img\\messager_icon\\icon_Jami.png",
+        "app_name": "Jami",
+        "app_developer": "Savoir-faire Linux",
+        "app_size": "51",
+        "app_url_website": "https://jami.net/",
+        "app_favorites": "0"
+    },
+    "BeeBEEP": {
+        "app_image_path": "img\\messager_icon\\icon_BeeBEEP.png",
+        "app_name": "BeeBEEP",
+        "app_developer": "Marco Mastroddi",
+        "app_size": "7",
+        "app_url_website": "https://beebeep.sourceforge.io/",
+        "app_favorites": "0"
+    },
+    "Brosix": {
+        "app_image_path": "img\\messager_icon\\icon_Brosix.png",
+        "app_name": "Brosix",
+        "app_developer": "Brosix Inc.",
+        "app_size": "68",
+        "app_url_website": "https://www.brosix.com/",
+        "app_favorites": "0"
+    },
+    "Convo": {
+        "app_image_path": "img\\messager_icon\\icon_Convo.png",
+        "app_name": "Convo",
+        "app_developer": "Convo Inc.",
+        "app_size": "34",
+        "app_url_website": "https://www.convo.com/",
+        "app_favorites": "0"
+    },
+    "ICQ New": {
+        "app_image_path": "img\\messager_icon\\icon_ICQ_New.png",
+        "app_name": "ICQ New",
+        "app_developer": "ICQ",
+        "app_size": "63",
+        "app_url_website": "https://icq.com/",
+        "app_favorites": "0"
+    },
+    "Line2": {
+        "app_image_path": "img\\messager_icon\\icon_Line2.png",
+        "app_name": "Line2",
+        "app_developer": "Line2 Inc.",
+        "app_size": "90",
+        "app_url_website": "https://www.line2.com/",
+        "app_favorites": "0"
+    },
+    "Messenger for Desktop": {
+        "app_image_path": "img\\messager_icon\\icon_Messenger_for_Desktop.png",
+        "app_name": "Messenger for Desktop",
+        "app_developer": "Aluxian",
+        "app_size": "56",
+        "app_url_website": "https://github.com/aluxian/Messenger-for-Desktop",
+        "app_favorites": "0"
+    },
+    "Nextcloud Talk": {
+        "app_image_path": "img\\messager_icon\\icon_Nextcloud_Talk.png",
+        "app_name": "Nextcloud Talk",
+        "app_developer": "Nextcloud GmbH",
+        "app_size": "34",
+        "app_url_website": "https://nextcloud.com/talk/",
+        "app_favorites": "0"
+    },
+    "Quiq Messaging": {
+        "app_image_path": "img\\messager_icon\\icon_Quiq_Messaging.png",
+        "app_name": "Quiq Messaging",
+        "app_developer": "Quiq",
+        "app_size": "44",
+        "app_url_website": "https://go.quiq.com/messaging/",
+        "app_favorites": "0"
+    },
+    "Riot.im": {
+        "app_image_path": "img\\messager_icon\\icon_Riot.im.png",
+        "app_name": "Riot.im",
+        "app_developer": "New Vector Ltd",
+        "app_size": "65",
+        "app_url_website": "https://about.riot.im/",
+        "app_favorites": "0"
+    },
+    "Semaphor": {
+        "app_image_path": "img\\messager_icon\\icon_Semaphor.png",
+        "app_name": "Semaphor",
+        "app_developer": "SpiderOak",
+        "app_size": "60",
+        "app_url_website": "https://spideroak.com/semaphor/",
+        "app_favorites": "0"
+    },
+    "Signal Desktop": {
+        "app_image_path": "img\\messager_icon\\icon_Signal_Desktop.png",
+        "app_name": "Signal Desktop",
+        "app_developer": "Signal Foundation",
+        "app_size": "80",
+        "app_url_website": "https://signal.org/download/",
+        "app_favorites": "0"
+    },
+    "Slack for Windows": {
+        "app_image_path": "img\\messager_icon\\icon_Slack_for_Windows.png",
+        "app_name": "Slack for Windows",
+        "app_developer": "Slack Technologies, Inc.",
+        "app_size": "142",
+        "app_url_website": "https://slack.com/downloads/windows",
+        "app_favorites": "0"
+    },
+    "Soroush": {
+        "app_image_path": "img\\messager_icon\\icon_Soroush.png",
+        "app_name": "Soroush",
+        "app_developer": "Soroush Media Pardazesh Co. Ltd.",
+        "app_size": "50",
+        "app_url_website": "https://sapp.ir/",
+        "app_favorites": "0"
+    },
+    "Telex": {
+        "app_image_path": "img\\messager_icon\\icon_Telex.png",
+        "app_name": "Telex",
+        "app_developer": "Tehran Communication Infrastructure Co.",
+        "app_size": "37",
+        "app_url_website": "https://telex.im/",
+        "app_favorites": "0"
+    },
+    "Threema Gateway": {
+        "app_image_path": "img\\messagerer_icon\\\\icon_Threema_Gateway.png",
+        "app_name": "Threema Gateway",
+        "app_developer": "Threema GmbH",
+        "app_size": "45",
+        "app_url_website": "https://gateway.threema.ch/",
+        "app_favorites": "0"
+    },
+    "Wire for Web": {
+        "app_image_path": "img\\messagerer_icon\\\\icon_Wire_for_Web.png",
+        "app_name": "Wire for Web",
+        "app_developer": "Wire Swiss GmbH",
+        "app_size": "55",
+        "app_url_website": "https://wire.com/en/download/",
+        "app_favorites": "0"
+    },
+    "Wickr Me": {
+        "app_image_path": "img\\messagerer_icon\\\\icon_Wickr_Me.png",
+        "app_name": "Wickr Me",
+        "app_developer": "Wickr Inc.",
+        "app_size": "80",
+        "app_url_website": "https://wickr.com/downloads/",
+        "app_favorites": "0"
+    },
+    "Xabber": {
+        "app_image_path": "img\\messagerer_icon\\\\icon_Xabber.png",
+        "app_name": "Xabber",
+        "app_developer": "Redsolution, Ltd.",
+        "app_size": "25",
+        "app_url_website": "https://play.google.com/store/apps/details?id=com.xabber.android",
+        "app_favorites": "0"
+    },
+    "Zoom Chat": {
+        "app_image_path": "img\\messagerer_icon\\\\icon_Zoom_Chat.png",
+        "app_name": "Zoom Chat",
+        "app_developer": "Zoom Video Communications, Inc.",
+        "app_size": "90",
+        "app_url_website": "https://zoom.us/download",
+        "app_favorites": "0"
+    },
+    "Zoom Rooms": {
+        "app_image_path": "img\\messagerer_icon\\\\icon_Zoom_Rooms.png",
+        "app_name": "Zoom Rooms",
+        "app_developer": "Zoom Video Communications, Inc.",
+        "app_size": "85",
+        "app_url_website": "https://zoom.us/download",
+        "app_favorites": "0"
+    },
+    "Zulip": {
+        "app_image_path": "img\\messagerer_icon\\\\icon_Zulip.png",
+        "app_name": "Zulip",
+        "app_developer": "Zulip",
+        "app_size": "50",
+        "app_url_website": "https://zulipchat.com/apps/",
+        "app_favorites": "0"
+    },
+    "Symphony": {
+        "app_image_path": "img\\messagerer_icon\\\\icon_Symphony.png",
+        "app_name": "Symphony",
+        "app_developer": "Symphony Communication Services, LLC",
+        "app_size": "70",
+        "app_url_website": "https://symphony.com/products/desktop",
+        "app_favorites": "0"
+    },
+    "Telegram X": {
+        "app_image_path": "img\\messagerer_icon\\\\icon_Telegram_X.png",
+        "app_name": "Telegram X",
+        "app_developer": "Telegram LLC",
+        "app_size": "40",
+        "app_url_website": "https://desktop.telegram.org/",
+        "app_favorites": "0"
+    }
+}

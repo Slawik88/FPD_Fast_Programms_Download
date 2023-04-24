@@ -678,7 +678,7 @@
         "kind": 5,
         "importPath": "json_data.insert_data",
         "description": "json_data.insert_data",
-        "peekOfCode": "conn = sqlite3.connect('data_app.db')\nc = conn.cursor()\nfor browser in data:\n    app_image_path = data[browser]['app_image_path']\n    app_name = data[browser]['app_name']\n    app_developer = data[browser]['app_developer']\n    app_size = data[browser]['app_size']\n    app_url_website = data[browser]['app_url_website']\n    app_favorites = data[browser]['app_favorites']\n    c.execute(\"INSERT INTO browser_app (app_image_path, app_name, app_developer, app_size, app_url_website, app_favorites) VALUES (?, ?, ?, ?, ?, ?)\", (app_image_path, app_name, app_developer, app_size, app_url_website, app_favorites))",
+        "peekOfCode": "conn = sqlite3.connect('data_app.db')\nc = conn.cursor()\n# проитерироваться по данным и добавить каждую запись в таблицу\nfor app_name, app_data in data.items():\n    app_image_path = app_data['app_image_path']\n    app_developer = app_data['app_developer']\n    app_size = app_data['app_size']\n    app_url_website = app_data['app_url_website']\n    app_favorites = app_data['app_favorites']\n    c.execute(\"INSERT INTO message_app (app_image_path, app_name, app_developer, app_size, app_url_website, app_favorites) VALUES (?, ?, ?, ?, ?, ?)\",",
         "detail": "json_data.insert_data",
         "documentation": {}
     },
@@ -687,7 +687,7 @@
         "kind": 5,
         "importPath": "json_data.insert_data",
         "description": "json_data.insert_data",
-        "peekOfCode": "c = conn.cursor()\nfor browser in data:\n    app_image_path = data[browser]['app_image_path']\n    app_name = data[browser]['app_name']\n    app_developer = data[browser]['app_developer']\n    app_size = data[browser]['app_size']\n    app_url_website = data[browser]['app_url_website']\n    app_favorites = data[browser]['app_favorites']\n    c.execute(\"INSERT INTO browser_app (app_image_path, app_name, app_developer, app_size, app_url_website, app_favorites) VALUES (?, ?, ?, ?, ?, ?)\", (app_image_path, app_name, app_developer, app_size, app_url_website, app_favorites))\nconn.commit()",
+        "peekOfCode": "c = conn.cursor()\n# проитерироваться по данным и добавить каждую запись в таблицу\nfor app_name, app_data in data.items():\n    app_image_path = app_data['app_image_path']\n    app_developer = app_data['app_developer']\n    app_size = app_data['app_size']\n    app_url_website = app_data['app_url_website']\n    app_favorites = app_data['app_favorites']\n    c.execute(\"INSERT INTO message_app (app_image_path, app_name, app_developer, app_size, app_url_website, app_favorites) VALUES (?, ?, ?, ?, ?, ?)\",\n              (app_image_path, app_name, app_developer, app_size, app_url_website, app_favorites))",
         "detail": "json_data.insert_data",
         "documentation": {}
     },
