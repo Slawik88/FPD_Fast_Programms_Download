@@ -191,6 +191,30 @@
         "documentation": {}
     },
     {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
         "label": "app_title",
         "importPath": "config",
         "description": "config",
@@ -216,6 +240,22 @@
     },
     {
         "label": "height",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "app_title",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "app_title",
         "importPath": "config",
         "description": "config",
         "isExtraImport": true,
@@ -279,6 +319,14 @@
         "description": "window.browser_window",
         "isExtraImport": true,
         "detail": "window.browser_window",
+        "documentation": {}
+    },
+    {
+        "label": "create_message_window",
+        "importPath": "window.message_window",
+        "description": "window.message_window",
+        "isExtraImport": true,
+        "detail": "window.message_window",
         "documentation": {}
     },
     {
@@ -551,6 +599,15 @@
         "documentation": {}
     },
     {
+        "label": "create_message_window",
+        "kind": 2,
+        "importPath": "window.message_window",
+        "description": "window.message_window",
+        "peekOfCode": "def create_message_window():  \n    def open_website(url):\n        webbrowser.open(url)\n    check_var = tkinter.StringVar(value=\"off\")\n    def checkbox_event(app_id, app_image_path, app_name, app_developer, app_size, app_url_website):\n        # print(f\"\\n id: {app_id}\\n iamge_path: {app_image_path}\\n app_name: {app_name}\\n app_developer: {app_developer}\\n app_size: {app_size}\\n app_url: {app_url_website}\")\n        # создаем соединение с базой данных\n        conn = sqlite3.connect('data_app.db')\n        # создаем курсор\n        cursor = conn.cursor()",
+        "detail": "window.message_window",
+        "documentation": {}
+    },
+    {
         "label": "width",
         "kind": 5,
         "importPath": "config",
@@ -591,7 +648,7 @@
         "kind": 2,
         "importPath": "data_def",
         "description": "data_def",
-        "peekOfCode": "def on_click_list_of_categories_marks_callback(value):\n    # Вывод сообщения о нажатии на кнопку\n    print(\"segmented button clicked:\", value)\n    # Если нажата кнопка Browsers, вызов функции create_browser_window\n    if value == \"Browsers\":\n        create_browser_window()\n    # Если нажата кнопка Messages, создание нового окна\n    elif value == \"Messages\":\n        messages_window = customtkinter.CTkToplevel()\n    # Если нажата кнопка Games, создание нового окна",
+        "peekOfCode": "def on_click_list_of_categories_marks_callback(value):\n    # Вывод сообщения о нажатии на кнопку\n    print(\"segmented button clicked:\", value)\n    # Если нажата кнопка Browsers, вызов функции create_browser_window\n    if value == \"Browsers\":\n        create_browser_window()\n    # Если нажата кнопка Messages, создание нового окна\n    elif value == \"Messages\":\n        create_message_window()\n    # Если нажата кнопка Games, создание нового окна",
         "detail": "data_def",
         "documentation": {}
     },
