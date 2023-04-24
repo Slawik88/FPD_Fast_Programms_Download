@@ -8,6 +8,7 @@ from window.programming_window import create_programming_window
 from window.tweaks_window import create_tweaks_window
 from window.antivirus_window import create_antivirus_window
 from window.installations_window import create_installations_window
+from window.favorite_window import create_favorite_window
 
 # Создание функции create_ctkframe, которая создает кастомный фрейм
 def create_ctkframe(master, row, column, sticky=None, rowspan=None, width=100, height=100, border_width=2, border_color="green"):
@@ -41,4 +42,4 @@ def on_click_list_of_categories_marks_callback(value):
     elif value == "Installation":
         create_installations_window()
     elif value == "Favorites":
-        favorites_window = customtkinter.CTkToplevel()
+        create_favorite_window()

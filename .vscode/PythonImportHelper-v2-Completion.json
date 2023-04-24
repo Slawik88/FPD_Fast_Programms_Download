@@ -263,6 +263,30 @@
         "documentation": {}
     },
     {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
         "label": "ImageTk",
         "importPath": "PIL",
         "description": "PIL",
@@ -356,6 +380,22 @@
         "description": "PIL",
         "isExtraImport": true,
         "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "app_title",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "app_title",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
         "documentation": {}
     },
     {
@@ -618,6 +658,14 @@
         "documentation": {}
     },
     {
+        "label": "create_favorite_window",
+        "importPath": "window.favorite_window",
+        "description": "window.favorite_window",
+        "isExtraImport": true,
+        "detail": "window.favorite_window",
+        "documentation": {}
+    },
+    {
         "label": "*",
         "importPath": "window.main_window",
         "description": "window.main_window",
@@ -677,6 +725,15 @@
         "description": "window.browser_window",
         "peekOfCode": "def create_browser_window():  \n    conn = sqlite3.connect('data_app.db')\n    # создаем курсор\n    cursor = conn.cursor()\n    def open_website(url):\n        webbrowser.open(url)\n    check_var = tkinter.StringVar(value=\"off\")\n    def checkbox_event(app_id, app_image_path, app_name, app_developer, app_size, app_url_website):\n        # print(f\"\\n id: {app_id}\\n iamge_path: {app_image_path}\\n app_name: {app_name}\\n app_developer: {app_developer}\\n app_size: {app_size}\\n app_url: {app_url_website}\")\n        # создаем соединение с базой данных",
         "detail": "window.browser_window",
+        "documentation": {}
+    },
+    {
+        "label": "create_favorite_window",
+        "kind": 2,
+        "importPath": "window.favorite_window",
+        "description": "window.favorite_window",
+        "peekOfCode": "def create_favorite_window():  \n    conn = sqlite3.connect('data_app.db')\n    # создаем курсор\n    cursor = conn.cursor()\n    def open_website(url):\n        webbrowser.open(url)\n    check_var = tkinter.StringVar(value=\"off\")\n    def checkbox_event(app_id, app_image_path, app_name, app_developer, app_size, app_url_website):\n        # print(f\"\\n id: {app_id}\\n iamge_path: {app_image_path}\\n app_name: {app_name}\\n app_developer: {app_developer}\\n app_size: {app_size}\\n app_url: {app_url_website}\")\n        # создаем соединение с базой данных",
+        "detail": "window.favorite_window",
         "documentation": {}
     },
     {
