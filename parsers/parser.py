@@ -45,7 +45,7 @@ def process_query(query):
 
     # поиск поля ввода и ввод запроса
     search_box = driver.find_element(By.NAME, 'q')
-    search_box.send_keys(f"{query} messager logo, transparent background  60x60")
+    search_box.send_keys(f"{query} messager logo,  60x60")
     search_box.submit()
 
     # ожидание загрузки изображений
@@ -78,5 +78,6 @@ if __name__ == '__main__':
             future.result()
             tqdm.write(f"{Fore.GREEN }😉 Загрузка завершена для {query}!  {Style.RESET_ALL}")
     print(f"\n{Fore.GREEN} ✔ Загрузка завершена! {Style.RESET_ALL}")
+
 
 
