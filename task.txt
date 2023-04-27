@@ -1,0 +1,19 @@
+Хорошо, создай мне json файл в котором будут поля: app_image_path,  app_name, app_developer, app_size, app_url_website, app_favorites.  Прописать путь к картинке по такому сценарию img\\games_icon\\icon_(app_name).png. В ключе favorites пиши цифру 1 если True и 0 если False. ,по стандарту 0. Вот список.  Вот пример: {
+  "Google Chrome":{
+     "app_image_path":"img\\browser_icon\\icon_Google Chrome.png",
+     "app_name":"Google Chrome",
+     "app_developer":"Google LLC",
+     "app_size":"120",
+     "app_url_website":"https://www.google.com/chrome/",
+     "app_favorites":1
+  }
+}
+Вот список игр:
+Horizon Zero Dawn
+Sekiro: Shadows Die Twice
+The Outer Worlds
+Tom Clancy's Ghost Recon Breakpoint
+Wolfenstein II: The New Colossus
+Apex Legends
+Fall Guys: Ultimate Knockout
+Among Us

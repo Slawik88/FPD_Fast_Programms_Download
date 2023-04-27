@@ -1,0 +1,1309 @@
+{
+	"Minecraft": {
+		"app_image_path": "img\\games_icon\\icon_Minecraft.png",
+		"app_name": "Minecraft",
+		"app_developer": "Mojang Studios",
+		"app_size": "200",
+		"app_url_website": "https://www.minecraft.net/",
+		"app_favorites": 0
+	},
+	"Grand Theft Auto V": {
+		"app_image_path": "img\\games_icon\\icon_Grand_Theft_Auto_ V.png",
+		"app_name": "Grand Theft Auto V",
+		"app_developer": "Rockstar Games",
+		"app_size": "500",
+		"app_url_website": "https://www.rockstargames.com/V/",
+		"app_favorites": 0
+	},
+	"Fortnite": {
+		"app_image_path": "img\\games_icon\\icon_Fortnite.png",
+		"app_name": "Fortnite",
+		"app_developer": "Epic Games",
+		"app_size": "150",
+		"app_url_website": "https://www.epicgames.com/fortnite/",
+		"app_favorites": 0
+	},
+	"Apex Legends": {
+		"app_image_path": "img\\games_icon\\icon_Apex_Legends.png",
+		"app_name": "Apex Legends",
+		"app_developer": "Respawn Entertainment",
+		"app_size": "100",
+		"app_url_website": "https://www.ea.com/games/apex-legends",
+		"app_favorites": 0
+	},
+	"Valorant": {
+		"app_image_path": "img\\games_icon\\icon_Valorant.png",
+		"app_name": "Valorant",
+		"app_developer": "Riot Games",
+		"app_size": "250",
+		"app_url_website": "https://playvalorant.com/",
+		"app_favorites": 0
+	},
+	"Counter-Strike: Global Offensive": {
+		"app_image_path": "img\\games_icon\\icon_Counter-Strike_Global_Offensive.png",
+		"app_name": "Counter-Strike: Global Offensive",
+		"app_developer": "Valve Corporation",
+		"app_size": "80",
+		"app_url_website": "https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/",
+		"app_favorites": 0
+	},
+	"PlayerUnknown's Battlegrounds": {
+		"app_image_path": "img\\games_icon\\icon_PlayerUnknown's_Battlegrounds.png",
+		"app_name": "PlayerUnknown's Battlegrounds",
+		"app_developer": "PUBG Corporation",
+		"app_size": "300",
+		"app_url_website": "https://www.pubg.com/",
+		"app_favorites": 0
+	},
+	"League of Legends": {
+		"app_image_path": "img\\games_icon\\icon_League_of_Legends.png",
+		"app_name": "League of Legends",
+		"app_developer": "Riot Games",
+		"app_size": "200",
+		"app_url_website": "https://na.leagueoflegends.com/",
+		"app_favorites": 0
+	},
+	"Dota 2": {
+		"app_image_path": "img\\games_icon\\icon_Dota_2.png",
+		"app_name": "Dota 2",
+		"app_developer": "Valve Corporation",
+		"app_size": "150",
+		"app_url_website": "https://store.steampowered.com/app/570/Dota_2/",
+		"app_favorites": 0
+	},
+	"Call of Duty: Warzone": {
+		"app_image_path": "img\\games_icon\\icon_Call_of_Duty_Warzone.png",
+		"app_name": "Call of Duty: Warzone",
+		"app_developer": "Activision",
+		"app_size": "120",
+		"app_url_website": "https://www.callofduty.com/warzone",
+		"app_favorites": 0
+	},
+	"Rainbow Six Siege": {
+		"app_image_path": "img\\games_icon\\icon_Rainbow_Six_Siege.png",
+		"app_name": "Rainbow Six Siege",
+		"app_developer": "Ubisoft",
+		"app_size": "100",
+		"app_url_website": "https://www.ubisoft.com/en-us/game/rainbow-six/siege",
+		"app_favorites": 0
+	},
+	"World of Warcraft": {
+		"app_image_path": "img\\games_icon\\icon_World_of_Warcraft.png",
+		"app_name": "World of Warcraft",
+		"app_developer": "Blizzard Entertainment",
+		"app_size": "250",
+		"app_url_website": "https://worldofwarcraft.com/",
+		"app_favorites": 0
+	},
+	"Team Fortress 2": {
+		"app_image_path": "img\\games_icon\\icon_Team_Fortress_2.png",
+		"app_name": "Team Fortress 2",
+		"app_developer": "Valve Corporation",
+		"app_size": "90",
+		"app_url_website": "https://www.teamfortress.com/",
+		"app_favorites": 0
+	},
+	"Rocket League": {
+		"app_image_path": "img\\games_icon\\icon_Rocket_League.png",
+		"app_name": "Rocket League",
+		"app_developer": "Psyonix",
+		"app_size": "80",
+		"app_url_website": "https://www.rocketleague.com/",
+		"app_favorites": 0
+	},
+	"Among Us": {
+		"app_image_path": "img\\games_icon\\icon_Among_Us.png",
+		"app_name": "Among Us",
+		"app_developer": "InnerSloth",
+		"app_size": "70",
+		"app_url_website": "https://innersloth.com/gameAmongUs.php",
+		"app_favorites": 0
+	},
+	"Roblox": {
+		"app_image_path": "img\\games_icon\\icon_Roblox.png",
+		"app_name": "Roblox",
+		"app_developer": "Roblox Corporation",
+		"app_size": "150",
+		"app_url_website": "https://www.roblox.com/",
+		"app_favorites": 0
+	},
+	"Overwatch": {
+		"app_image_path": "img\\games_icon\\icon_Overwatch.png",
+		"app_name": "Overwatch",
+		"app_developer": "Blizzard Entertainment",
+		"app_size": "100",
+		"app_url_website": "https://playoverwatch.com/",
+		"app_favorites": 0
+	},
+	"Battlefield V": {
+		"app_image_path": "img\\games_icon\\icon_Battlefield_V.png",
+		"app_name": "Battlefield V",
+		"app_developer": "EA DICE",
+		"app_size": "50",
+		"app_url_website": "https://www.ea.com/games/battlefield/battlefield-5",
+		"app_favorites": 0
+	},
+	"Tom Clancy's Ghost Recon Breakpoint": {
+		"app_image_path": "img\\games_icon\\icon_Ghost_Recon_Breakpoint.png",
+		"app_name": "Tom Clancy's Ghost Recon Breakpoint",
+		"app_developer": "Ubisoft",
+		"app_size": "80",
+		"app_url_website": "https://www.ubisoft.com/en-us/game/ghost-recon/breakpoint",
+		"app_favorites": 0
+	},
+	"Red Dead Redemption 2": {
+		"app_image_path": "img\\games_icon\\icon_Red_Dead_Redemption_2.png",
+		"app_name": "Red Dead Redemption 2",
+		"app_developer": "Rockstar Games",
+		"app_size": "100",
+		"app_url_website": "https://www.rockstargames.com/reddeadredemption2/",
+		"app_favorites": 0
+	},
+	"Rust": {
+		"app_image_path": "img\\games_icon\\icon_Rust.png",
+		"app_name": "Rust",
+		"app_developer": "Facepunch Studios",
+		"app_size": "25",
+		"app_url_website": "https://rust.facepunch.com/",
+		"app_favorites": 0
+	},
+	"The Elder Scrolls V: Skyrim": {
+		"app_image_path": "img\\games_icon\\icon_The_Elder_Scrolls_V_Skyrim.png",
+		"app_name": "The Elder Scrolls V: Skyrim",
+		"app_developer": "Bethesda Game Studios",
+		"app_size": "80",
+		"app_url_website": "https://elderscrolls.bethesda.net/en/skyrim",
+		"app_favorites": 0
+	},
+	"DayZ": {
+		"app_image_path": "img\\games_icon\\icon_DayZ.png",
+		"app_name": "DayZ",
+		"app_developer": "Bohemia Interactive",
+		"app_size": "40",
+		"app_url_website": "https://www.bohemia.net/games/dayz",
+		"app_favorites": 0
+	},
+	"ARK: Survival Evolved": {
+		"app_image_path": "img\\games_icon\\icon_ARK_Survival_Evolved.png",
+		"app_name": "ARK: Survival Evolved",
+		"app_developer": "Studio Wildcard",
+		"app_size": "70",
+		"app_url_website": "https://www.playark.com/",
+		"app_favorites": 0
+	},
+	"Destiny 2": {
+		"app_image_path": "img\\games_icon\\icon_Destiny_2.png",
+		"app_name": "Destiny 2",
+		"app_developer": "Bungie",
+		"app_size": "80",
+		"app_url_website": "https://www.bungie.net/7/en/Destiny/NewLight",
+		"app_favorites": 0
+	},
+	"Far Cry 5": {
+		"app_image_path": "img\\games_icon\\icon_Far_Cry_5.png",
+		"app_name": "Far Cry 5",
+		"app_developer": "Ubisoft",
+		"app_size": "50",
+		"app_url_website": "https://www.ubisoft.com/en-us/game/far-cry/far-cry-5",
+		"app_favorites": 0
+	},
+	"Assassin's Creed Odyssey": {
+		"app_image_path": "img\\games_icon\\icon_Assassin's_Creed_Odyssey.png",
+		"app_name": "Assassin's Creed Odyssey",
+		"app_developer": "Ubisoft",
+		"app_size": "70",
+		"app_url_website": "https://www.ubisoft.com/en-us/game/assassins-creed/odyssey",
+		"app_favorites": 1
+	},
+	"Watch Dogs: Legion": {
+		"app_image_path": "img\\games_icon\\icon_Watch_Dogs_Legion.png",
+		"app_name": "Watch Dogs: Legion",
+		"app_developer": "Ubisoft",
+		"app_size": "80",
+		"app_url_website": "https://www.ubisoft.com/en-us/game/watch-dogs/legion",
+		"app_favorites": 0
+	},
+	"The Witcher 3: Wild Hunt": {
+		"app_image_path": "img\\games_icon\\icon_The_Witcher_3_Wild_Hunt.png",
+		"app_name": "The Witcher 3: Wild Hunt",
+		"app_developer": "CD Projekt Red",
+		"app_size": "100",
+		"app_url_website": "https://thewitcher.com/en/witcher3",
+		"app_favorites": 1
+	},
+	"Mafia: Definitive Edition": {
+		"app_image_path": "img\\games_icon\\icon_Mafia_Definitive_Edition.png",
+		"app_name": "Mafia: Definitive Edition",
+		"app_developer": "Hangar 13",
+		"app_size": "60",
+		"app_url_website": "https://mafiagame.com/definitive-edition/en/",
+		"app_favorites": 0
+	},
+	"Euro Truck Simulator 2": {
+		"app_image_path": "img\\games_icon\\icon_Euro_Truck_Simulator_2.png",
+		"app_name": "Euro Truck Simulator 2",
+		"app_developer": "SCS Software",
+		"app_size": "40",
+		"app_url_website": "https://eurotrucksimulator2.com/",
+		"app_favorites": 1
+	},
+	"American Truck Simulator": {
+		"app_image_path": "img\\games_icon\\icon_American_Truck_Simulator.png",
+		"app_name": "American Truck Simulator",
+		"app_developer": "SCS Software",
+		"app_size": "50",
+		"app_url_website": "https://americantrucksimulator.com/",
+		"app_favorites": 0
+	},
+	"Euro Truck Simulator": {
+		"app_image_path": "img\\games_icon\\icon_Euro_Truck_Simulator.png",
+		"app_name": "Euro Truck Simulator",
+		"app_developer": "SCS Software",
+		"app_size": "30",
+		"app_url_website": "https://eurotrucksimulator.com/",
+		"app_favorites": 0
+	},
+	"Need for Speed Heat": {
+		"app_image_path": "img\\games_icon\\icon_Need_for_Speed_Heat.png",
+		"app_name": "Need for Speed Heat",
+		"app_developer": "Ghost Games",
+		"app_size": "50",
+		"app_url_website": "https://www.ea.com/games/need-for-speed/need-for-speed-heat",
+		"app_favorites": 0
+	},
+	"Assetto Corsa": {
+		"app_image_path": "img\\games_icon\\icon_Assetto_Corsa.png",
+		"app_name": "Assetto Corsa",
+		"app_developer": "Kunos Simulazioni",
+		"app_size": "30",
+		"app_url_website": "https://www.assettocorsa.net/",
+		"app_favorites": 1
+	},
+	"Project Cars 2": {
+		"app_image_path": "img\\games_icon\\icon_Project_Cars_2.png",
+		"app_name": "Project Cars 2",
+		"app_developer": "Slightly Mad Studios",
+		"app_size": "40",
+		"app_url_website": "https://www.projectcarsgame.com/project-cars-2/",
+		"app_favorites": 0
+	},
+	"Dirt 5": {
+		"app_image_path": "img\\games_icon\\icon_Dirt_5.png",
+		"app_name": "Dirt 5",
+		"app_developer": "Codemasters",
+		"app_size": "60",
+		"app_url_website": "https://dirtgame.com/dirt5",
+		"app_favorites": 1
+	},
+	"Wreckfest": {
+		"app_image_path": "img\\games_icon\\icon_Wreckfest.png",
+		"app_name": "Wreckfest",
+		"app_developer": "Bugbear Entertainment",
+		"app_size": "50",
+		"app_url_website": "https://www.wreckfestgame.com/",
+		"app_favorites": 0
+	},
+	"Forza Horizon 4": {
+		"app_image_path": "img\\games_icon\\icon_Forza_Horizon_4.png",
+		"app_name": "Forza Horizon 4",
+		"app_developer": "Playground Games",
+		"app_size": "80",
+		"app_url_website": "https://forzamotorsport.net/en-us/games/fh4",
+		"app_favorites": 1
+	},
+	"F1 2020": {
+		"app_image_path": "img\\games_icon\\icon_F1_2020.png",
+		"app_name": "F1 2020",
+		"app_developer": "Codemasters",
+		"app_size": "70",
+		"app_url_website": "https://www.formula1game.com/2020/",
+		"app_favorites": 0
+	},
+	"Football Manager 2021": {
+		"app_image_path": "img\\games_icon\\icon_Football_Manager_2021.png",
+		"app_name": "Football Manager 2021",
+		"app_developer": "Sports Interactive",
+		"app_size": "90",
+		"app_url_website": "https://www.footballmanager.com/games/football-manager-2021",
+		"app_favorites": 1
+	},
+	"NBA 2K21": {
+		"app_image_path": "img\\games_icon\\icon_NBA_2K21.png",
+		"app_name": "NBA 2K21",
+		"app_developer": "Visual Concepts",
+		"app_size": "90",
+		"app_url_website": "https://nba.2k.com/2k21/",
+		"app_favorites": 1
+	},
+	"FIFA 21": {
+		"app_image_path": "img\\games_icon\\icon_FIFA_21.png",
+		"app_name": "FIFA 21",
+		"app_developer": "EA Sports",
+		"app_size": "80",
+		"app_url_website": "https://www.ea.com/games/fifa/fifa-21",
+		"app_favorites": 1
+	},
+	"Pro Evolution Soccer 2021": {
+		"app_image_path": "img\\games_icon\\icon_Pro_Evolution_Soccer_2021.png",
+		"app_name": "Pro Evolution Soccer 2021",
+		"app_developer": "Konami",
+		"app_size": "60",
+		"app_url_website": "https://www.konami.com/wepes/2021/us/en-us/",
+		"app_favorites": 0
+	},
+	"Cricket 19": {
+		"app_image_path": "img\\games_icon\\icon_Cricket_19.png",
+		"app_name": "Cricket 19",
+		"app_developer": "Big Ant Studios",
+		"app_size": "50",
+		"app_url_website": "https://www.bigant.com/cricket-19/",
+		"app_favorites": 0
+	},
+	"Tennis World Tour 2": {
+		"app_image_path": "img\\games_icon\\icon_Tennis_World_Tour_2.png",
+		"app_name": "Tennis World Tour 2",
+		"app_developer": "Bigben Interactive",
+		"app_size": "70",
+		"app_url_website": "https://tennisworldtourgame.com/",
+		"app_favorites": 0
+	},
+	"Golf With Your Friends": {
+		"app_image_path": "img\\games_icon\\icon_Golf_With_Your_Friends.png",
+		"app_name": "Golf With Your Friends",
+		"app_developer": "Blacklight Interactive",
+		"app_size": "40",
+		"app_url_website": "https://store.steampowered.com/app/431240/Golf_With_Your_Friends/",
+		"app_favorites": 1
+	},
+	"Move or Die": {
+		"app_image_path": "img\\games_icon\\icon_Move_or_Die.png",
+		"app_name": "Move or Die",
+		"app_developer": "Those Awesome Guys",
+		"app_size": "30",
+		"app_url_website": "https://moveordiegame.com/",
+		"app_favorites": 0
+	},
+	"Human: Fall Flat": {
+		"app_image_path": "img\\games_icon\\icon_Human_Fall_Flat.png",
+		"app_name": "Human: Fall Flat",
+		"app_developer": "No Brakes Games",
+		"app_size": "40",
+		"app_url_website": "https://www.humanfallflat.com/",
+		"app_favorites": 1
+	},
+	"Totally Accurate Battle Simulator": {
+		"app_image_path": "img\\games_icon\\icon_Totally_Accurate_Battle_Simulator.png",
+		"app_name": "Totally Accurate Battle Simulator",
+		"app_developer": "Landfall Games",
+		"app_size": "50",
+		"app_url_website": "https://landfall.se/totally-accurate-battle-simulator",
+		"app_favorites": 0
+	},
+	"Taboo: The Sixth Sense": {
+		"app_image_path": "img\\games_icon\\icon_Taboo_The_Sixth_Sense.png",
+		"app_name": "Taboo: The Sixth Sense",
+		"app_developer": "Rare",
+		"app_size": "5",
+		"app_url_website": "https://en.wikipedia.org/wiki/Taboo:_The_Sixth_Sense",
+		"app_favorites": 0
+	},
+	"Age of Empires II": {
+		"app_image_path": "img\\games_icon\\icon_Age_of_Empires_II.png",
+		"app_name": "Age of Empires II",
+		"app_developer": "Ensemble Studios",
+		"app_size": "60",
+		"app_url_website": "https://www.ageofempires.com/games/aoeiide/",
+		"app_favorites": 0
+	},
+	"Age of Mythology": {
+		"app_image_path": "img\\games_icon\\icon_Age_of_Mythology.png",
+		"app_name": "Age of Mythology",
+		"app_developer": "Ensemble Studios",
+		"app_size": "50",
+		"app_url_website": "https://www.ageofempires.com/games/aom/",
+		"app_favorites": 1
+	},
+	"Civilization VI": {
+		"app_image_path": "img\\games_icon\\icon_Civilization_VI.png",
+		"app_name": "Civilization VI",
+		"app_developer": "Firaxis Games",
+		"app_size": "80",
+		"app_url_website": "https://civilization.com/",
+		"app_favorites": 1
+	},
+	"Stellaris": {
+		"app_image_path": "img\\games_icon\\icon_Stellaris.png",
+		"app_name": "Stellaris",
+		"app_developer": "Paradox Development Studio",
+		"app_size": "70",
+		"app_url_website": "https://www.stellaris.com/",
+		"app_favorites": 0
+	},
+	"Hearts of Iron IV": {
+		"app_image_path": "img\\games_icon\\icon_Hearts_of_Iron_IV.png",
+		"app_name": "Hearts of Iron IV",
+		"app_developer": "Paradox Development Studio",
+		"app_size": "60",
+		"app_url_website": "https://www.paradoxplaza.com/hearts-of-iron-iv/HOI4.html",
+		"app_favorites": 0
+	},
+	"Europa Universalis IV": {
+		"app_image_path": "img\\games_icon\\icon_Europa_Universalis_IV.png",
+		"app_name": "Europa Universalis IV",
+		"app_developer": "Paradox Development Studio",
+		"app_size": "50",
+		"app_url_website": "https://www.paradoxplaza.com/europa-universalis-iv/EUEU04GSK-MASTER.html",
+		"app_favorites": 1
+	},
+	"Crusader Kings III": {
+		"app_image_path": "img\\games_icon\\icon_Crusader_Kings_III.png",
+		"app_name": "Crusader Kings III",
+		"app_developer": "Paradox Development Studio",
+		"app_size": "30",
+		"app_url_website": "https://www.crusaderkings.com/",
+		"app_favorites": 0
+	},
+	"SimCity 4": {
+		"app_image_path": "img\\games_icon\\icon_SimCity_4.png",
+		"app_name": "SimCity 4",
+		"app_developer": "Maxis",
+		"app_size": "2",
+		"app_url_website": "https://www.ea.com/games/simcity/simcity-4",
+		"app_favorites": 0
+	},
+	"Cities: Skylines": {
+		"app_image_path": "img\\games_icon\\icon_Cities_Skylines.png",
+		"app_name": "Cities: Skylines",
+		"app_developer": "Colossal Order Ltd.",
+		"app_size": "4",
+		"app_url_website": "https://www.citiesskylines.com/",
+		"app_favorites": 0
+	},
+	"Tropico 6": {
+		"app_image_path": "img\\games_icon\\icon_Tropico_6.png",
+		"app_name": "Tropico 6",
+		"app_developer": "Limbic Entertainment",
+		"app_size": "15",
+		"app_url_website": "https://www.kalypsomedia.com/us/tropico-6/",
+		"app_favorites": 0
+	},
+	"Frostpunk": {
+		"app_image_path": "img\\games_icon\\icon_Frostpunk.png",
+		"app_name": "Frostpunk",
+		"app_developer": "11 bit studios",
+		"app_size": "5",
+		"app_url_website": "https://www.frostpunkgame.com/",
+		"app_favorites": 0
+	},
+	"Oxygen Not Included": {
+		"app_image_path": "img\\games_icon\\icon_Oxygen_Not_Included.png",
+		"app_name": "Oxygen Not Included",
+		"app_developer": "Klei Entertainment",
+		"app_size": "2",
+		"app_url_website": "https://www.klei.com/games/oxygen-not-included",
+		"app_favorites": 0
+	},
+	"Prison Architect": {
+		"app_image_path": "img\\games_icon\\icon_Prison_Architect.png",
+		"app_name": "Prison Architect",
+		"app_developer": "Introversion Software",
+		"app_size": "1",
+		"app_url_website": "https://www.paradoxplaza.com/prison-architect/PRPA01GSK-MASTER.html",
+		"app_favorites": 0
+	},
+	"RimWorld": {
+		"app_image_path": "img\\games_icon\\icon_RimWorld.png",
+		"app_name": "RimWorld",
+		"app_developer": "Ludeon Studios",
+		"app_size": "2",
+		"app_url_website": "https://rimworldgame.com/",
+		"app_favorites": 0
+	},
+	"This War of Mine": {
+		"app_image_path": "img\\games_icon\\icon_This_War_of_Mine.png",
+		"app_name": "This War of Mine",
+		"app_developer": "11 bit studios",
+		"app_size": "2",
+		"app_url_website": "https://www.thiswarofmine.com/",
+		"app_favorites": 0
+	},
+	"Papers, Please": {
+		"app_image_path": "img\\games_icon\\icon_Papers_Please.png",
+		"app_name": "Papers, Please",
+		"app_developer": "3909 LLC",
+		"app_size": "100",
+		"app_url_website": "https://papersplea.se/",
+		"app_favorites": 0
+	},
+	"Beholder": {
+		"app_image_path": "img\\games_icon\\icon_Beholder.png",
+		"app_name": "Beholder",
+		"app_developer": "Warm Lamp Games",
+		"app_size": "250",
+		"app_url_website": "http://beholder-game.com/",
+		"app_favorites": 0
+	},
+	"Beholder 2": {
+		"app_image_path": "img\\games_icon\\icon_Beholder 2.png",
+		"app_name": "Beholder 2",
+		"app_developer": "Warm Lamp Games",
+		"app_size": "400",
+		"app_url_website": "http://beholder2.com/",
+		"app_favorites": 0
+	},
+	"Little Nightmares": {
+		"app_image_path": "img\\games_icon\\icon_Little_Nightmares.png",
+		"app_name": "Little Nightmares",
+		"app_developer": "Tarsier Studios",
+		"app_size": "300",
+		"app_url_website": "https://www.little-nightmares.com/",
+		"app_favorites": 0
+	},
+	"Hollow Knight": {
+		"app_image_path": "img\\games_icon\\icon_Hollow_Knight.png",
+		"app_name": "Hollow Knight",
+		"app_developer": "Team Cherry",
+		"app_size": "800",
+		"app_url_website": "https://hollowknight.com/",
+		"app_favorites": 0
+	},
+	"Dead Cells": {
+		"app_image_path": "img\\games_icon\\icon_Dead_Cells.png",
+		"app_name": "Dead Cells",
+		"app_developer": "Motion Twin",
+		"app_size": "600",
+		"app_url_website": "https://dead-cells.com/",
+		"app_favorites": 0
+	},
+	"Ori and the Blind Forest": {
+		"app_image_path": "img\\games_icon\\icon_Ori_and_the_Blind_Forest.png",
+		"app_name": "Ori and the Blind Forest",
+		"app_developer": "Moon Studios",
+		"app_size": "1200",
+		"app_url_website": "https://www.orithegame.com/blind-forest/",
+		"app_favorites": 0
+	},
+	"Ori and the Will of the Wisps": {
+		"app_image_path": "img\\games_icon\\icon_Ori_and_the_Will_of_the_Wisps.png",
+		"app_name": "Ori and the Will of the Wisps",
+		"app_developer": "Moon Studios",
+		"app_size": "1400",
+		"app_url_website": "https://www.orithegame.com/will-of-the-wisps/",
+		"app_favorites": 0
+	},
+	"Cuphead": {
+		"app_image_path": "img\\games_icon\\icon_Cuphead.png",
+		"app_name": "Cuphead",
+		"app_developer": "Studio MDHR",
+		"app_size": "4.68 GB",
+		"app_url_website": "https://studiomdhr.com/",
+		"app_favorites": 0
+	},
+	"Celeste": {
+		"app_image_path": "img\\games_icon\\icon_Celeste.png",
+		"app_name": "Celeste",
+		"app_developer": "Maddy Makes Games",
+		"app_size": "1.1 GB",
+		"app_url_website": "http://www.celestegame.com/",
+		"app_favorites": 0
+	},
+	"Limbo": {
+		"app_image_path": "img\\games_icon\\icon_Limbo.png",
+		"app_name": "Limbo",
+		"app_developer": "Playdead",
+		"app_size": "184 MB",
+		"app_url_website": "https://playdead.com/games/limbo/",
+		"app_favorites": 0
+	},
+	"Inside": {
+		"app_image_path": "img\\games_icon\\icon_Inside.png",
+		"app_name": "Inside",
+		"app_developer": "Playdead",
+		"app_size": "2.2 GB",
+		"app_url_website": "https://playdead.com/games/inside/",
+		"app_favorites": 0
+	},
+	"The Binding of Isaac": {
+		"app_image_path": "img\\games_icon\\icon_The_Binding_of_Isaac.png",
+		"app_name": "The Binding of Isaac",
+		"app_developer": "Edmund McMillen",
+		"app_size": "238 MB",
+		"app_url_website": "https://bindingofisaac.fandom.com/wiki/The_Binding_of_Isaac:_Rebirth",
+		"app_favorites": 0
+	},
+	"Enter the Gungeon": {
+		"app_image_path": "img\\games_icon\\icon_Enter_the_Gungeon.png",
+		"app_name": "Enter the Gungeon",
+		"app_developer": "Dodge Roll",
+		"app_size": "395 MB",
+		"app_url_website": "https://dodgeroll.com/enter-the-gungeon/",
+		"app_favorites": 0
+	},
+	"Hotline Miami": {
+		"app_image_path": "img\\games_icon\\icon_Hotline_Miami.png",
+		"app_name": "Hotline Miami",
+		"app_developer": "Dennaton Games",
+		"app_size": "334 MB",
+		"app_url_website": "https://hotlinemiami.com/",
+		"app_favorites": 0
+	},
+	"Katana ZERO": {
+		"app_image_path": "img\\games_icon\\icon_Katana_ZERO.png",
+		"app_name": "Katana ZERO",
+		"app_developer": "Askiisoft",
+		"app_size": "621 MB",
+		"app_url_website": "https://askiisoft.com/games/katana-zero/",
+		"app_favorites": 0
+	},
+	"Super Meat Boy": {
+		"app_image_path": "img\\games_icon\\icon_Super_Meat_Boy.png",
+		"app_name": "Super Meat Boy",
+		"app_developer": "Team Meat",
+		"app_size": "200 MB",
+		"app_url_website": "https://www.supermeatboy.com/",
+		"app_favorites": 0
+	},
+	"The Stanley Parable": {
+		"app_image_path": "img\\games_icon\\icon_The_Stanley_Parable.png",
+		"app_name": "The Stanley Parable",
+		"app_developer": "Galactic Cafe",
+		"app_size": "2 GB",
+		"app_url_website": "http://www.stanleyparable.com/",
+		"app_favorites": 0
+	},
+	"Portal": {
+		"app_image_path": "img\\games_icon\\icon_Portal.png",
+		"app_name": "Portal",
+		"app_developer": "Valve Corporation",
+		"app_size": "2 GB",
+		"app_url_website": "https://store.steampowered.com/app/400/Portal/",
+		"app_favorites": 0
+	},
+	"Portal 2": {
+		"app_image_path": "img\\games_icon\\icon_Portal_2.png",
+		"app_name": "Portal 2",
+		"app_developer": "Valve Corporation",
+		"app_size": "8 GB",
+		"app_url_website": "https://store.steampowered.com/app/620/Portal_2/",
+		"app_favorites": 0
+	},
+	"Half-Life": {
+		"app_image_path": "img\\games_icon\\icon_Half-Life.png",
+		"app_name": "Half-Life",
+		"app_developer": "Valve Corporation",
+		"app_size": "1 GB",
+		"app_url_website": "https://store.steampowered.com/app/70/HalfLife/",
+		"app_favorites": 0
+	},
+	"Half-Life 2": {
+		"app_image_path": "img\\games_icon\\icon_Half-Life_2.png",
+		"app_name": "Half-Life 2",
+		"app_developer": "Valve Corporation",
+		"app_size": "5 GB",
+		"app_url_website": "https://store.steampowered.com/app/220/HalfLife_2/",
+		"app_favorites": 0
+	},
+	"BioShock": {
+		"app_image_path": "img\\games_icon\\icon_BioShock.png",
+		"app_name": "BioShock",
+		"app_developer": "2K Boston/2K Australia",
+		"app_size": "8 GB",
+		"app_url_website": "https://store.steampowered.com/app/7670/BioShock/",
+		"app_favorites": 0
+	},
+	"BioShock Infinite": {
+		"app_image_path": "img\\games_icon\\icon_BioShock_Infinite.png",
+		"app_name": "BioShock Infinite",
+		"app_developer": "Irrational Games",
+		"app_size": "16 GB",
+		"app_url_website": "https://store.steampowered.com/app/8870/BioShock_Infinite/",
+		"app_favorites": 0
+	},
+	"DOOM (2016)": {
+		"app_image_path": "img\\games_icon\\icon_DOOM_(2016).png",
+		"app_name": "DOOM (2016)",
+		"app_developer": "id Software",
+		"app_size": "70",
+		"app_url_website": "https://bethesda.net/en/game/doom",
+		"app_favorites": 0
+	},
+	"Wolfenstein: The New Order": {
+		"app_image_path": "img\\games_icon\\icon_Wolfenstein_The_New_Order.png",
+		"app_name": "Wolfenstein: The New Order",
+		"app_developer": "MachineGames",
+		"app_size": "50",
+		"app_url_website": "https://bethesda.net/en/game/wolfenstein-the-new-order",
+		"app_favorites": 0
+	},
+	"Metro Exodus": {
+		"app_image_path": "img\\games_icon\\icon_Metro_Exodus.png",
+		"app_name": "Metro Exodus",
+		"app_developer": "4A Games",
+		"app_size": "80",
+		"app_url_website": "https://www.metrothegame.com/",
+		"app_favorites": 0
+	},
+	"S.T.A.L.K.E.R.: Call of Pripyat": {
+		"app_image_path": "img\\games_icon\\icon_STALKER_Call_of_Pripyat.png",
+		"app_name": "S.T.A.L.K.E.R.: Call of Pripyat",
+		"app_developer": "GSC Game World",
+		"app_size": "10",
+		"app_url_website": "https://www.gsc-game.com/index.php?t=community&s=forums&s_game_type=xr3&thm_page=1&thm_id=6090&page=all&sort=ASC&sec_id=17",
+		"app_favorites": 0
+	},
+	"System Shock 2": {
+		"app_image_path": "img\\games_icon\\icon_System_Shock_2.png",
+		"app_name": "System Shock 2",
+		"app_developer": "Irrational Games",
+		"app_size": "40",
+		"app_url_website": "https://www.gog.com/game/system_shock_2",
+		"app_favorites": 0
+	},
+	"Deus Ex": {
+		"app_image_path": "img\\games_icon\\icon_Deus_Ex.png",
+		"app_name": "Deus Ex",
+		"app_developer": "Ion Storm",
+		"app_size": "30",
+		"app_url_website": "https://store.steampowered.com/app/6910/Deus_Ex_Game_of_the_Year_Edition/",
+		"app_favorites": 0
+	},
+	"Dishonored": {
+		"app_image_path": "img\\games_icon\\icon_Dishonored.png",
+		"app_name": "Dishonored",
+		"app_developer": "Arkane Studios",
+		"app_size": "60",
+		"app_url_website": "https://bethesda.net/en/game/dishonored",
+		"app_favorites": 0
+	},
+	"Thief: Deadly Shadows": {
+		"app_image_path": "img\\games_icon\\icon_Thief_Deadly_Shadows.png",
+		"app_name": "Thief: Deadly Shadows",
+		"app_developer": "Ion Storm",
+		"app_size": "20",
+		"app_url_website": "https://store.steampowered.com/app/6980/Thief_Deadly_Shadows/",
+		"app_favorites": 0
+	},
+	"Hitman: Blood Money": {
+		"app_image_path": "img\\games_icon\\icon_Hitman_Blood_Money.png",
+		"app_name": "Hitman: Blood Money",
+		"app_developer": "IO Interactive",
+		"app_size": "50",
+		"app_url_website": "https://store.steampowered.com/app/6860/HITMAN_Blood_Money/",
+		"app_favorites": 0
+	},
+	"Max Payne": {
+		"app_image_path": "img\\games_icon\\icon_Max_Payne.png",
+		"app_name": "Max Payne",
+		"app_developer": "Remedy Entertainment",
+		"app_size": "40",
+		"app_url_website": "https://store.steampowered.com/app/12140/Max_Payne/",
+		"app_favorites": 0
+	},
+	"Prince of Persia: The Sands of Time": {
+		"app_image_path": "img\\games_icon\\icon_Prince_of_Persia_The_Sands_of_Time.png",
+		"app_name": "Prince of Persia: The Sands of Time",
+		"app_developer": "Ubisoft Montreal",
+		"app_size": "60",
+		"app_url_website": "https://store.steampowered.com/app/13600/Prince_of_Persia_The_Sands_of_Time/",
+		"app_favorites": 0
+	},
+	"Assassin's Creed": {
+		"app_image_path": "img\\games_icon\\icon_Assassins_Creed.png",
+		"app_name": "Assassin's Creed",
+		"app_developer": "Ubisoft Montreal",
+		"app_size": "80",
+		"app_url_website": "https://store.steampowered.com/app/15100/Assassins_Creed_Director_s_Cut_Edition/",
+		"app_favorites": 0
+	},
+	"Batman: Arkham Asylum": {
+		"app_image_path": "img\\games_icon\\icon_Batman_Arkham_Asylum.png",
+		"app_name": "Batman: Arkham Asylum",
+		"app_developer": "Rocksteady Studios",
+		"app_size": "70",
+		"app_url_website": "https://store.steampowered.com/app/35140/Batman_Arkham_Asylum_Game_of_the_Year_Edition/",
+		"app_favorites": 0
+	},
+	"Tomb Raider (2013)": {
+		"app_image_path": "img\\games_icon\\icon_Tomb_Raider_2013.png",
+		"app_name": "Tomb Raider (2013)",
+		"app_developer": "Crystal Dynamics",
+		"app_size": "90",
+		"app_url_website": "https://store.steampowered.com/app/203160/Tomb_Raider/",
+		"app_favorites": 0
+	},
+	"Resident Evil 7: Biohazard": {
+		"app_image_path": "img\\games_icon\\icon_Resident_Evil_7_Biohazard.png",
+		"app_name": "Resident Evil 7: Biohazard",
+		"app_developer": "Capcom",
+		"app_size": "100",
+		"app_url_website": "https://store.steampowered.com/app/418370/RESIDENT_EVIL_7_biohazard/",
+		"app_favorites": 0
+	},
+	"Alien: Isolation": {
+		"app_image_path": "img\\games_icon\\icon_Alien_Isolation.png",
+		"app_name": "Alien: Isolation",
+		"app_developer": "Creative Assembly",
+		"app_size": "70",
+		"app_url_website": "https://store.steampowered.com/app/214490/Alien_Isolation/",
+		"app_favorites": 0
+	},
+	"Outlast": {
+		"app_image_path": "img\\games_icon\\icon_Outlast.png",
+		"app_name": "Outlast",
+		"app_developer": "Red Barrels",
+		"app_size": "5",
+		"app_url_website": "https://store.steampowered.com/app/238320/Outlast/",
+		"app_favorites": 0
+	},
+	"Layers of Fear": {
+		"app_image_path": "img\\games_icon\\icon_Layers_of_Fear.png",
+		"app_name": "Layers of Fear",
+		"app_developer": "Bloober Team",
+		"app_size": "8",
+		"app_url_website": "https://store.steampowered.com/app/391720/Layers_of_Fear/",
+		"app_favorites": 0
+	},
+	"Deathloop": {
+		"app_image_path": "img\\games_icon\\icon_Deathloop.png",
+		"app_name": "Deathloop",
+		"app_developer": "Arkane Studios",
+		"app_size": "30",
+		"app_url_website": "https://bethesda.net/en/game/deathloop",
+		"app_favorites": 0
+	},
+	"Kena: Bridge of Spirits": {
+		"app_image_path": "img\\games_icon\\icon_Kena_Bridge_of_Spirits.png",
+		"app_name": "Kena: Bridge of Spirits",
+		"app_developer": "Ember Lab",
+		"app_size": "20",
+		"app_url_website": "https://kenabridgeofspirits.com/",
+		"app_favorites": 0
+	},
+	"Chivalry 2": {
+		"app_image_path": "img\\games_icon\\icon_Chivalry_2.png",
+		"app_name": "Chivalry 2",
+		"app_developer": "Torn Banner Studios",
+		"app_size": "25",
+		"app_url_website": "https://chivalry2.com/",
+		"app_favorites": 0
+	},
+	"Forza Horizon 5": {
+		"app_image_path": "img\\games_icon\\icon_Forza_Horizon_5.png",
+		"app_name": "Forza Horizon 5",
+		"app_developer": "Playground Games",
+		"app_size": "80",
+		"app_url_website": "https://forzamotorsport.net/en-US/news/fh5_announce",
+		"app_favorites": 0
+	},
+	"Age of Empires IV": {
+		"app_image_path": "img\\games_icon\\icon_Age_of_Empires_IV.png",
+		"app_name": "Age of Empires IV",
+		"app_developer": "Relic Entertainment",
+		"app_size": "50",
+		"app_url_website": "https://www.ageofempires.com/games/age-of-empires-iv/",
+		"app_favorites": 0
+	},
+	"Halo Infinite": {
+		"app_image_path": "img\\games_icon\\icon_Halo_Infinite.png",
+		"app_name": "Halo Infinite",
+		"app_developer": "343 Industries",
+		"app_size": "Unknown",
+		"app_url_website": "https://www.halowaypoint.com/en-us/games/halo-infinite",
+		"app_favorites": 0
+	},
+	"Evil Dead: The Game": {
+		"app_image_path": "img\\games_icon\\icon_Evil_Dead_The_Game.png",
+		"app_name": "Evil Dead: The Game",
+		"app_developer": "Boss Team Games",
+		"app_size": "Unknown",
+		"app_url_website": "https://evildeadthegame.com/",
+		"app_favorites": 0
+	},
+	"Stray": {
+		"app_image_path": "img\\games_icon\\icon_Stray.png",
+		"app_name": "Stray",
+		"app_developer": "BlueTwelve Studio",
+		"app_size": "Unknown",
+		"app_url_website": "https://www.stray-game.com/",
+		"app_favorites": 0
+	},
+	"The Day Before": {
+		"app_image_path": "img\\games_icon\\icon_The_Day_Before.png",
+		"app_name": "The Day Before",
+		"app_developer": "Fntastic",
+		"app_size": "Unknown",
+		"app_url_website": "https://store.steampowered.com/app/1372790/The_Day_Before/",
+		"app_favorites": 0
+	},
+	"GhostWire: Tokyo": {
+		"app_image_path": "img\\games_icon\\icon_GhostWire_Tokyo.png",
+		"app_name": "GhostWire: Tokyo",
+		"app_developer": "Tango Gameworks",
+		"app_size": "Unknown",
+		"app_url_website": "https://bethesda.net/en/game/ghostwire-tokyo",
+		"app_favorites": 0
+	},
+	"Starfield": {
+		"app_image_path": "img\\games_icon\\icon_Starfield.png",
+		"app_name": "Starfield",
+		"app_developer": "Bethesda Game Studios",
+		"app_size": "Unknown",
+		"app_url_website": "https://bethesda.net/en/game/starfield",
+		"app_favorites": 0
+	},
+	"Gotham Knights": {
+		"app_image_path": "img\\games_icon\\icon_Gotham_Knights.png",
+		"app_name": "Gotham Knights",
+		"app_developer": "WB Games Montreal",
+		"app_size": "Unknown",
+		"app_url_website": "https://gothamknightsgame.com/",
+		"app_favorites": 0
+	},
+	"Tiny Tina's Wonderlands": {
+		"app_image_path": "img\\games_icon\\icon_Tiny_Tinas_Wonderlands.png",
+		"app_name": "Tiny Tina's Wonderlands",
+		"app_developer": "Gearbox Software",
+		"app_size": "Unknown",
+		"app_url_website": "https://wonderlands.2k.com/",
+		"app_favorites": 0
+	},
+	"Project Triangle Strategy": {
+		"app_image_path": "img\\games_icon\\icon_Project_Triangle_Strategy.png",
+		"app_name": "Project Triangle Strategy",
+		"app_developer": "Square Enix",
+		"app_size": "Unknown",
+		"app_url_website": "https://www.nintendo.com/games/detail/project-triangle-strategy-switch/",
+		"app_favorites": 0
+	},
+	"Elden Ring": {
+		"app_image_path": "img\\games_icon\\icon_Elden_Ring.png",
+		"app_name": "Elden Ring",
+		"app_developer": "FromSoftware",
+		"app_size": "Unknown",
+		"app_url_website": "https://www.eldenring.com/",
+		"app_favorites": 0
+	},
+	"Saints Row (2022)": {
+		"app_image_path": "img\\games_icon\\icon_Saints_Row.png",
+		"app_name": "Saints Row (2022)",
+		"app_developer": "Volition",
+		"app_size": "Unknown",
+		"app_url_website": "https://www.saintsrow.com/",
+		"app_favorites": 0
+	},
+	"Redfall": {
+		"app_image_path": "img\\games_icon\\icon_Redfall.png",
+		"app_name": "Redfall",
+		"app_developer": "Arkane Studios",
+		"app_size": "Unknown",
+		"app_url_website": "https://bethesda.net/en/game/redfall",
+		"app_favorites": 0
+	},
+	"S.T.A.L.K.E.R. 2: Heart of Chernobyl": {
+		"app_image_path": "img\\games_icon\\icon_STALKER_2_Heart_of_Chernobyl.png",
+		"app_name": "S.T.A.L.K.E.R. 2: Heart of Chernobyl",
+		"app_developer": "GSC Game World",
+		"app_size": "Unknown",
+		"app_url_website": "https://stalker2.com/",
+		"app_favorites": 0
+	},
+	"Avatar: Frontiers of Pandora": {
+		"app_image_path": "img\\games_icon\\icon_Avatar_Frontiers_of_Pandora.png",
+		"app_name": "Avatar: Frontiers of Pandora",
+		"app_developer": "Massive Entertainment",
+		"app_size": "Unknown",
+		"app_url_website": "https://www.ubisoft.com/en-us/game/avatar-frontiers-of-pandora",
+		"app_favorites": 0
+	},
+	"Far Cry 6": {
+		"app_image_path": "img\\games_icon\\icon_Far_Cry_6.png",
+		"app_name": "Far Cry 6",
+		"app_developer": "Ubisoft Toronto",
+		"app_size": "Unknown",
+		"app_url_website": "https://www.ubisoft.com/en-us/game/far-cry/far-cry-6",
+		"app_favorites": 0
+	},
+	"Battlefield 2042": {
+		"app_image_path": "img\\games_icon\\icon_Battlefield_2042.png",
+		"app_name": "Battlefield 2042",
+		"app_developer": "DICE",
+		"app_size": "Unknown",
+		"app_url_website": "https://www.ea.com/games/battlefield/battlefield-2042",
+		"app_favorites": 0
+	},
+	"Hogwarts Legacy": {
+		"app_image_path": "img\\games_icon\\icon_Hogwarts_Legacy.png",
+		"app_name": "Hogwarts Legacy",
+		"app_developer": "Avalanche Software",
+		"app_size": "Unknown",
+		"app_url_website": "https://www.hogwartslegacy.com/",
+		"app_favorites": 0
+	},
+	"Marvel's Midnight Suns": {
+		"app_image_path": "img\\games_icon\\icon_Marvel's Midnight Suns.png",
+		"app_name": "Marvel's Midnight Suns",
+		"app_developer": "Firaxis Games",
+		"app_size": "50",
+		"app_url_website": "https://www.midnightsuns.com/",
+		"app_favorites": 0
+	},
+	"Rainbow Six Extraction": {
+		"app_image_path": "img\\games_icon\\icon_Rainbow Six Extraction.png",
+		"app_name": "Rainbow Six Extraction",
+		"app_developer": "Ubisoft",
+		"app_size": "80",
+		"app_url_website": "https://www.ubisoft.com/en-us/game/rainbow-six/extraction",
+		"app_favorites": 1
+	},
+	"Dying Light 2: Stay Human": {
+		"app_image_path": "img\\games_icon\\icon_Dying Light 2: Stay Human.png",
+		"app_name": "Dying Light 2: Stay Human",
+		"app_developer": "Techland",
+		"app_size": "100",
+		"app_url_website": "https://dyinglightgame.com/",
+		"app_favorites": 0
+	},
+	"The Lord of the Rings: Gollum": {
+		"app_image_path": "img\\games_icon\\icon_The Lord of the Rings Gollum.png",
+		"app_name": "The Lord of the Rings: Gollum",
+		"app_developer": "Daedalic Entertainment",
+		"app_size": "70",
+		"app_url_website": "https://www.lordoftheringsgollum.com/",
+		"app_favorites": 1
+	},
+	"Warhammer 40,000: Darktide": {
+		"app_image_path": "img\\games_icon\\icon_Warhammer 40,000 Darktide.png",
+		"app_name": "Warhammer 40,000: Darktide",
+		"app_developer": "Fatshark",
+		"app_size": "90",
+		"app_url_website": "https://www.darktidewarhammer.com/",
+		"app_favorites": 0
+	},
+	"CrossfireX": {
+		"app_image_path": "img\\games_icon\\icon_CrossfireX.png",
+		"app_name": "CrossfireX",
+		"app_developer": "Smilegate Entertainment",
+		"app_size": "60",
+		"app_url_website": "https://www.crossfirex.com/",
+		"app_favorites": 0
+	},
+	"Evil Genius 2: World Domination": {
+		"app_image_path": "img\\games_icon\\icon_Evil Genius 2 World Domination.png",
+		"app_name": "Evil Genius 2: World Domination",
+		"app_developer": "Rebellion Developments",
+		"app_size": "80",
+		"app_url_website": "https://www.evilgeniusgame.com/",
+		"app_favorites": 1
+	},
+
+	"Control": {
+		"app_image_path": "img\\games_icon\\icon_Control.png",
+		"app_name": "Control",
+		"app_developer": "Remedy Entertainment",
+		"app_size": "50",
+		"app_url_website": "https://controlgame.com/",
+		"app_favorites": 0
+	},
+	"Death Stranding": {
+		"app_image_path": "img\\games_icon\\icon_Death Stranding.png",
+		"app_name": "Death Stranding",
+		"app_developer": "Kojima Productions",
+		"app_size": "70",
+		"app_url_website": "https://www.kojimaproductions.jp/death_stranding.html",
+		"app_favorites": 0
+	},
+	"Disco Elysium": {
+		"app_image_path": "img\\games_icon\\icon_Disco Elysium.png",
+		"app_name": "Disco Elysium",
+		"app_developer": "ZA/UM",
+		"app_size": "30",
+		"app_url_website": "https://zaumstudio.com/",
+		"app_favorites": 0
+	},
+	"Doom Eternal": {
+		"app_image_path": "img\\games_icon\\icon_Doom Eternal.png",
+		"app_name": "Doom Eternal",
+		"app_developer": "id Software",
+		"app_size": "90",
+		"app_url_website": "https://bethesda.net/en/game/doom",
+		"app_favorites": 0
+	},
+	"Gears 5": {
+		"app_image_path": "img\\games_icon\\icon_Gears 5.png",
+		"app_name": "Gears 5",
+		"app_developer": "The Coalition",
+		"app_size": "110",
+		"app_url_website": "https://www.gears5.com/",
+		"app_favorites": 0
+	},
+	"Horizon Zero Dawn": {
+		"app_image_path": "img\\games_icon\\icon_Horizon Zero Dawn.png",
+		"app_name": "Horizon Zero Dawn",
+		"app_developer": "Guerrilla Games",
+		"app_size": "50",
+		"app_url_website": "https://www.guerrilla-games.com/play/horizon",
+		"app_favorites": 0
+	},
+	"Sekiro: Shadows Die Twice": {
+		"app_image_path": "img\\games_icon\\icon_Sekiro Shadows Die Twice.png",
+		"app_name": "Sekiro: Shadows Die Twice",
+		"app_developer": "FromSoftware",
+		"app_size": "40",
+		"app_url_website": "https://www.sekirothegame.com/",
+		"app_favorites": 1
+	},
+	"The Outer Worlds": {
+		"app_image_path": "img\\games_icon\\icon_The Outer Worlds.png",
+		"app_name": "The Outer Worlds",
+		"app_developer": "Obsidian Entertainment",
+		"app_size": "55",
+		"app_url_website": "https://outerworlds.obsidian.net/",
+		"app_favorites": 0
+	},
+
+	"Wolfenstein II: The New Colossus": {
+		"app_image_path": "img\\games_icon\\icon_Wolfenstein II The New Colossus.png",
+		"app_name": "Wolfenstein II: The New Colossus",
+		"app_developer": "MachineGames",
+		"app_size": "60",
+		"app_url_website": "https://bethesda.net/en/game/wolfenstein-ii",
+		"app_favorites": 1
+	},
+
+	"Fall Guys: Ultimate Knockout": {
+		"app_image_path": "img\\games_icon\\icon_Fall Guys Ultimate Knockout.png",
+		"app_name": "Fall Guys: Ultimate Knockout",
+		"app_developer": "Mediatonic",
+		"app_size": "30",
+		"app_url_website": "https://fallguys.com/",
+		"app_favorites": 0
+	},
+	"Phasmophobia": {
+		"app_image_path": "img\\games_icon\\icon_Phasmophobia.png",
+		"app_name": "Phasmophobia",
+		"app_developer": "Kinetic Games",
+		"app_size": "25",
+		"app_url_website": "https://kineticgames.co.uk/",
+		"app_favorites": 0
+	},
+	"Valheim": {
+		"app_image_path": "img\\games_icon\\icon_Valheim.png",
+		"app_name": "Valheim",
+		"app_developer": "Iron Gate AB",
+		"app_size": "1 GB",
+		"app_url_website": "https://www.valheimgame.com/",
+		"app_favorites": 1
+	},
+	"It Takes Two": {
+		"app_image_path": "img\\games_icon\\icon_It Takes Two.png",
+		"app_name": "It Takes Two",
+		"app_developer": "Hazelight Studios",
+		"app_size": "35",
+		"app_url_website": "https://www.hazelight.se/games/it-takes-two/",
+		"app_favorites": 0
+	},
+	"Hades": {
+		"app_image_path": "img\\games_icon\\icon_Hades.png",
+		"app_name": "Hades",
+		"app_developer": "Supergiant Games",
+		"app_size": "15",
+		"app_url_website": "https://www.supergiantgames.com/games/hades/",
+		"app_favorites": 1
+	},
+	"Ratchet & Clank: Rift Apart": {
+		"app_image_path": "img\\games_icon\\icon_Ratchet & Clank Rift Apart.png",
+		"app_name": "Ratchet & Clank: Rift Apart",
+		"app_developer": "Insomniac Games",
+		"app_size": "50",
+		"app_url_website": "https://www.insomniac.games/games/ratchet-and-clank-rift-apart/",
+		"app_favorites": 1
+	},
+	"Returnal": {
+		"app_image_path": "img\\games_icon\\icon_Returnal.png",
+		"app_name": "Returnal",
+		"app_developer": "Housemarque",
+		"app_size": "60",
+		"app_url_website": "https://housemarque.com/games/returnal/",
+		"app_favorites": 0
+	},
+	"Back 4 Blood": {
+		"app_image_path": "img\\games_icon\\icon_Back 4 Blood.png",
+		"app_name": "Back 4 Blood",
+		"app_developer": "Turtle Rock Studios",
+		"app_size": "45",
+		"app_url_website": "https://back4blood.com/",
+		"app_favorites": 0
+	},
+	"Psychonauts 2": {
+		"app_image_path": "img\\games_icon\\icon_Psychonauts 2.png",
+		"app_name": "Psychonauts 2",
+		"app_developer": "Double Fine Productions",
+		"app_size": "35",
+		"app_url_website": "https://www.psychonauts.com/",
+		"app_favorites": 1
+	},
+	"Life is Strange: True Colors": {
+		"app_image_path": "img\\games_icon\\icon_Life is Strange True Colors.png",
+		"app_name": "Life is Strange: True Colors",
+		"app_developer": "Deck Nine",
+		"app_size": "30",
+		"app_url_website": "https://lifeisstrange.square-enix-games.com/en-us/games/life-is-strange-true-colors",
+		"app_favorites": 0
+	},
+	"F1 2021": {
+		"app_image_path": "img\\games_icon\\icon_F1 2021.png",
+		"app_name": "F1 2021",
+		"app_developer": "Codemasters",
+		"app_size": "80",
+		"app_url_website": "https://www.formula1game.com/",
+		"app_favorites": 0
+	},
+	"XCOM 2": {
+		"app_image_path": "img\\games_icon\\icon_XCOM 2.png",
+		"app_name": "XCOM 2",
+		"app_developer": "Firaxis Games",
+		"app_size": "50",
+		"app_url_website": "https://xcom.com/",
+		"app_favorites": 0
+	},
+	"Yakuza 0": {
+		"app_image_path": "img\\games_icon\\icon_Yakuza 0.png",
+		"app_name": "Yakuza 0",
+		"app_developer": "SEGA",
+		"app_size": "20",
+		"app_url_website": "https://yakuza.sega.com/yakuza0/",
+		"app_favorites": 0
+	},
+	"Yakuza Kiwami": {
+		"app_image_path": "img\\games_icon\\icon_Yakuza Kiwami.png",
+		"app_name": "Yakuza Kiwami",
+		"app_developer": "SEGA",
+		"app_size": "22",
+		"app_url_website": "https://yakuza.sega.com/kiwami/",
+		"app_favorites": 0
+	},
+	"Yakuza Kiwami 2": {
+		"app_image_path": "img\\games_icon\\icon_Yakuza Kiwami 2.png",
+		"app_name": "Yakuza Kiwami 2",
+		"app_developer": "SEGA",
+		"app_size": "25",
+		"app_url_website": "https://yakuza.sega.com/kiwami2/",
+		"app_favorites": 0
+	},
+	"Yakuza 6: The Song of Life": {
+		"app_image_path": "img\\games_icon\\icon_Yakuza 6 The Song of Life.png",
+		"app_name": "Yakuza 6: The Song of Life",
+		"app_developer": "SEGA",
+		"app_size": "28",
+		"app_url_website": "https://yakuza.sega.com/yakuza6/",
+		"app_favorites": 0
+	},
+	"Ys VIII: Lacrimosa of Dana": {
+		"app_image_path": "img\\games_icon\\icon_Ys VIII Lacrimosa of Dana.png",
+		"app_name": "Ys VIII: Lacrimosa of Dana",
+		"app_developer": "Nihon Falcom",
+		"app_size": "12",
+		"app_url_website": "https://nisamerica.com/ys8/",
+		"app_favorites": 0
+	}
+}
