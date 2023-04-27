@@ -249,6 +249,15 @@
         "documentation": {}
     },
     {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
@@ -273,15 +282,6 @@
         "importPath": "time",
         "description": "time",
         "detail": "time",
-        "documentation": {}
-    },
-    {
-        "label": "requests",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "requests",
-        "description": "requests",
-        "detail": "requests",
         "documentation": {}
     },
     {
@@ -688,6 +688,24 @@
         "description": "delit_bg.delit_gb",
         "peekOfCode": "def remove_background(path):\n    for filename in os.listdir(path):\n        if filename.endswith('.png') or filename.endswith('.jpg'):\n            img = Image.open(os.path.join(path, filename))\n            img = img.convert(\"RGBA\")\n            datas = img.getdata()\n            newData = []\n            for item in datas:\n                if item[0] == 255 and item[1] == 255 and item[2] == 255:\n                    newData.append((255, 255, 255, 0))",
         "detail": "delit_bg.delit_gb",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEY",
+        "kind": 5,
+        "importPath": "delit_dg.delit_dg",
+        "description": "delit_dg.delit_dg",
+        "peekOfCode": "API_KEY = \"64482fc31569a7.46325918\"\n# Путь к папке с изображениями\npath = \"img/messenger_icon\"\n# Перебор всех файлов в папке\nfor filename in os.listdir(path):\n    # Проверяем, что файл является изображением с расширением .jpg или .png\n    if filename.endswith(\".jpg\") or filename.endswith(\".png\"):\n        # Открываем текущий файл для чтения в двоичном режиме\n        with open(os.path.join(path, filename), 'rb') as image_file:\n            # Отправляем запрос на удаление фона с помощью API",
+        "detail": "delit_dg.delit_dg",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "kind": 5,
+        "importPath": "delit_dg.delit_dg",
+        "description": "delit_dg.delit_dg",
+        "peekOfCode": "path = \"img/messenger_icon\"\n# Перебор всех файлов в папке\nfor filename in os.listdir(path):\n    # Проверяем, что файл является изображением с расширением .jpg или .png\n    if filename.endswith(\".jpg\") or filename.endswith(\".png\"):\n        # Открываем текущий файл для чтения в двоичном режиме\n        with open(os.path.join(path, filename), 'rb') as image_file:\n            # Отправляем запрос на удаление фона с помощью API\n            response = requests.post(\n                'https://api.remove.bg/v1.0/removebg',",
+        "detail": "delit_dg.delit_dg",
         "documentation": {}
     },
     {
