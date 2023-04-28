@@ -153,22 +153,6 @@
         "documentation": {}
     },
     {
-        "label": "ImageTk",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
         "label": "Image",
         "importPath": "PIL",
         "description": "PIL",
@@ -234,6 +218,22 @@
     },
     {
         "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
         "importPath": "PIL",
         "description": "PIL",
         "isExtraImport": true,
@@ -471,6 +471,70 @@
         "documentation": {}
     },
     {
+        "label": "app_title",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "app_title",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "app_title",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "app_title",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "app_title",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "app_title",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "app_title",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "app_title",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
         "label": "width",
         "importPath": "config",
         "description": "config",
@@ -480,70 +544,6 @@
     },
     {
         "label": "height",
-        "importPath": "config",
-        "description": "config",
-        "isExtraImport": true,
-        "detail": "config",
-        "documentation": {}
-    },
-    {
-        "label": "app_title",
-        "importPath": "config",
-        "description": "config",
-        "isExtraImport": true,
-        "detail": "config",
-        "documentation": {}
-    },
-    {
-        "label": "app_title",
-        "importPath": "config",
-        "description": "config",
-        "isExtraImport": true,
-        "detail": "config",
-        "documentation": {}
-    },
-    {
-        "label": "app_title",
-        "importPath": "config",
-        "description": "config",
-        "isExtraImport": true,
-        "detail": "config",
-        "documentation": {}
-    },
-    {
-        "label": "app_title",
-        "importPath": "config",
-        "description": "config",
-        "isExtraImport": true,
-        "detail": "config",
-        "documentation": {}
-    },
-    {
-        "label": "app_title",
-        "importPath": "config",
-        "description": "config",
-        "isExtraImport": true,
-        "detail": "config",
-        "documentation": {}
-    },
-    {
-        "label": "app_title",
-        "importPath": "config",
-        "description": "config",
-        "isExtraImport": true,
-        "detail": "config",
-        "documentation": {}
-    },
-    {
-        "label": "app_title",
-        "importPath": "config",
-        "description": "config",
-        "isExtraImport": true,
-        "detail": "config",
-        "documentation": {}
-    },
-    {
-        "label": "app_title",
         "importPath": "config",
         "description": "config",
         "isExtraImport": true,
@@ -603,74 +603,74 @@
     },
     {
         "label": "create_browser_window",
-        "importPath": "window.browser_window",
-        "description": "window.browser_window",
+        "importPath": "window.applications_window_data.browser_window",
+        "description": "window.applications_window_data.browser_window",
         "isExtraImport": true,
-        "detail": "window.browser_window",
+        "detail": "window.applications_window_data.browser_window",
         "documentation": {}
     },
     {
         "label": "create_message_window",
-        "importPath": "window.message_window",
-        "description": "window.message_window",
+        "importPath": "window.applications_window_data.message_window",
+        "description": "window.applications_window_data.message_window",
         "isExtraImport": true,
-        "detail": "window.message_window",
+        "detail": "window.applications_window_data.message_window",
         "documentation": {}
     },
     {
         "label": "create_game_window",
-        "importPath": "window.game_window",
-        "description": "window.game_window",
+        "importPath": "window.applications_window_data.game_window",
+        "description": "window.applications_window_data.game_window",
         "isExtraImport": true,
-        "detail": "window.game_window",
+        "detail": "window.applications_window_data.game_window",
         "documentation": {}
     },
     {
         "label": "create_music_window",
-        "importPath": "window.music_window",
-        "description": "window.music_window",
+        "importPath": "window.applications_window_data.music_window",
+        "description": "window.applications_window_data.music_window",
         "isExtraImport": true,
-        "detail": "window.music_window",
+        "detail": "window.applications_window_data.music_window",
         "documentation": {}
     },
     {
         "label": "create_programming_window",
-        "importPath": "window.programming_window",
-        "description": "window.programming_window",
+        "importPath": "window.applications_window_data.programming_window",
+        "description": "window.applications_window_data.programming_window",
         "isExtraImport": true,
-        "detail": "window.programming_window",
+        "detail": "window.applications_window_data.programming_window",
         "documentation": {}
     },
     {
         "label": "create_tweaks_window",
-        "importPath": "window.tweaks_window",
-        "description": "window.tweaks_window",
+        "importPath": "window.applications_window_data.tweaks_window",
+        "description": "window.applications_window_data.tweaks_window",
         "isExtraImport": true,
-        "detail": "window.tweaks_window",
+        "detail": "window.applications_window_data.tweaks_window",
         "documentation": {}
     },
     {
         "label": "create_antivirus_window",
-        "importPath": "window.antivirus_window",
-        "description": "window.antivirus_window",
+        "importPath": "window.applications_window_data.antivirus_window",
+        "description": "window.applications_window_data.antivirus_window",
         "isExtraImport": true,
-        "detail": "window.antivirus_window",
+        "detail": "window.applications_window_data.antivirus_window",
         "documentation": {}
     },
     {
         "label": "create_installations_window",
-        "importPath": "window.installations_window",
-        "description": "window.installations_window",
+        "importPath": "window.applications_window_data.installations_window",
+        "description": "window.applications_window_data.installations_window",
         "isExtraImport": true,
-        "detail": "window.installations_window",
+        "detail": "window.applications_window_data.installations_window",
         "documentation": {}
     },
     {
         "label": "create_favorite_window",
-        "importPath": "window.favorite_window",
-        "description": "window.favorite_window",
+        "importPath": "window.applications_window_data.favorite_window",
+        "description": "window.applications_window_data.favorite_window",
         "isExtraImport": true,
-        "detail": "window.favorite_window",
+        "detail": "window.applications_window_data.favorite_window",
         "documentation": {}
     },
     {
@@ -713,7 +713,7 @@
         "kind": 5,
         "importPath": "json_data.insert_data",
         "description": "json_data.insert_data",
-        "peekOfCode": "conn = sqlite3.connect('data_app.db')\nc = conn.cursor()\n# проитерироваться по данным и добавить каждую запись в таблицу\nfor app_name, app_data in data.items():\n    app_image_path = app_data['app_image_path']\n    app_developer = app_data['app_developer']\n    app_size = app_data['app_size']\n    app_url_website = app_data['app_url_website']\n    app_favorites = app_data['app_favorites']\n    c.execute(\"INSERT INTO message_app (app_image_path, app_name, app_developer, app_size, app_url_website, app_favorites) VALUES (?, ?, ?, ?, ?, ?)\",",
+        "peekOfCode": "conn = sqlite3.connect('data_app.db')\nc = conn.cursor()\n# проитерироваться по данным и добавить каждую запись в таблицу\nfor app_name, app_data in data.items():\n    app_image_path = app_data['app_image_path']\n    app_developer = app_data['app_developer']\n    app_size = app_data['app_size']\n    app_url_website = app_data['app_url_website']\n    app_favorites = app_data['app_favorites']\n    c.execute(\"INSERT INTO game_app (app_image_path, app_name, app_developer, app_size, app_url_website, app_favorites) VALUES (?, ?, ?, ?, ?, ?)\",",
         "detail": "json_data.insert_data",
         "documentation": {}
     },
@@ -722,7 +722,7 @@
         "kind": 5,
         "importPath": "json_data.insert_data",
         "description": "json_data.insert_data",
-        "peekOfCode": "c = conn.cursor()\n# проитерироваться по данным и добавить каждую запись в таблицу\nfor app_name, app_data in data.items():\n    app_image_path = app_data['app_image_path']\n    app_developer = app_data['app_developer']\n    app_size = app_data['app_size']\n    app_url_website = app_data['app_url_website']\n    app_favorites = app_data['app_favorites']\n    c.execute(\"INSERT INTO message_app (app_image_path, app_name, app_developer, app_size, app_url_website, app_favorites) VALUES (?, ?, ?, ?, ?, ?)\",\n              (app_image_path, app_name, app_developer, app_size, app_url_website, app_favorites))",
+        "peekOfCode": "c = conn.cursor()\n# проитерироваться по данным и добавить каждую запись в таблицу\nfor app_name, app_data in data.items():\n    app_image_path = app_data['app_image_path']\n    app_developer = app_data['app_developer']\n    app_size = app_data['app_size']\n    app_url_website = app_data['app_url_website']\n    app_favorites = app_data['app_favorites']\n    c.execute(\"INSERT INTO game_app (app_image_path, app_name, app_developer, app_size, app_url_website, app_favorites) VALUES (?, ?, ?, ?, ?, ?)\",\n              (app_image_path, app_name, app_developer, app_size, app_url_website, app_favorites))",
         "detail": "json_data.insert_data",
         "documentation": {}
     },
@@ -747,46 +747,82 @@
     {
         "label": "create_antivirus_window",
         "kind": 2,
-        "importPath": "window.antivirus_window",
-        "description": "window.antivirus_window",
+        "importPath": "window.applications_window_data.antivirus_window",
+        "description": "window.applications_window_data.antivirus_window",
         "peekOfCode": "def create_antivirus_window():  \n    conn = sqlite3.connect('data_app.db')\n    # создаем курсор\n    cursor = conn.cursor()\n    def open_website(url):\n        webbrowser.open(url)\n    check_var = tkinter.StringVar(value=\"off\")\n    def checkbox_event(app_id, app_image_path, app_name, app_developer, app_size, app_url_website):\n        # print(f\"\\n id: {app_id}\\n iamge_path: {app_image_path}\\n app_name: {app_name}\\n app_developer: {app_developer}\\n app_size: {app_size}\\n app_url: {app_url_website}\")\n        # создаем соединение с базой данных",
-        "detail": "window.antivirus_window",
+        "detail": "window.applications_window_data.antivirus_window",
         "documentation": {}
     },
     {
         "label": "create_browser_window",
         "kind": 2,
-        "importPath": "window.browser_window",
-        "description": "window.browser_window",
+        "importPath": "window.applications_window_data.browser_window",
+        "description": "window.applications_window_data.browser_window",
         "peekOfCode": "def create_browser_window():  \n    conn = sqlite3.connect('data_app.db')\n    # создаем курсор\n    cursor = conn.cursor()\n    def open_website(url):\n        webbrowser.open(url)\n    check_var = tkinter.StringVar(value=\"off\")\n    def checkbox_event(app_id, app_image_path, app_name, app_developer, app_size, app_url_website):\n        # print(f\"\\n id: {app_id}\\n iamge_path: {app_image_path}\\n app_name: {app_name}\\n app_developer: {app_developer}\\n app_size: {app_size}\\n app_url: {app_url_website}\")\n        # создаем соединение с базой данных",
-        "detail": "window.browser_window",
+        "detail": "window.applications_window_data.browser_window",
         "documentation": {}
     },
     {
         "label": "create_favorite_window",
         "kind": 2,
-        "importPath": "window.favorite_window",
-        "description": "window.favorite_window",
+        "importPath": "window.applications_window_data.favorite_window",
+        "description": "window.applications_window_data.favorite_window",
         "peekOfCode": "def create_favorite_window():  \n    conn = sqlite3.connect('data_app.db')\n    # создаем курсор\n    cursor = conn.cursor()\n    def open_website(url):\n        webbrowser.open(url)\n    check_var = tkinter.StringVar(value=\"off\")\n    def checkbox_event(app_id, app_image_path, app_name, app_developer, app_size, app_url_website):\n        # print(f\"\\n id: {app_id}\\n iamge_path: {app_image_path}\\n app_name: {app_name}\\n app_developer: {app_developer}\\n app_size: {app_size}\\n app_url: {app_url_website}\")\n        # создаем соединение с базой данных",
-        "detail": "window.favorite_window",
+        "detail": "window.applications_window_data.favorite_window",
         "documentation": {}
     },
     {
         "label": "create_game_window",
         "kind": 2,
-        "importPath": "window.game_window",
-        "description": "window.game_window",
+        "importPath": "window.applications_window_data.game_window",
+        "description": "window.applications_window_data.game_window",
         "peekOfCode": "def create_game_window():  \n    conn = sqlite3.connect('data_app.db')\n    # создаем курсор\n    cursor = conn.cursor()\n    def open_website(url):\n        webbrowser.open(url)\n    check_var = tkinter.StringVar(value=\"off\")\n    def checkbox_event(app_id, app_image_path, app_name, app_developer, app_size, app_url_website):\n        # print(f\"\\n id: {app_id}\\n iamge_path: {app_image_path}\\n app_name: {app_name}\\n app_developer: {app_developer}\\n app_size: {app_size}\\n app_url: {app_url_website}\")\n        # создаем соединение с базой данных",
-        "detail": "window.game_window",
+        "detail": "window.applications_window_data.game_window",
         "documentation": {}
     },
     {
         "label": "create_installations_window",
         "kind": 2,
-        "importPath": "window.installations_window",
-        "description": "window.installations_window",
+        "importPath": "window.applications_window_data.installations_window",
+        "description": "window.applications_window_data.installations_window",
         "peekOfCode": "def create_installations_window():  \n    conn = sqlite3.connect('data_app.db')\n    # создаем курсор\n    cursor = conn.cursor()\n    def open_website(url):\n        webbrowser.open(url)\n    check_var = tkinter.StringVar(value=\"off\")\n    def checkbox_event(app_id, app_image_path, app_name, app_developer, app_size, app_url_website):\n        # print(f\"\\n id: {app_id}\\n iamge_path: {app_image_path}\\n app_name: {app_name}\\n app_developer: {app_developer}\\n app_size: {app_size}\\n app_url: {app_url_website}\")\n        # создаем соединение с базой данных",
-        "detail": "window.installations_window",
+        "detail": "window.applications_window_data.installations_window",
+        "documentation": {}
+    },
+    {
+        "label": "create_message_window",
+        "kind": 2,
+        "importPath": "window.applications_window_data.message_window",
+        "description": "window.applications_window_data.message_window",
+        "peekOfCode": "def create_message_window():  \n    def open_website(url):\n        webbrowser.open(url)\n    check_var = tkinter.StringVar(value=\"off\")\n    def checkbox_event(app_id, app_image_path, app_name, app_developer, app_size, app_url_website):\n        # print(f\"\\n id: {app_id}\\n iamge_path: {app_image_path}\\n app_name: {app_name}\\n app_developer: {app_developer}\\n app_size: {app_size}\\n app_url: {app_url_website}\")\n        # создаем соединение с базой данных\n        conn = sqlite3.connect('data_app.db')\n        # создаем курсор\n        cursor = conn.cursor()",
+        "detail": "window.applications_window_data.message_window",
+        "documentation": {}
+    },
+    {
+        "label": "create_music_window",
+        "kind": 2,
+        "importPath": "window.applications_window_data.music_window",
+        "description": "window.applications_window_data.music_window",
+        "peekOfCode": "def create_music_window():  \n    conn = sqlite3.connect('data_app.db')\n    # создаем курсор\n    cursor = conn.cursor()\n    def open_website(url):\n        webbrowser.open(url)\n    check_var = tkinter.StringVar(value=\"off\")\n    def checkbox_event(app_id, app_image_path, app_name, app_developer, app_size, app_url_website):\n        # print(f\"\\n id: {app_id}\\n iamge_path: {app_image_path}\\n app_name: {app_name}\\n app_developer: {app_developer}\\n app_size: {app_size}\\n app_url: {app_url_website}\")\n        # создаем соединение с базой данных",
+        "detail": "window.applications_window_data.music_window",
+        "documentation": {}
+    },
+    {
+        "label": "create_programming_window",
+        "kind": 2,
+        "importPath": "window.applications_window_data.programming_window",
+        "description": "window.applications_window_data.programming_window",
+        "peekOfCode": "def create_programming_window():  \n    conn = sqlite3.connect('data_app.db')\n    # создаем курсор\n    cursor = conn.cursor()\n    def open_website(url):\n        webbrowser.open(url)\n    check_var = tkinter.StringVar(value=\"off\")\n    def checkbox_event(app_id, app_image_path, app_name, app_developer, app_size, app_url_website):\n        # print(f\"\\n id: {app_id}\\n iamge_path: {app_image_path}\\n app_name: {app_name}\\n app_developer: {app_developer}\\n app_size: {app_size}\\n app_url: {app_url_website}\")\n        # создаем соединение с базой данных",
+        "detail": "window.applications_window_data.programming_window",
+        "documentation": {}
+    },
+    {
+        "label": "create_tweaks_window",
+        "kind": 2,
+        "importPath": "window.applications_window_data.tweaks_window",
+        "description": "window.applications_window_data.tweaks_window",
+        "peekOfCode": "def create_tweaks_window():  \n    conn = sqlite3.connect('data_app.db')\n    # создаем курсор\n    cursor = conn.cursor()\n    def open_website(url):\n        webbrowser.open(url)\n    check_var = tkinter.StringVar(value=\"off\")\n    def checkbox_event(app_id, app_image_path, app_name, app_developer, app_size, app_url_website):\n        # print(f\"\\n id: {app_id}\\n iamge_path: {app_image_path}\\n app_name: {app_name}\\n app_developer: {app_developer}\\n app_size: {app_size}\\n app_url: {app_url_website}\")\n        # создаем соединение с базой данных",
+        "detail": "window.applications_window_data.tweaks_window",
         "documentation": {}
     },
     {
@@ -1003,42 +1039,6 @@
         "description": "window.main_window",
         "peekOfCode": "label2 = customtkinter.CTkLabel(\n    master=frame_for_settings,     # родительский виджет\n    text=\"frame_settings\",         # текст метки\n)\nlabel2.grid(row=1, column=1, pady=20, padx=15)  # размещение метки в фрейме",
         "detail": "window.main_window",
-        "documentation": {}
-    },
-    {
-        "label": "create_message_window",
-        "kind": 2,
-        "importPath": "window.message_window",
-        "description": "window.message_window",
-        "peekOfCode": "def create_message_window():  \n    def open_website(url):\n        webbrowser.open(url)\n    check_var = tkinter.StringVar(value=\"off\")\n    def checkbox_event(app_id, app_image_path, app_name, app_developer, app_size, app_url_website):\n        # print(f\"\\n id: {app_id}\\n iamge_path: {app_image_path}\\n app_name: {app_name}\\n app_developer: {app_developer}\\n app_size: {app_size}\\n app_url: {app_url_website}\")\n        # создаем соединение с базой данных\n        conn = sqlite3.connect('data_app.db')\n        # создаем курсор\n        cursor = conn.cursor()",
-        "detail": "window.message_window",
-        "documentation": {}
-    },
-    {
-        "label": "create_music_window",
-        "kind": 2,
-        "importPath": "window.music_window",
-        "description": "window.music_window",
-        "peekOfCode": "def create_music_window():  \n    conn = sqlite3.connect('data_app.db')\n    # создаем курсор\n    cursor = conn.cursor()\n    def open_website(url):\n        webbrowser.open(url)\n    check_var = tkinter.StringVar(value=\"off\")\n    def checkbox_event(app_id, app_image_path, app_name, app_developer, app_size, app_url_website):\n        # print(f\"\\n id: {app_id}\\n iamge_path: {app_image_path}\\n app_name: {app_name}\\n app_developer: {app_developer}\\n app_size: {app_size}\\n app_url: {app_url_website}\")\n        # создаем соединение с базой данных",
-        "detail": "window.music_window",
-        "documentation": {}
-    },
-    {
-        "label": "create_programming_window",
-        "kind": 2,
-        "importPath": "window.programming_window",
-        "description": "window.programming_window",
-        "peekOfCode": "def create_programming_window():  \n    conn = sqlite3.connect('data_app.db')\n    # создаем курсор\n    cursor = conn.cursor()\n    def open_website(url):\n        webbrowser.open(url)\n    check_var = tkinter.StringVar(value=\"off\")\n    def checkbox_event(app_id, app_image_path, app_name, app_developer, app_size, app_url_website):\n        # print(f\"\\n id: {app_id}\\n iamge_path: {app_image_path}\\n app_name: {app_name}\\n app_developer: {app_developer}\\n app_size: {app_size}\\n app_url: {app_url_website}\")\n        # создаем соединение с базой данных",
-        "detail": "window.programming_window",
-        "documentation": {}
-    },
-    {
-        "label": "create_tweaks_window",
-        "kind": 2,
-        "importPath": "window.tweaks_window",
-        "description": "window.tweaks_window",
-        "peekOfCode": "def create_tweaks_window():  \n    conn = sqlite3.connect('data_app.db')\n    # создаем курсор\n    cursor = conn.cursor()\n    def open_website(url):\n        webbrowser.open(url)\n    check_var = tkinter.StringVar(value=\"off\")\n    def checkbox_event(app_id, app_image_path, app_name, app_developer, app_size, app_url_website):\n        # print(f\"\\n id: {app_id}\\n iamge_path: {app_image_path}\\n app_name: {app_name}\\n app_developer: {app_developer}\\n app_size: {app_size}\\n app_url: {app_url_website}\")\n        # создаем соединение с базой данных",
-        "detail": "window.tweaks_window",
         "documentation": {}
     },
     {

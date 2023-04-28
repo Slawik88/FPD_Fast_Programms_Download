@@ -752,7 +752,7 @@
         "app_favorites": "0"
     },
     "Symphony": {
-        "app_image_path": "img\\messagerer_icon\\\\icon_Symphony.png",
+        "app_image_path": "img\\messagerer_icon\\icon_Symphony.png",
         "app_name": "Symphony",
         "app_developer": "Symphony Communication Services, LLC",
         "app_size": "70",
@@ -760,7 +760,7 @@
         "app_favorites": "0"
     },
     "Telegram X": {
-        "app_image_path": "img\\messagerer_icon\\\\icon_Telegram_X.png",
+        "app_image_path": "img\\messagerer_icon\\icon_Telegram_X.png",
         "app_name": "Telegram X",
         "app_developer": "Telegram LLC",
         "app_size": "40",

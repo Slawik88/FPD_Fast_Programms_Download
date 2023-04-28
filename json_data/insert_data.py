@@ -2,7 +2,7 @@ import json
 import sqlite3
 
 # открыть json файл и загрузить данные в переменную data
-with open('json_data\\messager.json', 'r') as f:
+with open('json_data\\game.json', 'r') as f:
     data = json.load(f)
 
 # установить соединение с базой данных
@@ -16,7 +16,7 @@ for app_name, app_data in data.items():
     app_size = app_data['app_size']
     app_url_website = app_data['app_url_website']
     app_favorites = app_data['app_favorites']
-    c.execute("INSERT INTO message_app (app_image_path, app_name, app_developer, app_size, app_url_website, app_favorites) VALUES (?, ?, ?, ?, ?, ?)",
+    c.execute("INSERT INTO game_app (app_image_path, app_name, app_developer, app_size, app_url_website, app_favorites) VALUES (?, ?, ?, ?, ?, ?)",
               (app_image_path, app_name, app_developer, app_size, app_url_website, app_favorites))
 
 # сохранить изменения и закрыть соединение с базой данных

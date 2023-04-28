@@ -1040,7 +1040,7 @@
 		"app_favorites": 0
 	},
 	"Marvel's Midnight Suns": {
-		"app_image_path": "img\\games_icon\\icon_Marvel's Midnight Suns.png",
+		"app_image_path": "img\\games_icon\\icon_Marvel's_Midnight_Suns.png",
 		"app_name": "Marvel's Midnight Suns",
 		"app_developer": "Firaxis Games",
 		"app_size": "50",
@@ -1048,7 +1048,7 @@
 		"app_favorites": 0
 	},
 	"Rainbow Six Extraction": {
-		"app_image_path": "img\\games_icon\\icon_Rainbow Six Extraction.png",
+		"app_image_path": "img\\games_icon\\icon_Rainbow_Six_Extraction.png",
 		"app_name": "Rainbow Six Extraction",
 		"app_developer": "Ubisoft",
 		"app_size": "80",
@@ -1056,7 +1056,7 @@
 		"app_favorites": 1
 	},
 	"Dying Light 2: Stay Human": {
-		"app_image_path": "img\\games_icon\\icon_Dying Light 2: Stay Human.png",
+		"app_image_path": "img\\games_icon\\icon_Dying_Light_2:_Stay_Human.png",
 		"app_name": "Dying Light 2: Stay Human",
 		"app_developer": "Techland",
 		"app_size": "100",
@@ -1064,7 +1064,7 @@
 		"app_favorites": 0
 	},
 	"The Lord of the Rings: Gollum": {
-		"app_image_path": "img\\games_icon\\icon_The Lord of the Rings Gollum.png",
+		"app_image_path": "img\\games_icon\\icon_The_Lord_of_the_Rings_Gollum.png",
 		"app_name": "The Lord of the Rings: Gollum",
 		"app_developer": "Daedalic Entertainment",
 		"app_size": "70",
@@ -1072,7 +1072,7 @@
 		"app_favorites": 1
 	},
 	"Warhammer 40,000: Darktide": {
-		"app_image_path": "img\\games_icon\\icon_Warhammer 40,000 Darktide.png",
+		"app_image_path": "img\\games_icon\\icon_Warhammer_40,000_Darktide.png",
 		"app_name": "Warhammer 40,000: Darktide",
 		"app_developer": "Fatshark",
 		"app_size": "90",
@@ -1088,14 +1088,13 @@
 		"app_favorites": 0
 	},
 	"Evil Genius 2: World Domination": {
-		"app_image_path": "img\\games_icon\\icon_Evil Genius 2 World Domination.png",
+		"app_image_path": "img\\games_icon\\icon_Evil_Genius_2_World_Domination.png",
 		"app_name": "Evil Genius 2: World Domination",
 		"app_developer": "Rebellion Developments",
 		"app_size": "80",
 		"app_url_website": "https://www.evilgeniusgame.com/",
 		"app_favorites": 1
 	},
-
 	"Control": {
 		"app_image_path": "img\\games_icon\\icon_Control.png",
 		"app_name": "Control",
@@ -1105,7 +1104,7 @@
 		"app_favorites": 0
 	},
 	"Death Stranding": {
-		"app_image_path": "img\\games_icon\\icon_Death Stranding.png",
+		"app_image_path": "img\\games_icon\\icon_Death_Stranding.png",
 		"app_name": "Death Stranding",
 		"app_developer": "Kojima Productions",
 		"app_size": "70",
@@ -1113,7 +1112,7 @@
 		"app_favorites": 0
 	},
 	"Disco Elysium": {
-		"app_image_path": "img\\games_icon\\icon_Disco Elysium.png",
+		"app_image_path": "img\\games_icon\\icon_Disco_Elysium.png",
 		"app_name": "Disco Elysium",
 		"app_developer": "ZA/UM",
 		"app_size": "30",
@@ -1121,7 +1120,7 @@
 		"app_favorites": 0
 	},
 	"Doom Eternal": {
-		"app_image_path": "img\\games_icon\\icon_Doom Eternal.png",
+		"app_image_path": "img\\games_icon\\icon_Doom_Eternal.png",
 		"app_name": "Doom Eternal",
 		"app_developer": "id Software",
 		"app_size": "90",
@@ -1129,7 +1128,7 @@
 		"app_favorites": 0
 	},
 	"Gears 5": {
-		"app_image_path": "img\\games_icon\\icon_Gears 5.png",
+		"app_image_path": "img\\games_icon\\icon_Gears_5.png",
 		"app_name": "Gears 5",
 		"app_developer": "The Coalition",
 		"app_size": "110",
@@ -1137,7 +1136,7 @@
 		"app_favorites": 0
 	},
 	"Horizon Zero Dawn": {
-		"app_image_path": "img\\games_icon\\icon_Horizon Zero Dawn.png",
+		"app_image_path": "img\\games_icon\\icon_Horizon_Zero_Dawn.png",
 		"app_name": "Horizon Zero Dawn",
 		"app_developer": "Guerrilla Games",
 		"app_size": "50",
@@ -1145,7 +1144,7 @@
 		"app_favorites": 0
 	},
 	"Sekiro: Shadows Die Twice": {
-		"app_image_path": "img\\games_icon\\icon_Sekiro Shadows Die Twice.png",
+		"app_image_path": "img\\games_icon\\icon_Sekiro_Shadows_Die_Twice.png",
 		"app_name": "Sekiro: Shadows Die Twice",
 		"app_developer": "FromSoftware",
 		"app_size": "40",
@@ -1153,25 +1152,23 @@
 		"app_favorites": 1
 	},
 	"The Outer Worlds": {
-		"app_image_path": "img\\games_icon\\icon_The Outer Worlds.png",
+		"app_image_path": "img\\games_icon\\icon_The Outer_Worlds.png",
 		"app_name": "The Outer Worlds",
 		"app_developer": "Obsidian Entertainment",
 		"app_size": "55",
 		"app_url_website": "https://outerworlds.obsidian.net/",
 		"app_favorites": 0
 	},
-
 	"Wolfenstein II: The New Colossus": {
-		"app_image_path": "img\\games_icon\\icon_Wolfenstein II The New Colossus.png",
+		"app_image_path": "img\\games_icon\\icon_Wolfenstein_II_The_New_Colossus.png",
 		"app_name": "Wolfenstein II: The New Colossus",
 		"app_developer": "MachineGames",
 		"app_size": "60",
 		"app_url_website": "https://bethesda.net/en/game/wolfenstein-ii",
 		"app_favorites": 1
 	},
-
 	"Fall Guys: Ultimate Knockout": {
-		"app_image_path": "img\\games_icon\\icon_Fall Guys Ultimate Knockout.png",
+		"app_image_path": "img\\games_icon\\icon_Fall_Guys_Ultimate_Knockout.png",
 		"app_name": "Fall Guys: Ultimate Knockout",
 		"app_developer": "Mediatonic",
 		"app_size": "30",
@@ -1195,7 +1192,7 @@
 		"app_favorites": 1
 	},
 	"It Takes Two": {
-		"app_image_path": "img\\games_icon\\icon_It Takes Two.png",
+		"app_image_path": "img\\games_icon\\icon_It_Takes_Two.png",
 		"app_name": "It Takes Two",
 		"app_developer": "Hazelight Studios",
 		"app_size": "35",
@@ -1211,7 +1208,7 @@
 		"app_favorites": 1
 	},
 	"Ratchet & Clank: Rift Apart": {
-		"app_image_path": "img\\games_icon\\icon_Ratchet & Clank Rift Apart.png",
+		"app_image_path": "img\\games_icon\\icon_Ratchet_&_Clank_Rift_Apart.png",
 		"app_name": "Ratchet & Clank: Rift Apart",
 		"app_developer": "Insomniac Games",
 		"app_size": "50",
@@ -1227,7 +1224,7 @@
 		"app_favorites": 0
 	},
 	"Back 4 Blood": {
-		"app_image_path": "img\\games_icon\\icon_Back 4 Blood.png",
+		"app_image_path": "img\\games_icon\\icon_Back_4_Blood.png",
 		"app_name": "Back 4 Blood",
 		"app_developer": "Turtle Rock Studios",
 		"app_size": "45",
@@ -1235,7 +1232,7 @@
 		"app_favorites": 0
 	},
 	"Psychonauts 2": {
-		"app_image_path": "img\\games_icon\\icon_Psychonauts 2.png",
+		"app_image_path": "img\\games_icon\\icon_Psychonauts_2.png",
 		"app_name": "Psychonauts 2",
 		"app_developer": "Double Fine Productions",
 		"app_size": "35",
@@ -1243,7 +1240,7 @@
 		"app_favorites": 1
 	},
 	"Life is Strange: True Colors": {
-		"app_image_path": "img\\games_icon\\icon_Life is Strange True Colors.png",
+		"app_image_path": "img\\games_icon\\icon_Life_is_Strange_True_Colors.png",
 		"app_name": "Life is Strange: True Colors",
 		"app_developer": "Deck Nine",
 		"app_size": "30",
@@ -1251,7 +1248,7 @@
 		"app_favorites": 0
 	},
 	"F1 2021": {
-		"app_image_path": "img\\games_icon\\icon_F1 2021.png",
+		"app_image_path": "img\\games_icon\\icon_F1_2021.png",
 		"app_name": "F1 2021",
 		"app_developer": "Codemasters",
 		"app_size": "80",
@@ -1259,7 +1256,7 @@
 		"app_favorites": 0
 	},
 	"XCOM 2": {
-		"app_image_path": "img\\games_icon\\icon_XCOM 2.png",
+		"app_image_path": "img\\games_icon\\icon_XCOM_2.png",
 		"app_name": "XCOM 2",
 		"app_developer": "Firaxis Games",
 		"app_size": "50",
@@ -1267,7 +1264,7 @@
 		"app_favorites": 0
 	},
 	"Yakuza 0": {
-		"app_image_path": "img\\games_icon\\icon_Yakuza 0.png",
+		"app_image_path": "img\\games_icon\\icon_Yakuza_0.png",
 		"app_name": "Yakuza 0",
 		"app_developer": "SEGA",
 		"app_size": "20",
@@ -1275,7 +1272,7 @@
 		"app_favorites": 0
 	},
 	"Yakuza Kiwami": {
-		"app_image_path": "img\\games_icon\\icon_Yakuza Kiwami.png",
+		"app_image_path": "img\\games_icon\\icon_Yakuza_Kiwami.png",
 		"app_name": "Yakuza Kiwami",
 		"app_developer": "SEGA",
 		"app_size": "22",
@@ -1283,7 +1280,7 @@
 		"app_favorites": 0
 	},
 	"Yakuza Kiwami 2": {
-		"app_image_path": "img\\games_icon\\icon_Yakuza Kiwami 2.png",
+		"app_image_path": "img\\games_icon\\icon_Yakuza_Kiwami_2.png",
 		"app_name": "Yakuza Kiwami 2",
 		"app_developer": "SEGA",
 		"app_size": "25",
@@ -1291,7 +1288,7 @@
 		"app_favorites": 0
 	},
 	"Yakuza 6: The Song of Life": {
-		"app_image_path": "img\\games_icon\\icon_Yakuza 6 The Song of Life.png",
+		"app_image_path": "img\\games_icon\\icon_Yakuza_6_The_Song_of_Life.png",
 		"app_name": "Yakuza 6: The Song of Life",
 		"app_developer": "SEGA",
 		"app_size": "28",
@@ -1299,11 +1296,75 @@
 		"app_favorites": 0
 	},
 	"Ys VIII: Lacrimosa of Dana": {
-		"app_image_path": "img\\games_icon\\icon_Ys VIII Lacrimosa of Dana.png",
+		"app_image_path": "img\\games_icon\\icon_Ys_VIII_Lacrimosa_of_Dana.png",
 		"app_name": "Ys VIII: Lacrimosa of Dana",
 		"app_developer": "Nihon Falcom",
 		"app_size": "12",
 		"app_url_website": "https://nisamerica.com/ys8/",
+		"app_favorites": 0
+	},
+	"Yooka-Laylee": {
+		"app_image_path": "img\\games_icon\\icon_Yooka-Laylee.png",
+		"app_name": "Yooka-Laylee",
+		"app_developer": "Playtonic Games",
+		"app_size": "6 GB",
+		"app_url_website": "https://www.playtonicgames.com/games/yooka-laylee/",
+		"app_favorites": 0
+	},
+	"Ziggurat 2": {
+		"app_image_path": "img\\games_icon\\icon_Ziggurat_2.png",
+		"app_name": "Ziggurat 2",
+		"app_developer": "Milkstone Studios",
+		"app_size": "Unknown",
+		"app_url_website": "https://www.milkstonestudios.com/games/ziggurat2",
+		"app_favorites": 0
+	},
+	"Ghostwire: Tokyo": {
+		"app_image_path": "img\\games_icon\\icon_Ghostwire_Tokyo.png",
+		"app_name": "Ghostwire: Tokyo",
+		"app_developer": "Tango Gameworks",
+		"app_size": "Unknown",
+		"app_url_website": "https://bethesda.net/en/game/ghostwire-tokyo",
+		"app_favorites": 0
+	},
+	"Project Athia": {
+		"app_image_path": "img\\games_icon\\icon_Project_Athia.png",
+		"app_name": "Project Athia",
+		"app_developer": "Square Enix Luminous Productions",
+		"app_size": "Unknown",
+		"app_url_website": "https://www.square-enix-games.com/en_US/games/project-athia",
+		"app_favorites": 0
+	},
+	"Project 007": {
+		"app_image_path": "img\\games_icon\\icon_Project_007.png",
+		"app_name": "Project 007",
+		"app_developer": "IO Interactive",
+		"app_size": "Unknown",
+		"app_url_website": "https://www.ioi.dk/project-007/",
+		"app_favorites": 0
+	},
+	"Suicide Squad: Kill the Justice League": {
+		"app_image_path": "img\\games_icon\\icon_Suicide_Squad_Kill_the_Justice_League.png",
+		"app_name": "Suicide Squad: Kill the Justice League",
+		"app_developer": "Rocksteady Studios",
+		"app_size": "Unknown",
+		"app_url_website": "https://www.suicidesquadkillthejusticelague.com/",
+		"app_favorites": 0
+	},
+	"God of War Ragnarok": {
+		"app_image_path": "img\\games_icon\\icon_God_of_War_Ragnarok.png",
+		"app_name": "God of War Ragnarok",
+		"app_developer": "Santa Monica Studio",
+		"app_size": "Unknown",
+		"app_url_website": "https://www.playstation.com/en-us/games/god-of-war-ragnarok/",
+		"app_favorites": 0
+	},
+	"Stalker 2": {
+		"app_image_path": "img\\games_icon\\icon_Stalker_2.png",
+		"app_name": "Stalker 2",
+		"app_developer": "GSC Game World",
+		"app_size": "70",
+		"app_url_website": "https://stalker2.com/",
 		"app_favorites": 0
 	}
 }
