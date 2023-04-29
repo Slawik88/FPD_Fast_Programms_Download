@@ -13,7 +13,17 @@ Choose one of the program categories:
 * Favorites
 
 
-![Photo](FPD_Fast_Programms_Download/img/Photo_for_GitHab/applications.png)
+
 <img src="./img/Photo_for_GitHab/applications.png">
+### Games
+<img src="./img/Photo_for_GitHab/applications_games.png">
+### Browsers
+<img src="./img/Photo_for_GitHab/applications_browser.png">
+
+Color scheme
+### Dark
+<img src="./img/Photo_for_GitHab/applications_browser.png">
+### White
+<img src="./img/Photo_for_GitHab/applications_browser.png">
 
 ### The program is under development.
