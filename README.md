@@ -11,3 +11,4 @@ Choose one of the program categories:
 * Antivirus  - Appear in future versions
 * Installations  - Appear in future versions
 * Favorites
+![Photo](img\Photo_for_GitHab\applications.png)
