@@ -15,15 +15,15 @@ Choose one of the program categories:
 
 
 <img src="./img/Photo_for_GitHab/applications.png">
-### Games
+Games
 <img src="./img/Photo_for_GitHab/applications_games.png">
 ### Browsers
 <img src="./img/Photo_for_GitHab/applications_browser.png">
 
 Color scheme
-### Dark
-<img src="./img/Photo_for_GitHab/applications_browser.png">
-### White
-<img src="./img/Photo_for_GitHab/applications_browser.png">
+Dark-Blue
+<img src="./img/Photo_for_GitHab/dark_blue.png">
+White
+<img src="./img/Photo_for_GitHab/Write_mod.png">
 
 ### The program is under development.
