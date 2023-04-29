@@ -47,22 +47,3 @@ def on_click_list_of_categories_marks_callback(value):
         create_favorite_window()
 
 
-def on_clear_all_frame_for_home():
-    # показываем фрейм для домашней страницы
-    frame_for_home.grid(row=0, column=1)
-    frame_for_applications.grid_forget()  # скрываем фрейм для приложений
-    frame_for_settings.grid_forget()  # скрываем фрейм для настроек
-
-
-def on_clear_all_frame_for_applications():
-    # показываем фрейм для приложений
-    frame_for_applications.grid(row=0, column=2)
-    frame_for_home.grid_forget()  # скрываем фрейм для домашней страницы
-    frame_for_settings.grid_forget()  # скрываем фрейм для настроек
-
-
-def on_clear_all_frame_for_settings():
-    frame_for_settings.grid(row=0, column=3)  # показываем фрейм для настроек
-    frame_for_home.grid_forget()  # скрываем фрейм для домашней страницы
-    frame_for_applications.grid_forget()  # скрываем фрейм для приложений
-# создаем функцию для создания изображения кнопки

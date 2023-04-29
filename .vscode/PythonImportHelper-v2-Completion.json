@@ -594,14 +594,6 @@
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "data_def",
-        "description": "data_def",
-        "isExtraImport": true,
-        "detail": "data_def",
-        "documentation": {}
-    },
-    {
         "label": "create_browser_window",
         "importPath": "window.applications_window_data.browser_window",
         "description": "window.applications_window_data.browser_window",
@@ -1100,33 +1092,6 @@
         "importPath": "data_def",
         "description": "data_def",
         "peekOfCode": "def on_click_list_of_categories_marks_callback(value):\n    # Вывод сообщения о нажатии на кнопку\n    print(\"segmented button clicked:\", value)\n    # Если нажата кнопка Browsers, вызов функции create_browser_window\n    if value == \"Browsers\":\n        create_browser_window()\n    # Если нажата кнопка Messages, создание нового окна\n    elif value == \"Messages\":\n        create_message_window()\n    # Если нажата кнопка Games, создание нового окна",
-        "detail": "data_def",
-        "documentation": {}
-    },
-    {
-        "label": "on_clear_all_frame_for_home",
-        "kind": 2,
-        "importPath": "data_def",
-        "description": "data_def",
-        "peekOfCode": "def on_clear_all_frame_for_home():\n    # показываем фрейм для домашней страницы\n    frame_for_home.grid(row=0, column=1)\n    frame_for_applications.grid_forget()  # скрываем фрейм для приложений\n    frame_for_settings.grid_forget()  # скрываем фрейм для настроек\ndef on_clear_all_frame_for_applications():\n    # показываем фрейм для приложений\n    frame_for_applications.grid(row=0, column=2)\n    frame_for_home.grid_forget()  # скрываем фрейм для домашней страницы\n    frame_for_settings.grid_forget()  # скрываем фрейм для настроек",
-        "detail": "data_def",
-        "documentation": {}
-    },
-    {
-        "label": "on_clear_all_frame_for_applications",
-        "kind": 2,
-        "importPath": "data_def",
-        "description": "data_def",
-        "peekOfCode": "def on_clear_all_frame_for_applications():\n    # показываем фрейм для приложений\n    frame_for_applications.grid(row=0, column=2)\n    frame_for_home.grid_forget()  # скрываем фрейм для домашней страницы\n    frame_for_settings.grid_forget()  # скрываем фрейм для настроек\ndef on_clear_all_frame_for_settings():\n    frame_for_settings.grid(row=0, column=3)  # показываем фрейм для настроек\n    frame_for_home.grid_forget()  # скрываем фрейм для домашней страницы\n    frame_for_applications.grid_forget()  # скрываем фрейм для приложений\n# создаем функцию для создания изображения кнопки",
-        "detail": "data_def",
-        "documentation": {}
-    },
-    {
-        "label": "on_clear_all_frame_for_settings",
-        "kind": 2,
-        "importPath": "data_def",
-        "description": "data_def",
-        "peekOfCode": "def on_clear_all_frame_for_settings():\n    frame_for_settings.grid(row=0, column=3)  # показываем фрейм для настроек\n    frame_for_home.grid_forget()  # скрываем фрейм для домашней страницы\n    frame_for_applications.grid_forget()  # скрываем фрейм для приложений\n# создаем функцию для создания изображения кнопки",
         "detail": "data_def",
         "documentation": {}
     },

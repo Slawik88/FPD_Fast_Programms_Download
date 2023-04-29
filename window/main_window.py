@@ -6,7 +6,6 @@ import json
 from config import width, height, app_title
 # импортируем функцию из модуля data_def
 from data_def import on_click_list_of_categories_marks_callback
-from data_def import *
 
 from PIL import ImageTk, Image  # импортируем две библиотеки из модуля PIL
 # создаем объект приложения с помощью класса CTk из модуля customtkinter
@@ -27,6 +26,7 @@ center_y = int(screen_height / 2 - height / 2)
 app.geometry(f"{width}x{height}+{center_x}+{center_y}")
 app.title(f"{app_title}")  # устанавливаем заголовок окна
 # определяем функции для скрытия/отображения различных фреймов
+
 
 
 def on_clear_all_frame_for_home():
