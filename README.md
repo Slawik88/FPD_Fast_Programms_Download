@@ -16,7 +16,7 @@ Choose one of the program categories:
 ### Screenshots
 
 #### Games
-![Games](./img/Photo_for_GitHub/applications_games.png)
+![Games](.\img\Photo_for_GitHab\applications_games.png)
 
 #### Browsers
 ![Browsers](./img/Photo_for_GitHub/applications_browser.png)
