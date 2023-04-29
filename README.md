@@ -16,10 +16,10 @@ Choose one of the program categories:
 ### Screenshots
 
 #### Games
-<img src="![Games](img\Photo_for_GitHab\applications_games.png)">
+![Games](img/Photo_for_GitHab/applications_games.png)
 
 #### Browsers
-![Browsers](img/Photo_for_GitHub/applications_browser.png)
+![Browsers](img\Photo_for_GitHab\applications_browser.png)
 
 ### Color Scheme
 Choose your preferred color scheme:
@@ -31,3 +31,5 @@ Choose your preferred color scheme:
 
 ### Development
 This program is currently under development.
+
+![Alt Text](img/Photo_for_GitHab/applications_games.png)
