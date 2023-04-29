@@ -974,16 +974,43 @@
         "kind": 5,
         "importPath": "window.main_window",
         "description": "window.main_window",
-        "peekOfCode": "frame_for_home = customtkinter.CTkFrame(\n    master=app,                   # родительский виджет\n    width=500,                    # ширина фрейма\n    height=height,                # высота фрейма\n    border_width=2,               # ширина границы фрейма\n    border_color=\"green\"          # цвет границы фрейма\n)\n# Содержимое фрейма для home\nlabel1 = customtkinter.CTkLabel(\n    master=frame_for_home,        # родительский виджет",
+        "peekOfCode": "frame_for_home = customtkinter.CTkFrame(\n    master=app,                   # родительский виджет\n    width=500,                    # ширина фрейма\n    height=height,                # высота фрейма\n    border_width=2,               # ширина границы фрейма\n    border_color=\"green\"          # цвет границы фрейма\n)\n# Содержимое фрейма для home\nlabel_wencole = customtkinter.CTkLabel(\n    master=frame_for_home,        # родительский виджет",
         "detail": "window.main_window",
         "documentation": {}
     },
     {
-        "label": "label1",
+        "label": "label_wencole",
         "kind": 5,
         "importPath": "window.main_window",
         "description": "window.main_window",
-        "peekOfCode": "label1 = customtkinter.CTkLabel(\n    master=frame_for_home,        # родительский виджет\n    text=\"frame_home\"             # текст метки\n)\nlabel1.grid(row=1, column=1, pady=20, padx=15)  # размещение метки в фрейме\n# Создание фрейма для кнопки applications\nframe_for_applications = customtkinter.CTkFrame(\n    master=app,                   # родительский виджет\n    width=500,                    # ширина фрейма\n    height=height,                # высота фрейма",
+        "peekOfCode": "label_wencole = customtkinter.CTkLabel(\n    master=frame_for_home,        # родительский виджет\n    text=\"Welcome to\",             # текст метки\n    font=(\"Arial\", 20)\n)\nlabel_wencole.grid(row=1, column=1, pady=10, padx=10)  # размещение метки в фрейме\nlabel_name_program = customtkinter.CTkLabel(\n    master=frame_for_home,        # родительский виджет\n    text=\"FPD - Fast Program Download\",             # текст метки\n    font=(\"Arial\", 30),",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "label_name_program",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "label_name_program = customtkinter.CTkLabel(\n    master=frame_for_home,        # родительский виджет\n    text=\"FPD - Fast Program Download\",             # текст метки\n    font=(\"Arial\", 30),\n)\nlabel_name_program.grid(row=2, column=1, pady=10, padx=10)  # размещение метки в фрейме\nlabel_help_text = customtkinter.CTkLabel(\n    master=frame_for_home,        # родительский виджет\n    text=\"⚠ download any program in a couple of seconds\",             # текст метки\n    font=(\"Arial\", 20)",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "label_help_text",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "label_help_text = customtkinter.CTkLabel(\n    master=frame_for_home,        # родительский виджет\n    text=\"⚠ download any program in a couple of seconds\",             # текст метки\n    font=(\"Arial\", 20)\n)\nlabel_help_text.grid(row=3, column=1, pady=10, padx=10)  # размещение метки в фрейме\n# Содержимое фрейма для home\nlabel_wencole = customtkinter.CTkLabel(\n    master=frame_for_home,        # родительский виджет\n    text=\"🔻 In the \\\"Application\\\" you will find all the programs\",             # текст метки",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "label_wencole",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "label_wencole = customtkinter.CTkLabel(\n    master=frame_for_home,        # родительский виджет\n    text=\"🔻 In the \\\"Application\\\" you will find all the programs\",             # текст метки\n    font=(\"Arial\", 20)\n)\nlabel_wencole.grid(row=4, column=1, pady=10, padx=10)  # размещение метки в фрейме\n# Создание фрейма для кнопки applications\nframe_for_applications = customtkinter.CTkFrame(\n    master=app,                   # родительский виджет\n    width=500,                    # ширина фрейма",
         "detail": "window.main_window",
         "documentation": {}
     },
@@ -1064,7 +1091,7 @@
         "kind": 5,
         "importPath": "window.main_window",
         "description": "window.main_window",
-        "peekOfCode": "select_style_var = customtkinter.StringVar(value=\"Select\")\noptionmenu_select_style = customtkinter.CTkOptionMenu(frame_for_settings, values=[\"blue\", \"dark-blue\", \"green\"],\n                                                    command=select_style,\n                                                    variable=select_style_var)\noptionmenu_select_style.grid(row=2, column=2, pady=20, padx=15)\nlabel_warning_message = customtkinter.CTkLabel(\n    master=frame_for_settings,     # родительский виджет\n    text=f\"In order for the changes to take effect, you need to restart the program\",          # текст метки\n    font=(\"Arial\", 14),\n    text_color=\"red\",",
+        "peekOfCode": "select_style_var = customtkinter.StringVar(value=\"Select\")\noptionmenu_select_style = customtkinter.CTkOptionMenu(frame_for_settings, values=[\"blue\", \"dark-blue\", \"green\"],\n                                                    command=select_style,\n                                                    variable=select_style_var)\noptionmenu_select_style.grid(row=2, column=2, pady=20, padx=15)\nlabel_warning_message = customtkinter.CTkLabel(\n    master=frame_for_settings,     # родительский виджет\n    text=f\"⚠ In order for the changes to take effect, you need to restart the program\",          # текст метки\n    font=(\"Arial\", 14),\n    text_color=\"red\",",
         "detail": "window.main_window",
         "documentation": {}
     },
@@ -1073,7 +1100,7 @@
         "kind": 5,
         "importPath": "window.main_window",
         "description": "window.main_window",
-        "peekOfCode": "optionmenu_select_style = customtkinter.CTkOptionMenu(frame_for_settings, values=[\"blue\", \"dark-blue\", \"green\"],\n                                                    command=select_style,\n                                                    variable=select_style_var)\noptionmenu_select_style.grid(row=2, column=2, pady=20, padx=15)\nlabel_warning_message = customtkinter.CTkLabel(\n    master=frame_for_settings,     # родительский виджет\n    text=f\"In order for the changes to take effect, you need to restart the program\",          # текст метки\n    font=(\"Arial\", 14),\n    text_color=\"red\",\n    width=50",
+        "peekOfCode": "optionmenu_select_style = customtkinter.CTkOptionMenu(frame_for_settings, values=[\"blue\", \"dark-blue\", \"green\"],\n                                                    command=select_style,\n                                                    variable=select_style_var)\noptionmenu_select_style.grid(row=2, column=2, pady=20, padx=15)\nlabel_warning_message = customtkinter.CTkLabel(\n    master=frame_for_settings,     # родительский виджет\n    text=f\"⚠ In order for the changes to take effect, you need to restart the program\",          # текст метки\n    font=(\"Arial\", 14),\n    text_color=\"red\",\n    width=50",
         "detail": "window.main_window",
         "documentation": {}
     },
@@ -1082,7 +1109,7 @@
         "kind": 5,
         "importPath": "window.main_window",
         "description": "window.main_window",
-        "peekOfCode": "label_warning_message = customtkinter.CTkLabel(\n    master=frame_for_settings,     # родительский виджет\n    text=f\"In order for the changes to take effect, you need to restart the program\",          # текст метки\n    font=(\"Arial\", 14),\n    text_color=\"red\",\n    width=50\n)\nlabel_warning_message.grid(row=2, column=3, pady=20, padx=15)  # размещение метки в фрейме",
+        "peekOfCode": "label_warning_message = customtkinter.CTkLabel(\n    master=frame_for_settings,     # родительский виджет\n    text=f\"⚠ In order for the changes to take effect, you need to restart the program\",          # текст метки\n    font=(\"Arial\", 14),\n    text_color=\"red\",\n    width=50\n)\nlabel_warning_message.grid(row=2, column=3, pady=20, padx=15)  # размещение метки в фрейме",
         "detail": "window.main_window",
         "documentation": {}
     },

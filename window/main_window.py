@@ -148,11 +148,39 @@ frame_for_home = customtkinter.CTkFrame(
 )
 
 # Содержимое фрейма для home
-label1 = customtkinter.CTkLabel(
+label_wencole = customtkinter.CTkLabel(
     master=frame_for_home,        # родительский виджет
-    text="frame_home"             # текст метки
+    text="Welcome to",             # текст метки
+    font=("Arial", 20)
 )
-label1.grid(row=1, column=1, pady=20, padx=15)  # размещение метки в фрейме
+label_wencole.grid(row=1, column=1, pady=10, padx=10)  # размещение метки в фрейме
+
+
+label_name_program = customtkinter.CTkLabel(
+    master=frame_for_home,        # родительский виджет
+    text="FPD - Fast Program Download",             # текст метки
+    font=("Arial", 30),
+)
+label_name_program.grid(row=2, column=1, pady=10, padx=10)  # размещение метки в фрейме
+
+
+label_help_text = customtkinter.CTkLabel(
+    master=frame_for_home,        # родительский виджет
+    text="⚠ download any program in a couple of seconds",             # текст метки
+    font=("Arial", 20)
+)
+label_help_text.grid(row=3, column=1, pady=10, padx=10)  # размещение метки в фрейме
+
+
+# Содержимое фрейма для home
+label_wencole = customtkinter.CTkLabel(
+    master=frame_for_home,        # родительский виджет
+    text="🔻 In the \"Application\" you will find all the programs",             # текст метки
+    font=("Arial", 20)
+)
+label_wencole.grid(row=4, column=1, pady=10, padx=10)  # размещение метки в фрейме
+
+
 
 # Создание фрейма для кнопки applications
 frame_for_applications = customtkinter.CTkFrame(
@@ -266,7 +294,7 @@ optionmenu_select_style.grid(row=2, column=2, pady=20, padx=15)
 
 label_warning_message = customtkinter.CTkLabel(
     master=frame_for_settings,     # родительский виджет
-    text=f"In order for the changes to take effect, you need to restart the program",          # текст метки
+    text=f"⚠ In order for the changes to take effect, you need to restart the program",          # текст метки
     font=("Arial", 14),
     text_color="red",
     width=50
