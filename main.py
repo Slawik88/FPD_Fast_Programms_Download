@@ -1,7 +1,7 @@
 # импортируем необходимые модули
 from tkinter import *
-from window.main_window import *
 from config import *
+from window.main_window import app
 
 
 

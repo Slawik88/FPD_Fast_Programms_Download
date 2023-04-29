@@ -3,6 +3,7 @@ import customtkinter
 customtkinter.set_appearance_mode("dark")  # Modes: system (default), light, dark
 customtkinter.set_default_color_theme("green")  # Themes: blue (default), dark-blue, green
 
+
 # Розмеры окна
 width = 1000 # ширина 
 height = 700 # высота

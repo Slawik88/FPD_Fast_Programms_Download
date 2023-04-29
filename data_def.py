@@ -1,5 +1,6 @@
 # Импорт модуля customtkinter и функции create_browser_window из модуля window.browser_window
 import customtkinter
+import json
 from window.applications_window_data.browser_window import create_browser_window
 from window.applications_window_data.message_window import create_message_window
 from window.applications_window_data.game_window import create_game_window
@@ -9,6 +10,7 @@ from window.applications_window_data.tweaks_window import create_tweaks_window
 from window.applications_window_data.antivirus_window import create_antivirus_window
 from window.applications_window_data.installations_window import create_installations_window
 from window.applications_window_data.favorite_window import create_favorite_window
+
 
 # Создание функции create_ctkframe, которая создает кастомный фрейм
 def create_ctkframe(master, row, column, sticky=None, rowspan=None, width=100, height=100, border_width=2, border_color="green"):
@@ -43,3 +45,5 @@ def on_click_list_of_categories_marks_callback(value):
         create_installations_window()
     elif value == "Favorites":
         create_favorite_window()
+
+
