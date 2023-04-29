@@ -13,4 +13,4 @@ Choose one of the program categories:
 * Favorites
 
 
-![Photo](\img\Photo_for_GitHab\applications.png)
+![Photo](FPD_Fast_Programms_Download/img/Photo_for_GitHab/applications.png)
