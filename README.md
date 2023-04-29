@@ -1,29 +1,28 @@
-# FPD_Fast_Programms_Download
-## The program allows you to speed up the download of many programs on the Internet
+#FPD (Fast Programs Download)
+Speed up your downloads for various program categories
+##Choose from the following program categories:
 
-Choose one of the program categories:
-* Browsers
-* Messagers
-* Games
-* Music  - Appear in future versions
-* Programming  - Appear in future versions
-* Tweaks  - Appear in future versions
-* Antivirus  - Appear in future versions
-* Installations  - Appear in future versions
-* Favorites
+Browsers
+Messengers
+Games
+Music (coming soon)
+Programming (coming soon)
+Tweaks (coming soon)
+Antivirus (coming soon)
+Installations (coming soon)
+Favorites
 
-
-
-<img src="./img/Photo_for_GitHab/applications.png">
+Screenshots:
 Games
 <img src="./img/Photo_for_GitHab/applications_games.png">
-### Browsers
+Browsers
 <img src="./img/Photo_for_GitHab/applications_browser.png">
+Color schemes
+Dark Blue
 
-Color scheme
-Dark-Blue
 <img src="./img/Photo_for_GitHab/dark_blue.png">
 White
-<img src="./img/Photo_for_GitHab/Write_mod.png">
 
-### The program is under development.
+<img src="./img/Photo_for_GitHab/Write_mod.png">
+Note
+The program is currently under development.
