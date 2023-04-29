@@ -1,164 +1,178 @@
 import tkinter
-import tkinter.messagebox
 import customtkinter
 
-customtkinter.set_appearance_mode("System")  # Modes: "System" (standard), "Dark", "Light"
-customtkinter.set_default_color_theme("blue")  # Themes: "blue" (standard), "green", "dark-blue"
+customtkinter.set_appearance_mode("System")  # Other: "Dark", "Light"
 
 
-class App(customtkinter.CTk):
+class TestApp(customtkinter.CTk):
     def __init__(self):
         super().__init__()
+        self.geometry(f"{1400}x{700}")
+        self.title("CustomTkinter complete test")
 
-        # configure window
-        self.title("CustomTkinter complex_example.py")
-        self.geometry(f"{1100}x{580}")
+        self.create_widgets_on_tk()
+        self.create_widgets_on_ctk_frame()
+        self.create_widgets_on_ctk_frame_customized()
+        self.create_widgets_on_tk_frame_customized()
 
-        # configure grid layout (4x4)
-        self.grid_columnconfigure(1, weight=1)
-        self.grid_columnconfigure((2, 3), weight=0)
-        self.grid_rowconfigure((0, 1, 2), weight=1)
+    def change_appearance_mode(self, value):
+        """ gets called by self.slider_1 """
 
-        # create sidebar frame with widgets
-        self.sidebar_frame = customtkinter.CTkFrame(self, width=140, corner_radius=0)
-        self.sidebar_frame.grid(row=0, column=0, rowspan=4, sticky="nsew")
-        self.sidebar_frame.grid_rowconfigure(4, weight=1)
-        self.logo_label = customtkinter.CTkLabel(self.sidebar_frame, text="CustomTkinter", font=customtkinter.CTkFont(size=20, weight="bold"))
-        self.logo_label.grid(row=0, column=0, padx=20, pady=(20, 10))
-        self.sidebar_button_1 = customtkinter.CTkButton(self.sidebar_frame, command=self.sidebar_button_event)
-        self.sidebar_button_1.grid(row=1, column=0, padx=20, pady=10)
-        self.sidebar_button_2 = customtkinter.CTkButton(self.sidebar_frame, command=self.sidebar_button_event)
-        self.sidebar_button_2.grid(row=2, column=0, padx=20, pady=10)
-        self.sidebar_button_3 = customtkinter.CTkButton(self.sidebar_frame, command=self.sidebar_button_event)
-        self.sidebar_button_3.grid(row=3, column=0, padx=20, pady=10)
-        self.appearance_mode_label = customtkinter.CTkLabel(self.sidebar_frame, text="Appearance Mode:", anchor="w")
-        self.appearance_mode_label.grid(row=5, column=0, padx=20, pady=(10, 0))
-        self.appearance_mode_optionemenu = customtkinter.CTkOptionMenu(self.sidebar_frame, values=["Light", "Dark", "System"],
-                                                                       command=self.change_appearance_mode_event)
-        self.appearance_mode_optionemenu.grid(row=6, column=0, padx=20, pady=(10, 10))
-        self.scaling_label = customtkinter.CTkLabel(self.sidebar_frame, text="UI Scaling:", anchor="w")
-        self.scaling_label.grid(row=7, column=0, padx=20, pady=(10, 0))
-        self.scaling_optionemenu = customtkinter.CTkOptionMenu(self.sidebar_frame, values=["80%", "90%", "100%", "110%", "120%"],
-                                                               command=self.change_scaling_event)
-        self.scaling_optionemenu.grid(row=8, column=0, padx=20, pady=(10, 20))
+        if value == 0:
+            self.label_1.configure(text="mode: Light")
+            customtkinter.set_appearance_mode("Light")
+        elif value == 1:
+            self.label_1.configure(text="mode: Dark")
+            customtkinter.set_appearance_mode("Dark")
+        else:
+            self.label_1.configure(text="mode: System")
+            customtkinter.set_appearance_mode("System")
 
-        # create main entry and button
-        self.entry = customtkinter.CTkEntry(self, placeholder_text="CTkEntry")
-        self.entry.grid(row=3, column=1, columnspan=2, padx=(20, 0), pady=(20, 20), sticky="nsew")
+    def create_widgets_on_tk(self):
+        x, y = 150, 80
 
-        self.main_button_1 = customtkinter.CTkButton(master=self, fg_color="transparent", border_width=2, text_color=("gray10", "#DCE4EE"))
-        self.main_button_1.grid(row=3, column=3, padx=(20, 20), pady=(20, 20), sticky="nsew")
+        self.label_1 = customtkinter.CTkLabel(master=self, text="widgets_on_tk", fg_color="gray50")
+        self.label_1.place(x=x, y=y, anchor=tkinter.CENTER)
 
-        # create textbox
-        self.textbox = customtkinter.CTkTextbox(self, width=250)
-        self.textbox.grid(row=0, column=1, padx=(20, 0), pady=(20, 0), sticky="nsew")
+        self.frame_1 = customtkinter.CTkFrame(master=self, width=200, height=60)
+        self.frame_1.place(x=x, y=y+80, anchor=tkinter.CENTER)
 
-        # create tabview
-        self.tabview = customtkinter.CTkTabview(self, width=250)
-        self.tabview.grid(row=0, column=2, padx=(20, 0), pady=(20, 0), sticky="nsew")
-        self.tabview.add("CTkTabview")
-        self.tabview.add("Tab 2")
-        self.tabview.add("Tab 3")
-        self.tabview.tab("CTkTabview").grid_columnconfigure(0, weight=1)  # configure grid of individual tabs
-        self.tabview.tab("Tab 2").grid_columnconfigure(0, weight=1)
+        self.button_1 = customtkinter.CTkButton(master=self)
+        self.button_1.place(x=x, y=y + 160, anchor=tkinter.CENTER)
 
-        self.optionmenu_1 = customtkinter.CTkOptionMenu(self.tabview.tab("CTkTabview"), dynamic_resizing=False,
-                                                        values=["Value 1", "Value 2", "Value Long Long Long"])
-        self.optionmenu_1.grid(row=0, column=0, padx=20, pady=(20, 10))
-        self.combobox_1 = customtkinter.CTkComboBox(self.tabview.tab("CTkTabview"),
-                                                    values=["Value 1", "Value 2", "Value Long....."])
-        self.combobox_1.grid(row=1, column=0, padx=20, pady=(10, 10))
-        self.string_input_button = customtkinter.CTkButton(self.tabview.tab("CTkTabview"), text="Open CTkInputDialog",
-                                                           command=self.open_input_dialog_event)
-        self.string_input_button.grid(row=2, column=0, padx=20, pady=(10, 10))
-        self.label_tab_2 = customtkinter.CTkLabel(self.tabview.tab("Tab 2"), text="CTkLabel on Tab 2")
-        self.label_tab_2.grid(row=0, column=0, padx=20, pady=20)
+        self.entry_1 = customtkinter.CTkEntry(master=self)
+        self.entry_1.place(x=x, y=y + 240, anchor=tkinter.CENTER)
 
-        # create radiobutton frame
-        self.radiobutton_frame = customtkinter.CTkFrame(self)
-        self.radiobutton_frame.grid(row=0, column=3, padx=(20, 20), pady=(20, 0), sticky="nsew")
-        self.radio_var = tkinter.IntVar(value=0)
-        self.label_radio_group = customtkinter.CTkLabel(master=self.radiobutton_frame, text="CTkRadioButton Group:")
-        self.label_radio_group.grid(row=0, column=2, columnspan=1, padx=10, pady=10, sticky="")
-        self.radio_button_1 = customtkinter.CTkRadioButton(master=self.radiobutton_frame, variable=self.radio_var, value=0)
-        self.radio_button_1.grid(row=1, column=2, pady=10, padx=20, sticky="n")
-        self.radio_button_2 = customtkinter.CTkRadioButton(master=self.radiobutton_frame, variable=self.radio_var, value=1)
-        self.radio_button_2.grid(row=2, column=2, pady=10, padx=20, sticky="n")
-        self.radio_button_3 = customtkinter.CTkRadioButton(master=self.radiobutton_frame, variable=self.radio_var, value=2)
-        self.radio_button_3.grid(row=3, column=2, pady=10, padx=20, sticky="n")
+        self.progress_bar_1 = customtkinter.CTkProgressBar(master=self)
+        self.progress_bar_1.place(x=x, y=y + 320, anchor=tkinter.CENTER)
 
-        # create slider and progressbar frame
-        self.slider_progressbar_frame = customtkinter.CTkFrame(self, fg_color="transparent")
-        self.slider_progressbar_frame.grid(row=1, column=1, padx=(20, 0), pady=(20, 0), sticky="nsew")
-        self.slider_progressbar_frame.grid_columnconfigure(0, weight=1)
-        self.slider_progressbar_frame.grid_rowconfigure(4, weight=1)
-        self.seg_button_1 = customtkinter.CTkSegmentedButton(self.slider_progressbar_frame)
-        self.seg_button_1.grid(row=0, column=0, padx=(20, 10), pady=(10, 10), sticky="ew")
-        self.progressbar_1 = customtkinter.CTkProgressBar(self.slider_progressbar_frame)
-        self.progressbar_1.grid(row=1, column=0, padx=(20, 10), pady=(10, 10), sticky="ew")
-        self.progressbar_2 = customtkinter.CTkProgressBar(self.slider_progressbar_frame)
-        self.progressbar_2.grid(row=2, column=0, padx=(20, 10), pady=(10, 10), sticky="ew")
-        self.slider_1 = customtkinter.CTkSlider(self.slider_progressbar_frame, from_=0, to=1, number_of_steps=4)
-        self.slider_1.grid(row=3, column=0, padx=(20, 10), pady=(10, 10), sticky="ew")
-        self.slider_2 = customtkinter.CTkSlider(self.slider_progressbar_frame, orientation="vertical")
-        self.slider_2.grid(row=0, column=1, rowspan=5, padx=(10, 10), pady=(10, 10), sticky="ns")
-        self.progressbar_3 = customtkinter.CTkProgressBar(self.slider_progressbar_frame, orientation="vertical")
-        self.progressbar_3.grid(row=0, column=2, rowspan=5, padx=(10, 20), pady=(10, 10), sticky="ns")
+        self.slider_1 = customtkinter.CTkSlider(master=self, command=self.change_appearance_mode, from_=0, to=2, number_of_steps=2)
+        self.slider_1.place(x=x, y=y + 400, anchor=tkinter.CENTER)
 
-        # create scrollable frame
-        self.scrollable_frame = customtkinter.CTkScrollableFrame(self, label_text="CTkScrollableFrame")
-        self.scrollable_frame.grid(row=1, column=2, padx=(20, 0), pady=(20, 0), sticky="nsew")
-        self.scrollable_frame.grid_columnconfigure(0, weight=1)
-        self.scrollable_frame_switches = []
-        for i in range(100):
-            switch = customtkinter.CTkSwitch(master=self.scrollable_frame, text=f"CTkSwitch {i}")
-            switch.grid(row=i, column=0, padx=10, pady=(0, 20))
-            self.scrollable_frame_switches.append(switch)
+        self.check_box_1 = customtkinter.CTkCheckBox(master=self)
+        self.check_box_1.place(x=x, y=y + 480, anchor=tkinter.CENTER)
 
-        # create checkbox and switch frame
-        self.checkbox_slider_frame = customtkinter.CTkFrame(self)
-        self.checkbox_slider_frame.grid(row=1, column=3, padx=(20, 20), pady=(20, 0), sticky="nsew")
-        self.checkbox_1 = customtkinter.CTkCheckBox(master=self.checkbox_slider_frame)
-        self.checkbox_1.grid(row=1, column=0, pady=(20, 0), padx=20, sticky="n")
-        self.checkbox_2 = customtkinter.CTkCheckBox(master=self.checkbox_slider_frame)
-        self.checkbox_2.grid(row=2, column=0, pady=(20, 0), padx=20, sticky="n")
-        self.checkbox_3 = customtkinter.CTkCheckBox(master=self.checkbox_slider_frame)
-        self.checkbox_3.grid(row=3, column=0, pady=20, padx=20, sticky="n")
+    def create_widgets_on_ctk_frame(self):
+        x, y = 450, 40
 
-        # set default values
-        self.sidebar_button_3.configure(state="disabled", text="Disabled CTkButton")
-        self.checkbox_3.configure(state="disabled")
-        self.checkbox_1.select()
-        self.scrollable_frame_switches[0].select()
-        self.scrollable_frame_switches[4].select()
-        self.radio_button_3.configure(state="disabled")
-        self.appearance_mode_optionemenu.set("Dark")
-        self.scaling_optionemenu.set("100%")
-        self.optionmenu_1.set("CTkOptionmenu")
-        self.combobox_1.set("CTkComboBox")
-        self.slider_1.configure(command=self.progressbar_2.set)
-        self.slider_2.configure(command=self.progressbar_3.set)
-        self.progressbar_1.configure(mode="indeterminnate")
-        self.progressbar_1.start()
-        self.textbox.insert("0.0", "CTkTextbox\n\n" + "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.\n\n" * 20)
-        self.seg_button_1.configure(values=["CTkSegmentedButton", "Value 2", "Value 3"])
-        self.seg_button_1.set("Value 2")
+        self.ctk_frame = customtkinter.CTkFrame(master=self, width=300, height=600)
+        self.ctk_frame.place(x=x, y=y, anchor=tkinter.N)
 
-    def open_input_dialog_event(self):
-        dialog = customtkinter.CTkInputDialog(text="Type in a number:", title="CTkInputDialog")
-        print("CTkInputDialog:", dialog.get_input())
+        self.label_2 = customtkinter.CTkLabel(master=self.ctk_frame, text="create_widgets_on_ctk_frame", fg_color="gray50", width=200)
+        self.label_2.place(relx=0.5, y=y, anchor=tkinter.CENTER)
 
-    def change_appearance_mode_event(self, new_appearance_mode: str):
-        customtkinter.set_appearance_mode(new_appearance_mode)
+        self.frame_2 = customtkinter.CTkFrame(master=self.ctk_frame, width=200, height=60)
+        self.frame_2.place(relx=0.5, y=y + 80, anchor=tkinter.CENTER)
 
-    def change_scaling_event(self, new_scaling: str):
-        new_scaling_float = int(new_scaling.replace("%", "")) / 100
-        customtkinter.set_widget_scaling(new_scaling_float)
+        self.button_2 = customtkinter.CTkButton(master=self.ctk_frame, border_width=3)
+        self.button_2.place(relx=0.5, y=y + 160, anchor=tkinter.CENTER)
 
-    def sidebar_button_event(self):
-        print("sidebar_button click")
+        self.entry_2 = customtkinter.CTkEntry(master=self.ctk_frame)
+        self.entry_2.place(relx=0.5, y=y + 240, anchor=tkinter.CENTER)
+
+        self.progress_bar_2 = customtkinter.CTkProgressBar(master=self.ctk_frame)
+        self.progress_bar_2.place(relx=0.5, y=y + 320, anchor=tkinter.CENTER)
+
+        self.slider_2 = customtkinter.CTkSlider(master=self.ctk_frame, command=lambda v: self.label_2.configure(text=str(round(v, 5))))
+        self.slider_2.place(relx=0.5, y=y + 400, anchor=tkinter.CENTER)
+
+        self.check_box_2 = customtkinter.CTkCheckBox(master=self.ctk_frame)
+        self.check_box_2.place(relx=0.5, y=y + 480, anchor=tkinter.CENTER)
+
+    def change_frame_color(self, value):
+        """ gets called by self.slider_3 """
+
+        def rgb2hex(rgb_color: tuple) -> str:
+            return "#{:02x}{:02x}{:02x}".format(round(rgb_color[0]), round(rgb_color[1]), round(rgb_color[2]))
+
+        col_1 = rgb2hex((100, 50, value * 250))
+        col_2 = rgb2hex((20, value * 250, 50))
+
+        self.ctk_frame_customized.configure(fg_color=col_1)
+        self.tk_frame_customized.configure(bg=col_1)
+        self.configure(bg=col_2)
+        self.progress_bar_3.set(value)
+
+    def create_widgets_on_ctk_frame_customized(self):
+        x, y = 800, 40
+
+        self.ctk_frame_customized = customtkinter.CTkFrame(master=self, width=300, height=600)
+        self.ctk_frame_customized.place(x=x, y=y, anchor=tkinter.N)
+        self.ctk_frame_customized.configure(fg_color=("#F4F4FA", "#1E2742"))
+
+        self.label_3 = customtkinter.CTkLabel(master=self.ctk_frame_customized, text="customized", corner_radius=60,
+                                              font=("times", 16))
+        self.label_3.place(relx=0.5, y=y, anchor=tkinter.CENTER)
+        self.label_3.configure(fg_color=("#F4F4FA", "#333D5E"), text_color=("#373E57", "#7992C1"))
+
+        self.frame_3 = customtkinter.CTkFrame(master=self.ctk_frame_customized, width=200, height=60)
+        self.frame_3.place(relx=0.5, y=y + 80, anchor=tkinter.CENTER)
+        self.frame_3.configure(fg_color=("#EBECF3", "#4B577E"))
+
+        self.button_3 = customtkinter.CTkButton(master=self.ctk_frame_customized, command=lambda: None, border_width=3,
+                                                corner_radius=20, font=("times", 16))
+        self.button_3.place(relx=0.5, y=y + 160, anchor=tkinter.CENTER)
+        self.button_3.configure(border_color=("#4F90F8", "#6FADF9"), hover_color=("#3A65E8", "#4376EE"))
+        self.button_3.configure(fg_color="transparent")
+
+        self.entry_3 = customtkinter.CTkEntry(master=self.ctk_frame_customized, font=("times", 16))
+        self.entry_3.place(relx=0.5, y=y + 240, anchor=tkinter.CENTER)
+        self.entry_3.configure(fg_color=("gray60", "gray5"), corner_radius=20)
+        self.entry_3.insert(0, "1234567890")
+        self.entry_3.focus_set()
+
+        self.progress_bar_3 = customtkinter.CTkProgressBar(master=self.ctk_frame_customized, height=16, fg_color=("#EBECF3", "#4B577E"))
+        self.progress_bar_3.place(relx=0.5, y=y + 320, anchor=tkinter.CENTER)
+        self.progress_bar_3.configure(progress_color="#8AE0C3", border_width=3, border_color=("gray60", "#4B577E"))
+
+        self.slider_3 = customtkinter.CTkSlider(master=self.ctk_frame_customized, command=self.change_frame_color, from_=0, to=10)
+        self.slider_3.place(relx=0.5, y=y + 400, anchor=tkinter.CENTER)
+        self.slider_3.configure(button_color="#8AE0C3", fg_color=("#EBECF3", "#4B577E"), progress_color=("gray30", "gray10"))
+        self.slider_3.configure(from_=0, to=1)
+
+        self.check_box_3 = customtkinter.CTkCheckBox(master=self.ctk_frame_customized, corner_radius=50, font=("times", 16))
+        self.check_box_3.place(relx=0.5, y=y + 480, anchor=tkinter.CENTER)
+        self.check_box_3.configure(border_color="#8AE0C3")
+
+    def create_widgets_on_tk_frame_customized(self):
+        x, y = 1150, 40
+
+        self.tk_frame_customized = tkinter.Frame(master=self, width=300, height=600, bg="darkred")
+        self.tk_frame_customized.place(x=x, y=y, anchor=tkinter.N)
+
+        self.label_4 = customtkinter.CTkLabel(master=self.tk_frame_customized, text="customized", corner_radius=6)
+        self.label_4.place(relx=0.5, y=y, anchor=tkinter.CENTER)
+        self.label_4.configure(fg_color=("#F4F4FA", "#333D5E"), text_color=("#373E57", "#7992C1"))
+
+        self.frame_4 = customtkinter.CTkFrame(master=self.tk_frame_customized, width=200, height=60)
+        self.frame_4.place(relx=0.5, y=y + 80, anchor=tkinter.CENTER)
+        self.frame_4.configure(fg_color=("#EBECF3", "#4B577E"))
+
+        self.button_4 = customtkinter.CTkButton(master=self.tk_frame_customized, command=lambda: x, border_width=3)
+        self.button_4.place(relx=0.5, y=y + 160, anchor=tkinter.CENTER)
+        self.button_4.configure(border_color=("#4F90F8", "#6FADF9"), hover_color=("#3A65E8", "#4376EE"))
+        self.button_4.configure(fg_color="transparent")
+
+        self.entry_4 = customtkinter.CTkEntry(master=self.tk_frame_customized)
+        self.entry_4.place(relx=0.5, y=y + 240, anchor=tkinter.CENTER)
+        self.entry_4.configure(fg_color=("gray60", "gray5"))
+        self.entry_4.insert(0, "1234567890")
+        self.entry_4.focus_set()
+
+        self.progress_bar_4 = customtkinter.CTkProgressBar(master=self.tk_frame_customized, height=16, fg_color=("#EBECF3", "#4B577E"))
+        self.progress_bar_4.place(relx=0.5, y=y + 320, anchor=tkinter.CENTER)
+        self.progress_bar_4.configure(progress_color="#8AE0C3", border_width=3, border_color=("gray60", "#4B577E"))
+
+        self.slider_4 = customtkinter.CTkSlider(master=self.tk_frame_customized, command=self.change_frame_color, from_=0, to=10)
+        self.slider_4.place(relx=0.5, y=y + 400, anchor=tkinter.CENTER)
+        self.slider_4.configure(button_color="#8AE0C3", fg_color=("#EBECF3", "#4B577E"), progress_color=("gray30", "gray10"))
+        self.slider_4.configure(from_=0, to=1)
+
+        self.check_box_4 = customtkinter.CTkCheckBox(master=self.tk_frame_customized)
+        self.check_box_4.place(relx=0.5, y=y + 480, anchor=tkinter.CENTER)
+        self.check_box_4.configure(border_color="#8AE0C3")
 
 
 if __name__ == "__main__":
-    app = App()
-    app.mainloop()
+    test_app = TestApp()
+    test_app.mainloop()

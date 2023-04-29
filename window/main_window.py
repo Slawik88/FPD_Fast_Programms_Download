@@ -1,16 +1,16 @@
 
 import customtkinter  # импортируем модуль customtkinter
 import json
-
-# импортируем переменные из модуля config
-from config import width, height, app_title
+from colorama import Fore, Style
+from config import *
 # импортируем функцию из модуля data_def
 from data_def import on_click_list_of_categories_marks_callback
-
 from PIL import ImageTk, Image  # импортируем две библиотеки из модуля PIL
 # создаем объект приложения с помощью класса CTk из модуля customtkinter
 
 app = customtkinter.CTk()
+
+app.resizable(False, False)
 
 # узнаем размеры экрана
 screen_width = app.winfo_screenwidth()
@@ -166,7 +166,7 @@ frame_for_applications = customtkinter.CTkFrame(
 # Содержимое фрейма для кнопки applications
 
 label_help_text = customtkinter.CTkLabel(master=frame_for_applications,
-                                         text="Select an application rosel that interests you",
+                                         text="Select an application category that interests you",
                                          font=("Nunito", 20, "italic")
                                          )
 label_help_text.grid(row=0, column=1, pady=20, padx=15)
@@ -195,15 +195,17 @@ frame_for_settings = customtkinter.CTkFrame(
     border_color="green",         # цвет границы фрейма
 )
 # Содержимое фрейма для settings
-label2 = customtkinter.CTkLabel(
+# ---------------SELECT  MOD-------------------------
+label_select_mod = customtkinter.CTkLabel(
     master=frame_for_settings,     # родительский виджет
-    text="Dark Mod",                # текст метки
+    text="Select a mode",          # текст метки
+    font=("Arial", 15)
 )
-label2.grid(row=1, column=1, pady=20, padx=15)  # размещение метки в фрейме
+label_select_mod.grid(row=1, column=1, pady=20, padx=15)  # размещение метки в фрейме
 # Определяем функцию для обновления значения мода в JSON-файле при выборе из выпадающего меню
 def select_mod(choice):
     # Выводим выбранную опцию в консоль
-    print("optionmenu dropdown clicked:", choice)
+    print(f"Вы выбрали {choice} режим")
     # Открываем JSON-файл на чтение
     with open(r'json_data\settings_data\settings.json', 'r') as f:
         # Загружаем содержимое файла в объект Python
@@ -211,18 +213,63 @@ def select_mod(choice):
         # Обновляем значение ключа 'Mod' в зависимости от выбора пользователя
         if choice == "Dark":
             data['Global_Value']['Mod'] = choice
-        elif choice == "White":
+        elif choice == "Light":
+            data['Global_Value']['Mod'] = choice
+        elif choice == "System":
             data['Global_Value']['Mod'] = choice
     # Открываем JSON-файл на запись
     with open(r'json_data\settings_data\settings.json', 'w') as f:
         # Записываем обновленные данные в файл
         json.dump(data, f)
+    customtkinter.set_appearance_mode(data['Global_Value']['Mod'])
 select_mod_var = customtkinter.StringVar(value="Select")
-optionmenu_select_mod = customtkinter.CTkOptionMenu(frame_for_settings, values=["Dark", "White"],
+optionmenu_select_mod = customtkinter.CTkOptionMenu(frame_for_settings, values=["Dark", "Light", "System"],
                                                     command=select_mod,
                                                     variable=select_mod_var)
 optionmenu_select_mod.grid(row=1, column=2, pady=20, padx=15)
 
 
 
+# ---------------SELECT  MOD-------------------------
+label_select_style = customtkinter.CTkLabel(
+    master=frame_for_settings,     # родительский виджет
+    text="Select a style",          # текст метки
+    font=("Arial", 15)
+)
+label_select_style.grid(row=2, column=1, pady=20, padx=15)  # размещение метки в фрейме
+
+# Определяем функцию для обновления значения мода в JSON-файле при выборе из выпадающего меню
+def select_style(choice):
+    # Выводим выбранную опцию в консоль
+    print("optionmenu dropdown clicked:", choice)
+    # Открываем JSON-файл на чтение
+    with open(r'json_data\settings_data\settings.json', 'r') as f:
+        # Загружаем содержимое файла в объект Python
+        data = json.load(f)
+        # Обновляем значение ключа 'Mod' в зависимости от выбора пользователя
+        if choice == "blue":
+            data['Global_Value']['Style'] = choice
+        elif choice == "dark-blue":
+            data['Global_Value']['Style'] = choice
+        elif choice == "green":
+            data['Global_Value']['Style'] = choice
+    # Открываем JSON-файл на запись
+    with open(r'json_data\settings_data\settings.json', 'w') as f:
+        # Записываем обновленные данные в файл
+        json.dump(data, f)
+select_style_var = customtkinter.StringVar(value="Select")
+optionmenu_select_style = customtkinter.CTkOptionMenu(frame_for_settings, values=["blue", "dark-blue", "green"],
+                                                    command=select_style,
+                                                    variable=select_style_var)
+optionmenu_select_style.grid(row=2, column=2, pady=20, padx=15)
+
+
+label_warning_message = customtkinter.CTkLabel(
+    master=frame_for_settings,     # родительский виджет
+    text=f"In order for the changes to take effect, you need to restart the program",          # текст метки
+    font=("Arial", 14),
+    text_color="red",
+    width=50
+)
+label_warning_message.grid(row=2, column=3, pady=20, padx=15)  # размещение метки в фрейме
 

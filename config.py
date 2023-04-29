@@ -1,8 +1,16 @@
+import json
 import customtkinter
-# Главная цветовая схема
-customtkinter.set_appearance_mode("dark")  # Modes: system (default), light, dark
-customtkinter.set_default_color_theme("green")  # Themes: blue (default), dark-blue, green
 
+# Главная цветовая схема
+with open(r'json_data\settings_data\settings.json') as f:
+    # Загружаем содержимое файла в объект Python
+    data = json.load(f)
+
+    mod = data['Global_Value']['Mod']
+    style = data['Global_Value']['Style']
+    
+    customtkinter.set_appearance_mode(mod)  # Modes: system (default), light, dark
+    customtkinter.set_default_color_theme(style)  # Themes: blue (default), dark-blue, green
 
 # Розмеры окна
 width = 1000 # ширина 

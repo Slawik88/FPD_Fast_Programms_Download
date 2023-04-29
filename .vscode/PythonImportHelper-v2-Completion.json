@@ -134,6 +134,22 @@
         "documentation": {}
     },
     {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
         "label": "tkinter",
         "kind": 6,
         "isExtraImport": true,
@@ -527,23 +543,7 @@
         "documentation": {}
     },
     {
-        "label": "width",
-        "importPath": "config",
-        "description": "config",
-        "isExtraImport": true,
-        "detail": "config",
-        "documentation": {}
-    },
-    {
-        "label": "height",
-        "importPath": "config",
-        "description": "config",
-        "isExtraImport": true,
-        "detail": "config",
-        "documentation": {}
-    },
-    {
-        "label": "app_title",
+        "label": "*",
         "importPath": "config",
         "description": "config",
         "isExtraImport": true,
@@ -679,15 +679,6 @@
         "description": "window.main_window",
         "isExtraImport": true,
         "detail": "window.main_window",
-        "documentation": {}
-    },
-    {
-        "label": "tkinter.messagebox",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "tkinter.messagebox",
-        "description": "tkinter.messagebox",
-        "detail": "tkinter.messagebox",
         "documentation": {}
     },
     {
@@ -848,7 +839,16 @@
         "kind": 2,
         "importPath": "window.main_window",
         "description": "window.main_window",
-        "peekOfCode": "def select_mod(choice):\n    # Выводим выбранную опцию в консоль\n    print(\"optionmenu dropdown clicked:\", choice)\n    # Открываем JSON-файл на чтение\n    with open(r'json_data\\settings_data\\settings.json', 'r') as f:\n        # Загружаем содержимое файла в объект Python\n        data = json.load(f)\n        # Обновляем значение ключа 'Mod' в зависимости от выбора пользователя\n        if choice == \"Dark\":\n            data['Global_Value']['Mod'] = choice",
+        "peekOfCode": "def select_mod(choice):\n    # Выводим выбранную опцию в консоль\n    print(f\"Вы выбрали {choice} режим\")\n    # Открываем JSON-файл на чтение\n    with open(r'json_data\\settings_data\\settings.json', 'r') as f:\n        # Загружаем содержимое файла в объект Python\n        data = json.load(f)\n        # Обновляем значение ключа 'Mod' в зависимости от выбора пользователя\n        if choice == \"Dark\":\n            data['Global_Value']['Mod'] = choice",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "select_style",
+        "kind": 2,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "def select_style(choice):\n    # Выводим выбранную опцию в консоль\n    print(\"optionmenu dropdown clicked:\", choice)\n    # Открываем JSON-файл на чтение\n    with open(r'json_data\\settings_data\\settings.json', 'r') as f:\n        # Загружаем содержимое файла в объект Python\n        data = json.load(f)\n        # Обновляем значение ключа 'Mod' в зависимости от выбора пользователя\n        if choice == \"blue\":\n            data['Global_Value']['Style'] = choice",
         "detail": "window.main_window",
         "documentation": {}
     },
@@ -857,7 +857,7 @@
         "kind": 5,
         "importPath": "window.main_window",
         "description": "window.main_window",
-        "peekOfCode": "app = customtkinter.CTk()\n# узнаем размеры экрана\nscreen_width = app.winfo_screenwidth()\nscreen_height = app.winfo_screenheight()\n# вычисляем координаты центра экрана\ncenter_x = int(screen_width / 2 - width / 2)\ncenter_y = int(screen_height / 2 - height / 2)\n# устанавливаем окно по центру экрана\napp.geometry(f\"{width}x{height}+{center_x}+{center_y}\")\napp.title(f\"{app_title}\")  # устанавливаем заголовок окна",
+        "peekOfCode": "app = customtkinter.CTk()\napp.resizable(False, False)\n# узнаем размеры экрана\nscreen_width = app.winfo_screenwidth()\nscreen_height = app.winfo_screenheight()\n# вычисляем координаты центра экрана\ncenter_x = int(screen_width / 2 - width / 2)\ncenter_y = int(screen_height / 2 - height / 2)\n# устанавливаем окно по центру экрана\napp.geometry(f\"{width}x{height}+{center_x}+{center_y}\")",
         "detail": "window.main_window",
         "documentation": {}
     },
@@ -992,7 +992,7 @@
         "kind": 5,
         "importPath": "window.main_window",
         "description": "window.main_window",
-        "peekOfCode": "frame_for_applications = customtkinter.CTkFrame(\n    master=app,                   # родительский виджет\n    width=500,                    # ширина фрейма\n    height=height,                # высота фрейма\n    border_width=2,               # ширина границы фрейма\n    border_color=\"green\"          # цвет границы фрейма\n)\n# Содержимое фрейма для кнопки applications\nlabel_help_text = customtkinter.CTkLabel(master=frame_for_applications,\n                                         text=\"Select an application rosel that interests you\",",
+        "peekOfCode": "frame_for_applications = customtkinter.CTkFrame(\n    master=app,                   # родительский виджет\n    width=500,                    # ширина фрейма\n    height=height,                # высота фрейма\n    border_width=2,               # ширина границы фрейма\n    border_color=\"green\"          # цвет границы фрейма\n)\n# Содержимое фрейма для кнопки applications\nlabel_help_text = customtkinter.CTkLabel(master=frame_for_applications,\n                                         text=\"Select an application category that interests you\",",
         "detail": "window.main_window",
         "documentation": {}
     },
@@ -1001,7 +1001,7 @@
         "kind": 5,
         "importPath": "window.main_window",
         "description": "window.main_window",
-        "peekOfCode": "label_help_text = customtkinter.CTkLabel(master=frame_for_applications,\n                                         text=\"Select an application rosel that interests you\",\n                                         font=(\"Nunito\", 20, \"italic\")\n                                         )\nlabel_help_text.grid(row=0, column=1, pady=20, padx=15)\nlist_of_categories_marks = customtkinter.CTkSegmentedButton(\n    master=frame_for_applications,            # родительский виджет\n    values=[\"Browsers\", \"Messages\", \"Games\", \"Music\", \"Programming\",\n            \"Tweaks\", \"Antivirus\", \"Installation\", \"Favorites\"],  # значения кнопок\n    # функция, которая вызывается при нажатии на кнопку",
+        "peekOfCode": "label_help_text = customtkinter.CTkLabel(master=frame_for_applications,\n                                         text=\"Select an application category that interests you\",\n                                         font=(\"Nunito\", 20, \"italic\")\n                                         )\nlabel_help_text.grid(row=0, column=1, pady=20, padx=15)\nlist_of_categories_marks = customtkinter.CTkSegmentedButton(\n    master=frame_for_applications,            # родительский виджет\n    values=[\"Browsers\", \"Messages\", \"Games\", \"Music\", \"Programming\",\n            \"Tweaks\", \"Antivirus\", \"Installation\", \"Favorites\"],  # значения кнопок\n    # функция, которая вызывается при нажатии на кнопку",
         "detail": "window.main_window",
         "documentation": {}
     },
@@ -1019,16 +1019,16 @@
         "kind": 5,
         "importPath": "window.main_window",
         "description": "window.main_window",
-        "peekOfCode": "frame_for_settings = customtkinter.CTkFrame(\n    master=app,                   # родительский виджет\n    width=500,                    # ширина фрейма\n    height=height,                # высота фрейма\n    border_width=2,               # ширина границы фрейма\n    border_color=\"green\",         # цвет границы фрейма\n)\n# Содержимое фрейма для settings\nlabel2 = customtkinter.CTkLabel(\n    master=frame_for_settings,     # родительский виджет",
+        "peekOfCode": "frame_for_settings = customtkinter.CTkFrame(\n    master=app,                   # родительский виджет\n    width=500,                    # ширина фрейма\n    height=height,                # высота фрейма\n    border_width=2,               # ширина границы фрейма\n    border_color=\"green\",         # цвет границы фрейма\n)\n# Содержимое фрейма для settings\n# ---------------SELECT  MOD-------------------------\nlabel_select_mod = customtkinter.CTkLabel(",
         "detail": "window.main_window",
         "documentation": {}
     },
     {
-        "label": "label2",
+        "label": "label_select_mod",
         "kind": 5,
         "importPath": "window.main_window",
         "description": "window.main_window",
-        "peekOfCode": "label2 = customtkinter.CTkLabel(\n    master=frame_for_settings,     # родительский виджет\n    text=\"Dark Mod\",                # текст метки\n)\nlabel2.grid(row=1, column=1, pady=20, padx=15)  # размещение метки в фрейме\n# Определяем функцию для обновления значения мода в JSON-файле при выборе из выпадающего меню\ndef select_mod(choice):\n    # Выводим выбранную опцию в консоль\n    print(\"optionmenu dropdown clicked:\", choice)\n    # Открываем JSON-файл на чтение",
+        "peekOfCode": "label_select_mod = customtkinter.CTkLabel(\n    master=frame_for_settings,     # родительский виджет\n    text=\"Select a mode\",          # текст метки\n    font=(\"Arial\", 15)\n)\nlabel_select_mod.grid(row=1, column=1, pady=20, padx=15)  # размещение метки в фрейме\n# Определяем функцию для обновления значения мода в JSON-файле при выборе из выпадающего меню\ndef select_mod(choice):\n    # Выводим выбранную опцию в консоль\n    print(f\"Вы выбрали {choice} режим\")",
         "detail": "window.main_window",
         "documentation": {}
     },
@@ -1037,7 +1037,7 @@
         "kind": 5,
         "importPath": "window.main_window",
         "description": "window.main_window",
-        "peekOfCode": "select_mod_var = customtkinter.StringVar(value=\"Select\")\noptionmenu_select_mod = customtkinter.CTkOptionMenu(frame_for_settings, values=[\"Dark\", \"White\"],\n                                                    command=select_mod,\n                                                    variable=select_mod_var)\noptionmenu_select_mod.grid(row=1, column=2, pady=20, padx=15)",
+        "peekOfCode": "select_mod_var = customtkinter.StringVar(value=\"Select\")\noptionmenu_select_mod = customtkinter.CTkOptionMenu(frame_for_settings, values=[\"Dark\", \"Light\", \"System\"],\n                                                    command=select_mod,\n                                                    variable=select_mod_var)\noptionmenu_select_mod.grid(row=1, column=2, pady=20, padx=15)\n# ---------------SELECT  MOD-------------------------\nlabel_select_style = customtkinter.CTkLabel(\n    master=frame_for_settings,     # родительский виджет\n    text=\"Select a style\",          # текст метки\n    font=(\"Arial\", 15)",
         "detail": "window.main_window",
         "documentation": {}
     },
@@ -1046,7 +1046,43 @@
         "kind": 5,
         "importPath": "window.main_window",
         "description": "window.main_window",
-        "peekOfCode": "optionmenu_select_mod = customtkinter.CTkOptionMenu(frame_for_settings, values=[\"Dark\", \"White\"],\n                                                    command=select_mod,\n                                                    variable=select_mod_var)\noptionmenu_select_mod.grid(row=1, column=2, pady=20, padx=15)",
+        "peekOfCode": "optionmenu_select_mod = customtkinter.CTkOptionMenu(frame_for_settings, values=[\"Dark\", \"Light\", \"System\"],\n                                                    command=select_mod,\n                                                    variable=select_mod_var)\noptionmenu_select_mod.grid(row=1, column=2, pady=20, padx=15)\n# ---------------SELECT  MOD-------------------------\nlabel_select_style = customtkinter.CTkLabel(\n    master=frame_for_settings,     # родительский виджет\n    text=\"Select a style\",          # текст метки\n    font=(\"Arial\", 15)\n)",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "label_select_style",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "label_select_style = customtkinter.CTkLabel(\n    master=frame_for_settings,     # родительский виджет\n    text=\"Select a style\",          # текст метки\n    font=(\"Arial\", 15)\n)\nlabel_select_style.grid(row=2, column=1, pady=20, padx=15)  # размещение метки в фрейме\n# Определяем функцию для обновления значения мода в JSON-файле при выборе из выпадающего меню\ndef select_style(choice):\n    # Выводим выбранную опцию в консоль\n    print(\"optionmenu dropdown clicked:\", choice)",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "select_style_var",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "select_style_var = customtkinter.StringVar(value=\"Select\")\noptionmenu_select_style = customtkinter.CTkOptionMenu(frame_for_settings, values=[\"blue\", \"dark-blue\", \"green\"],\n                                                    command=select_style,\n                                                    variable=select_style_var)\noptionmenu_select_style.grid(row=2, column=2, pady=20, padx=15)\nlabel_warning_message = customtkinter.CTkLabel(\n    master=frame_for_settings,     # родительский виджет\n    text=f\"In order for the changes to take effect, you need to restart the program\",          # текст метки\n    font=(\"Arial\", 14),\n    text_color=\"red\",",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "optionmenu_select_style",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "optionmenu_select_style = customtkinter.CTkOptionMenu(frame_for_settings, values=[\"blue\", \"dark-blue\", \"green\"],\n                                                    command=select_style,\n                                                    variable=select_style_var)\noptionmenu_select_style.grid(row=2, column=2, pady=20, padx=15)\nlabel_warning_message = customtkinter.CTkLabel(\n    master=frame_for_settings,     # родительский виджет\n    text=f\"In order for the changes to take effect, you need to restart the program\",          # текст метки\n    font=(\"Arial\", 14),\n    text_color=\"red\",\n    width=50",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "label_warning_message",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "label_warning_message = customtkinter.CTkLabel(\n    master=frame_for_settings,     # родительский виджет\n    text=f\"In order for the changes to take effect, you need to restart the program\",          # текст метки\n    font=(\"Arial\", 14),\n    text_color=\"red\",\n    width=50\n)\nlabel_warning_message.grid(row=2, column=3, pady=20, padx=15)  # размещение метки в фрейме",
         "detail": "window.main_window",
         "documentation": {}
     },
@@ -1096,11 +1132,11 @@
         "documentation": {}
     },
     {
-        "label": "App",
+        "label": "TestApp",
         "kind": 6,
         "importPath": "test",
         "description": "test",
-        "peekOfCode": "class App(customtkinter.CTk):\n    def __init__(self):\n        super().__init__()\n        # configure window\n        self.title(\"CustomTkinter complex_example.py\")\n        self.geometry(f\"{1100}x{580}\")\n        # configure grid layout (4x4)\n        self.grid_columnconfigure(1, weight=1)\n        self.grid_columnconfigure((2, 3), weight=0)\n        self.grid_rowconfigure((0, 1, 2), weight=1)",
+        "peekOfCode": "class TestApp(customtkinter.CTk):\n    def __init__(self):\n        super().__init__()\n        self.geometry(f\"{1400}x{700}\")\n        self.title(\"CustomTkinter complete test\")\n        self.create_widgets_on_tk()\n        self.create_widgets_on_ctk_frame()\n        self.create_widgets_on_ctk_frame_customized()\n        self.create_widgets_on_tk_frame_customized()\n    def change_appearance_mode(self, value):",
         "detail": "test",
         "documentation": {}
     }
