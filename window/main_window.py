@@ -1,4 +1,4 @@
-import tkinter
+
 import customtkinter  # импортируем модуль customtkinter
 import json
 
@@ -6,7 +6,7 @@ import json
 from config import width, height, app_title
 # импортируем функцию из модуля data_def
 from data_def import on_click_list_of_categories_marks_callback
-
+from data_def import *
 
 from PIL import ImageTk, Image  # импортируем две библиотеки из модуля PIL
 # создаем объект приложения с помощью класса CTk из модуля customtkinter
@@ -26,7 +26,6 @@ center_y = int(screen_height / 2 - height / 2)
 # устанавливаем окно по центру экрана
 app.geometry(f"{width}x{height}+{center_x}+{center_y}")
 app.title(f"{app_title}")  # устанавливаем заголовок окна
-
 # определяем функции для скрытия/отображения различных фреймов
 
 
@@ -187,6 +186,42 @@ list_of_categories_marks.grid(row=1, column=0, columnspan=3, pady=20, padx=15)
 
 
 
+# Создание фрейма для кнопки settings
+frame_for_settings = customtkinter.CTkFrame(
+    master=app,                   # родительский виджет
+    width=500,                    # ширина фрейма
+    height=height,                # высота фрейма
+    border_width=2,               # ширина границы фрейма
+    border_color="green",         # цвет границы фрейма
+)
+# Содержимое фрейма для settings
+label2 = customtkinter.CTkLabel(
+    master=frame_for_settings,     # родительский виджет
+    text="Dark Mod",                # текст метки
+)
+label2.grid(row=1, column=1, pady=20, padx=15)  # размещение метки в фрейме
+# Определяем функцию для обновления значения мода в JSON-файле при выборе из выпадающего меню
+def select_mod(choice):
+    # Выводим выбранную опцию в консоль
+    print("optionmenu dropdown clicked:", choice)
+    # Открываем JSON-файл на чтение
+    with open(r'json_data\settings_data\settings.json', 'r') as f:
+        # Загружаем содержимое файла в объект Python
+        data = json.load(f)
+        # Обновляем значение ключа 'Mod' в зависимости от выбора пользователя
+        if choice == "Dark":
+            data['Global_Value']['Mod'] = choice
+        elif choice == "White":
+            data['Global_Value']['Mod'] = choice
+    # Открываем JSON-файл на запись
+    with open(r'json_data\settings_data\settings.json', 'w') as f:
+        # Записываем обновленные данные в файл
+        json.dump(data, f)
+select_mod_var = customtkinter.StringVar(value="Select")
+optionmenu_select_mod = customtkinter.CTkOptionMenu(frame_for_settings, values=["Dark", "White"],
+                                                    command=select_mod,
+                                                    variable=select_mod_var)
+optionmenu_select_mod.grid(row=1, column=2, pady=20, padx=15)
 
 
 

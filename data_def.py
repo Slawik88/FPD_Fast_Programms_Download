@@ -10,7 +10,7 @@ from window.applications_window_data.tweaks_window import create_tweaks_window
 from window.applications_window_data.antivirus_window import create_antivirus_window
 from window.applications_window_data.installations_window import create_installations_window
 from window.applications_window_data.favorite_window import create_favorite_window
-
+from window.main_window import *
 
 # Создание функции create_ctkframe, которая создает кастомный фрейм
 def create_ctkframe(master, row, column, sticky=None, rowspan=None, width=100, height=100, border_width=2, border_color="green"):
@@ -47,3 +47,22 @@ def on_click_list_of_categories_marks_callback(value):
         create_favorite_window()
 
 
+def on_clear_all_frame_for_home():
+    # показываем фрейм для домашней страницы
+    frame_for_home.grid(row=0, column=1)
+    frame_for_applications.grid_forget()  # скрываем фрейм для приложений
+    frame_for_settings.grid_forget()  # скрываем фрейм для настроек
+
+
+def on_clear_all_frame_for_applications():
+    # показываем фрейм для приложений
+    frame_for_applications.grid(row=0, column=2)
+    frame_for_home.grid_forget()  # скрываем фрейм для домашней страницы
+    frame_for_settings.grid_forget()  # скрываем фрейм для настроек
+
+
+def on_clear_all_frame_for_settings():
+    frame_for_settings.grid(row=0, column=3)  # показываем фрейм для настроек
+    frame_for_home.grid_forget()  # скрываем фрейм для домашней страницы
+    frame_for_applications.grid_forget()  # скрываем фрейм для приложений
+# создаем функцию для создания изображения кнопки

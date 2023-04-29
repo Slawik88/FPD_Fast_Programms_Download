@@ -551,14 +551,6 @@
         "documentation": {}
     },
     {
-        "label": "height",
-        "importPath": "config",
-        "description": "config",
-        "isExtraImport": true,
-        "detail": "config",
-        "documentation": {}
-    },
-    {
         "label": "*",
         "importPath": "config",
         "description": "config",
@@ -595,6 +587,14 @@
     },
     {
         "label": "on_click_list_of_categories_marks_callback",
+        "importPath": "data_def",
+        "description": "data_def",
+        "isExtraImport": true,
+        "detail": "data_def",
+        "documentation": {}
+    },
+    {
+        "label": "*",
         "importPath": "data_def",
         "description": "data_def",
         "isExtraImport": true,
@@ -671,6 +671,14 @@
         "description": "window.applications_window_data.favorite_window",
         "isExtraImport": true,
         "detail": "window.applications_window_data.favorite_window",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "isExtraImport": true,
+        "detail": "window.main_window",
         "documentation": {}
     },
     {
@@ -844,6 +852,15 @@
         "documentation": {}
     },
     {
+        "label": "select_mod",
+        "kind": 2,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "def select_mod(choice):\n    # Выводим выбранную опцию в консоль\n    print(\"optionmenu dropdown clicked:\", choice)\n    # Открываем JSON-файл на чтение\n    with open(r'json_data\\settings_data\\settings.json', 'r') as f:\n        # Загружаем содержимое файла в объект Python\n        data = json.load(f)\n        # Обновляем значение ключа 'Mod' в зависимости от выбора пользователя\n        if choice == \"Dark\":\n            data['Global_Value']['Mod'] = choice",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
         "label": "app",
         "kind": 5,
         "importPath": "window.main_window",
@@ -1006,12 +1023,39 @@
         "documentation": {}
     },
     {
-        "label": "render_frame_for_settings",
-        "kind": 2,
-        "importPath": "window.settings",
-        "description": "window.settings",
-        "peekOfCode": "def render_frame_for_settings(app):\n    # Создание фрейма для кнопки settings\n    frame_for_settings = customtkinter.CTkFrame(\n        master=app,                   # родительский виджет\n        width=500,                    # ширина фрейма\n        height=height,                # высота фрейма\n        border_width=2,               # ширина границы фрейма\n        border_color=\"green\",         # цвет границы фрейма\n    )\n    # Содержимое фрейма для settings",
-        "detail": "window.settings",
+        "label": "frame_for_settings",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "frame_for_settings = customtkinter.CTkFrame(\n    master=app,                   # родительский виджет\n    width=500,                    # ширина фрейма\n    height=height,                # высота фрейма\n    border_width=2,               # ширина границы фрейма\n    border_color=\"green\",         # цвет границы фрейма\n)\n# Содержимое фрейма для settings\nlabel2 = customtkinter.CTkLabel(\n    master=frame_for_settings,     # родительский виджет",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "label2",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "label2 = customtkinter.CTkLabel(\n    master=frame_for_settings,     # родительский виджет\n    text=\"Dark Mod\",                # текст метки\n)\nlabel2.grid(row=1, column=1, pady=20, padx=15)  # размещение метки в фрейме\n# Определяем функцию для обновления значения мода в JSON-файле при выборе из выпадающего меню\ndef select_mod(choice):\n    # Выводим выбранную опцию в консоль\n    print(\"optionmenu dropdown clicked:\", choice)\n    # Открываем JSON-файл на чтение",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "select_mod_var",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "select_mod_var = customtkinter.StringVar(value=\"Select\")\noptionmenu_select_mod = customtkinter.CTkOptionMenu(frame_for_settings, values=[\"Dark\", \"White\"],\n                                                    command=select_mod,\n                                                    variable=select_mod_var)\noptionmenu_select_mod.grid(row=1, column=2, pady=20, padx=15)",
+        "detail": "window.main_window",
+        "documentation": {}
+    },
+    {
+        "label": "optionmenu_select_mod",
+        "kind": 5,
+        "importPath": "window.main_window",
+        "description": "window.main_window",
+        "peekOfCode": "optionmenu_select_mod = customtkinter.CTkOptionMenu(frame_for_settings, values=[\"Dark\", \"White\"],\n                                                    command=select_mod,\n                                                    variable=select_mod_var)\noptionmenu_select_mod.grid(row=1, column=2, pady=20, padx=15)",
+        "detail": "window.main_window",
         "documentation": {}
     },
     {
@@ -1056,6 +1100,33 @@
         "importPath": "data_def",
         "description": "data_def",
         "peekOfCode": "def on_click_list_of_categories_marks_callback(value):\n    # Вывод сообщения о нажатии на кнопку\n    print(\"segmented button clicked:\", value)\n    # Если нажата кнопка Browsers, вызов функции create_browser_window\n    if value == \"Browsers\":\n        create_browser_window()\n    # Если нажата кнопка Messages, создание нового окна\n    elif value == \"Messages\":\n        create_message_window()\n    # Если нажата кнопка Games, создание нового окна",
+        "detail": "data_def",
+        "documentation": {}
+    },
+    {
+        "label": "on_clear_all_frame_for_home",
+        "kind": 2,
+        "importPath": "data_def",
+        "description": "data_def",
+        "peekOfCode": "def on_clear_all_frame_for_home():\n    # показываем фрейм для домашней страницы\n    frame_for_home.grid(row=0, column=1)\n    frame_for_applications.grid_forget()  # скрываем фрейм для приложений\n    frame_for_settings.grid_forget()  # скрываем фрейм для настроек\ndef on_clear_all_frame_for_applications():\n    # показываем фрейм для приложений\n    frame_for_applications.grid(row=0, column=2)\n    frame_for_home.grid_forget()  # скрываем фрейм для домашней страницы\n    frame_for_settings.grid_forget()  # скрываем фрейм для настроек",
+        "detail": "data_def",
+        "documentation": {}
+    },
+    {
+        "label": "on_clear_all_frame_for_applications",
+        "kind": 2,
+        "importPath": "data_def",
+        "description": "data_def",
+        "peekOfCode": "def on_clear_all_frame_for_applications():\n    # показываем фрейм для приложений\n    frame_for_applications.grid(row=0, column=2)\n    frame_for_home.grid_forget()  # скрываем фрейм для домашней страницы\n    frame_for_settings.grid_forget()  # скрываем фрейм для настроек\ndef on_clear_all_frame_for_settings():\n    frame_for_settings.grid(row=0, column=3)  # показываем фрейм для настроек\n    frame_for_home.grid_forget()  # скрываем фрейм для домашней страницы\n    frame_for_applications.grid_forget()  # скрываем фрейм для приложений\n# создаем функцию для создания изображения кнопки",
+        "detail": "data_def",
+        "documentation": {}
+    },
+    {
+        "label": "on_clear_all_frame_for_settings",
+        "kind": 2,
+        "importPath": "data_def",
+        "description": "data_def",
+        "peekOfCode": "def on_clear_all_frame_for_settings():\n    frame_for_settings.grid(row=0, column=3)  # показываем фрейм для настроек\n    frame_for_home.grid_forget()  # скрываем фрейм для домашней страницы\n    frame_for_applications.grid_forget()  # скрываем фрейм для приложений\n# создаем функцию для создания изображения кнопки",
         "detail": "data_def",
         "documentation": {}
     },
