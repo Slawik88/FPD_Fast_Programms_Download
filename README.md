@@ -19,17 +19,16 @@ Choose one of the program categories:
 ![Games](img/Photo_for_GitHab/applications_games.png)
 
 #### Browsers
-![Browsers](img\Photo_for_GitHab\applications_browser.png)
+![Browsers](img/Photo_for_GitHab/applications_browser.png)
 
 ### Color Scheme
 Choose your preferred color scheme:
 * Dark-Blue
-![Dark-Blue](img/Photo_for_GitHub/dark_blue.png)
+![Dark-Blue](img/Photo_for_GitHab/dark_blue.png)
 
 * White
-![White](img/Photo_for_GitHub/White_mod.png)
+![White](img/Photo_for_GitHab/Write_mod.png)
 
 ### Development
 This program is currently under development.
 
-![Alt Text](img/Photo_for_GitHab/applications_games.png)
