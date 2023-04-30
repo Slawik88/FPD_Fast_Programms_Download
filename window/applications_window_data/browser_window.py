@@ -126,13 +126,3 @@ def create_browser_window():
                                                   command=lambda app_id=app_id, app_image_path=app_image_path, app_name=app_name, app_developer=app_developer, app_size=app_size, app_url_website=app_url_website: checkbox_event(app_id, app_image_path, app_name, app_developer, app_size,app_url_website))  # передача app_id в качестве аргумента
             button_add_favorites.grid(row=app_id + 1, column=6, padx=15, pady=15)
     render_list()
-
-
-
-
-
-
-
-
-
-
