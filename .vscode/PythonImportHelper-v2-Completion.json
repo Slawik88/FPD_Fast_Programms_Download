@@ -731,7 +731,7 @@
         "kind": 2,
         "importPath": "window.applications_window_data.browser_window",
         "description": "window.applications_window_data.browser_window",
-        "peekOfCode": "def create_browser_window():  \n    conn = sqlite3.connect('data_app.db')\n    # создаем курсор\n    cursor = conn.cursor()\n    def open_website(url):\n        webbrowser.open(url)\n    check_var = tkinter.StringVar(value=\"off\")\n    def checkbox_event(app_id, app_image_path, app_name, app_developer, app_size, app_url_website):\n        # print(f\"\\n id: {app_id}\\n iamge_path: {app_image_path}\\n app_name: {app_name}\\n app_developer: {app_developer}\\n app_size: {app_size}\\n app_url: {app_url_website}\")\n        # создаем соединение с базой данных",
+        "peekOfCode": "def create_browser_window():  \n    browsers_window = customtkinter.CTkToplevel()  # Создание верхнего уровня окна\n    browsers_window.geometry(f\"{1600}x{750}\")  # Задание размеров окна\n    browsers_window.title(f\"{app_title} -- Browsers\")  # Задание заголовка окна\n    # Создаем 10 строк и столбцов с равными пропорциями\n    for i in range(10):\n        browsers_window.grid_rowconfigure(i, weight=1)\n        browsers_window.grid_columnconfigure(i, weight=1)\n    # Создание прокручиваемого фрейма для браузеров\n    browser_scrollable_frame = customtkinter.CTkScrollableFrame(master=browsers_window, width=1200, height=1000, label_text=\"Browser_apps\", orientation=\"vertical\")",
         "detail": "window.applications_window_data.browser_window",
         "documentation": {}
     },
