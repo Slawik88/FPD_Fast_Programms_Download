@@ -30,18 +30,29 @@ def create_browser_window():
         print("Запись добавлена!")
         
     browsers_window = customtkinter.CTkToplevel()  # Создание верхнего уровня окна
-    browsers_window.geometry(f"{1200}x{700}")  # Задание размеров окна
+    browsers_window.geometry(f"{1600}x{750}")  # Задание размеров окна
     browsers_window.title(f"{app_title} -- Browsers")  # Задание заголовка окна
 
 
-    browsers_window.grid_rowconfigure(0, weight=1)
-    browsers_window.grid_columnconfigure((0, 1), weight=1)
+    # Создаем 10 строк и столбцов с равными пропорциями
+    for i in range(10):
+        browsers_window.grid_rowconfigure(i, weight=1)
+        browsers_window.grid_columnconfigure(i, weight=1)
+
+    
+    
+
 
     # Создание прокручиваемого фрейма для браузеров
     browser_scrollable_frame = customtkinter.CTkScrollableFrame(master=browsers_window, width=1200, height=1000, label_text="Browser_apps", orientation="vertical")
     browser_scrollable_frame.grid(row=0, column=0, padx=20, pady=20)  # Размещение фрейма в окне
 
-
+    frame_search_bar = customtkinter.CTkFrame(master=browser_scrollable_frame)
+    frame_search_bar.grid(row=0, column=1, columnspan=2)
+    entry_search_bar = customtkinter.CTkEntry(master=frame_search_bar, width=250, placeholder_text="Enter name applications")
+    entry_search_bar.grid(row=0, column=0, pady=20)
+    button_search_bar = customtkinter.CTkButton(master=frame_search_bar, corner_radius=1)
+    button_search_bar.grid(row=0, column=1, pady=20)
 
 
     # Подключение к базе данных и выбор всех записей из таблицы browser_app
@@ -68,12 +79,12 @@ def create_browser_window():
                                                   text=app_id,  # текст для отображения - ID продукта из базы данных
                                                   font=("Monaco", 15, "roman"),  # выбор шрифта и размера текста
                                                   )
-        label_id_product.grid(row=app_id, column=0, padx=15, pady=15)  # установка позиции элемента на сетке
+        label_id_product.grid(row=app_id + 1, column=0, padx=15, pady=15)  # установка позиции элемента на сетке
 
 
         image_init_icon_product = customtkinter.CTkImage(dark_image=Image.open(app_image_path), size=(35, 35))
         label_image_icon_product = customtkinter.CTkLabel(master=browser_scrollable_frame, text=None, image=image_init_icon_product)
-        label_image_icon_product.grid(row=app_id, column=1, padx=15, pady=15)
+        label_image_icon_product.grid(row=app_id + 1, column=1, padx=15, pady=15)
 
 
         # Создание элемента для отображения названия браузера
@@ -81,14 +92,14 @@ def create_browser_window():
                                                     text=app_name,  # текст для отображения - название продукта из базы данных
                                                     font=('Nunito', 15, 'bold'),  # выбор шрифта, размера и жирности текста
                                                     )
-        label_name_product.grid(row=app_id, column=2, padx=15, pady=15)  # установка позиции элемента на сетке
+        label_name_product.grid(row=app_id + 1, column=2, padx=15, pady=15)  # установка позиции элемента на сетке
 
         # Создание элемента для отображения названия компании-разработчика браузера
         label_name_company = customtkinter.CTkLabel(master=browser_scrollable_frame, 
                                                     text=app_developer,  # текст для отображения - название компании из базы данных
                                                     font=('Lobster', 14),  # выбор шрифта и размера текста
                                                     )
-        label_name_company.grid(row=app_id, column=3, padx=15, pady=15)  # установка позиции элемента на сетке
+        label_name_company.grid(row=app_id + 1, column=3, padx=15, pady=15)  # установка позиции элемента на сетке
         label_name_company.configure(wraplength=200)
         
         # Создание элемента для отображения розмера браузера
@@ -97,14 +108,14 @@ def create_browser_window():
                                                     font=('Viner Hand', 14, "roman"),  # выбор шрифта и размера текста
                                                     width=10,
                                                     )
-        label_size_product.grid(row=app_id, column=4, padx=15, pady=15)  # установка позиции элемента на сетке
+        label_size_product.grid(row=app_id + 1, column=4, padx=15, pady=15)  # установка позиции элемента на сетке
 
         # Создание элемента для отображения ссылки на оффициальный сайт браузера
         button_link_site_product = customtkinter.CTkButton(master=browser_scrollable_frame, 
                                                            text="Download",  # текст на кнопке
                                                            font=('Roboto', 14),  # выбор шрифта и размера текста на кнопке
                                                            command=lambda u=app_url_website: open_website(u)) # функция, которая будет вызвана при нажатии на кнопку
-        button_link_site_product.grid(row=app_id, column=5, padx=15, pady=15)  # установка позиции элемента на сетке
+        button_link_site_product.grid(row=app_id + 1, column=5, padx=15, pady=15)  # установка позиции элемента на сетке
 
 
 
@@ -115,7 +126,7 @@ def create_browser_window():
                                               width=50,
                                               height=20,
                                               command=lambda app_id=app_id, app_image_path=app_image_path, app_name=app_name, app_developer=app_developer, app_size=app_size, app_url_website=app_url_website: checkbox_event(app_id, app_image_path, app_name, app_developer, app_size,app_url_website))  # передача app_id в качестве аргумента
-        button_add_favorites.grid(row=app_id, column=6, padx=15, pady=15)
+        button_add_favorites.grid(row=app_id + 1, column=6, padx=15, pady=15)
 
 
 
